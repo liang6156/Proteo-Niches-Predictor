@@ -1,0 +1,992 @@
+entity,name,Field,varType,Phenotype,Units,Path,Root,Valid_Count,Missing_Rate(%),Mean/Top_Category,SD/Freq,Min,Median,Max,Unique_Categories
+participant,p46_i0,46,continuous,Hand grip strength (left),Kg,Assessment centre > Physical measures > Hand grip strength,Physical measures,43792,0.36,29.4247,11.3318,0.0,28.0,89.0,
+participant,p47_i0,47,continuous,Hand grip strength (right),Kg,Assessment centre > Physical measures > Hand grip strength,Physical measures,43792,0.36,31.5598,11.2743,0.0,30.0,88.0,
+participant,p48_i0,48,continuous,Waist circumference,cm,Assessment centre > Physical measures > Anthropometry > Body size measures,Physical measures,43941,0.02,90.3921,13.439,54.0,90.0,169.0,
+participant,p49_i0,49,continuous,Hip circumference,cm,Assessment centre > Physical measures > Anthropometry > Body size measures,Physical measures,43941,0.02,103.4315,9.3021,71.0,102.0,172.0,
+participant,p50_i0,50,continuous,Standing height,cm,Assessment centre > Physical measures > Anthropometry > Body size measures,Physical measures,43950,0.0,168.3191,9.2704,126.0,168.0,203.0,
+participant,p51_i0,51,continuous,Seated height,cm,Assessment centre > Physical measures > Anthropometry > Body size measures,Physical measures,43755,0.44,136.8714,7.1567,99.0,138.0,157.0,
+participant,p77_i0,77,continuous,"Heel bone ultrasound T-score, manual entry",Std.Devs,Assessment centre > Physical measures > Bone-densitometry of heel,Physical measures,3711,91.56,-0.2899,1.1792,-4.0,-0.4,8.4,
+participant,p78_i0,78,continuous,"Heel bone mineral density (BMD) T-score, automated",Std.Devs,Assessment centre > Physical measures > Bone-densitometry of heel,Physical measures,24836,43.49,-0.3473,1.2677,-5.627,-0.4775,8.381,
+participant,p134_i0,134,catord,Number of self-reported cancers,,Assessment centre > Verbal interview > Medical conditions,Health and medical history,43950,0.0,0,40238 (91.6%),,,,6.0
+participant,p135_i0,135,catord,Number of self-reported non-cancer illnesses,,Assessment centre > Verbal interview > Medical conditions,Health and medical history,43950,0.0,1,11544 (26.3%),,,,22.0
+participant,p136_i0,136,catord,"Number of operations, self-reported",,Assessment centre > Verbal interview > Operations,Health and medical history,43950,0.0,1,13109 (29.8%),,,,15.0
+participant,p137_i0,137,catord,Number of treatments/medications taken,,Assessment centre > Verbal interview > Medications,Health and medical history,43950,0.0,0,11596 (26.4%),,,,27.0
+participant,p864_i0,864,catord,Number of days/week walked 10+ minutes,,Assessment centre > Touchscreen > Lifestyle and environment > Physical activity,Physical activities,43904,0.1,7,20049 (45.7%),,,,11.0
+participant,p874_i0,874,continuous,Duration of walks,,Assessment centre > Touchscreen > Lifestyle and environment > Physical activity,Physical activities,41897,4.67,54.6439,76.641,-3.0,30.0,1440.0,
+participant,p884_i0,884,catord,Number of days/week of moderate physical activity 10+ minutes,days/week,Assessment centre > Touchscreen > Lifestyle and environment > Physical activity,Physical activities,43904,0.1,7,7931 (18.1%),,,,10.0
+participant,p894_i0,894,catord,Duration of moderate activity,minutes/day,Assessment centre > Touchscreen > Lifestyle and environment > Physical activity,Physical activities,35965,18.17,60,6430 (17.9%),,,,134.0
+participant,p904_i0,904,catord,Number of days/week of vigorous physical activity 10+ minutes,,Assessment centre > Touchscreen > Lifestyle and environment > Physical activity,Physical activities,43904,0.1,0,15876 (36.2%),,,,10.0
+participant,p914_i0,914,continuous,Duration of vigorous activity,,Assessment centre > Touchscreen > Lifestyle and environment > Physical activity,Physical activities,25501,41.98,40.6504,46.8876,-3.0,30.0,1000.0,
+participant,p1050_i0,1050,catord,Time spend outdoors in summer,,Assessment centre > Touchscreen > Lifestyle and environment > Sun exposure,Physical activities,43716,0.53,2,8851 (20.2%),,,,24.0
+participant,p1060_i0,1060,catord,Time spent outdoors in winter,hours/day,Assessment centre > Touchscreen > Lifestyle and environment > Sun exposure,Physical activities,43716,0.53,1,13235 (30.3%),,,,26.0
+participant,p1070_i0,1070,catord,Time spent watching television (TV),,Assessment centre > Touchscreen > Lifestyle and environment > Physical activity,Physical activities,43904,0.1,2,11295 (25.7%),,,,24.0
+participant,p1080_i0,1080,catord,Time spent using computer,hours/day,Assessment centre > Touchscreen > Lifestyle and environment > Physical activity,Physical activities,43716,0.53,0,12477 (28.5%),,,,22.0
+participant,p1090_i0,1090,catord,Time spent driving,,Assessment centre > Touchscreen > Lifestyle and environment > Physical activity,Physical activities,43896,0.12,-10,13301 (30.3%),,,,20.0
+participant,p1160_i0,1160,catord,Sleep duration,hours/day,Assessment centre > Touchscreen > Lifestyle and environment > Sleep,Lifestyle factors,43904,0.1,7,16629 (37.9%),,,,19.0
+participant,p1200_i0,1200,catord,Sleeplessness / insomnia,,Assessment centre > Touchscreen > Lifestyle and environment > Sleep,Lifestyle factors,43904,0.1,2,20852 (47.5%),,,,4.0
+participant,p1269_i0,1269,catord,Exposure to tobacco smoke at home,,Assessment centre > Touchscreen > Lifestyle and environment > Smoking,Lifestyle factors,40449,7.97,0,37011 (91.5%),,,,60.0
+participant,p1279_i0,1279,catord,Exposure to tobacco smoke outside home,hours/week,Assessment centre > Touchscreen > Lifestyle and environment > Smoking,Lifestyle factors,40449,7.97,0,29330 (72.5%),,,,48.0
+participant,p1289_i0,1289,catord,Cooked vegetable intake,,Assessment centre > Touchscreen > Lifestyle and environment > Diet,Diet and food preferences,43904,0.1,2,14058 (32.0%),,,,37.0
+participant,p1299_i0,1299,catord,Salad / raw vegetable intake,,Assessment centre > Touchscreen > Lifestyle and environment > Diet,Diet and food preferences,43904,0.1,1,12849 (29.3%),,,,34.0
+participant,p1309_i0,1309,catord,Fresh fruit intake,pieces/day,Assessment centre > Touchscreen > Lifestyle and environment > Diet,Diet and food preferences,43904,0.1,2,12393 (28.2%),,,,32.0
+participant,p1319_i0,1319,catord,Dried fruit intake,pieces/day,Assessment centre > Touchscreen > Lifestyle and environment > Diet,Diet and food preferences,43904,0.1,0,23497 (53.5%),,,,28.0
+participant,p1438_i0,1438,continuous,Bread intake,,Assessment centre > Touchscreen > Lifestyle and environment > Diet,Diet and food preferences,43716,0.53,11.9761,8.8223,-10.0,10.0,110.0,
+participant,p1458_i0,1458,catord,Cereal intake,bowls/week,Assessment centre > Touchscreen > Lifestyle and environment > Diet,Diet and food preferences,43896,0.12,7,15566 (35.5%),,,,25.0
+participant,p1488_i0,1488,continuous,Tea intake,,Assessment centre > Touchscreen > Lifestyle and environment > Diet,Diet and food preferences,43904,0.1,3.0965,3.7283,-10.0,3.0,78.0,
+participant,p1498_i0,1498,catord,Coffee intake,,Assessment centre > Touchscreen > Lifestyle and environment > Diet,Diet and food preferences,43904,0.1,0,9842 (22.4%),,,,30.0
+participant,p1528_i0,1528,catord,Water intake,glasses/day,Assessment centre > Touchscreen > Lifestyle and environment > Diet,Diet and food preferences,43904,0.1,2,9898 (22.5%),,,,31.0
+participant,p1558_i0,1558,catord,Alcohol intake frequency.,,Assessment centre > Touchscreen > Lifestyle and environment > Alcohol,Lifestyle factors,43904,0.1,3,11393 (25.9%),,,,7.0
+participant,p1568_i0,1568,catord,Average weekly red wine intake,glasses,Assessment centre > Touchscreen > Lifestyle and environment > Alcohol,Lifestyle factors,30162,31.37,0,10171 (33.7%),,,,53.0
+participant,p1578_i0,1578,catord,Average weekly champagne plus white wine intake,,Assessment centre > Touchscreen > Lifestyle and environment > Alcohol,Lifestyle factors,30162,31.37,0,13809 (45.8%),,,,46.0
+participant,p1588_i0,1588,catord,Average weekly beer plus cider intake,pints,Assessment centre > Touchscreen > Lifestyle and environment > Alcohol,Lifestyle factors,30162,31.37,0,14051 (46.6%),,,,51.0
+participant,p1598_i0,1598,catord,Average weekly spirits intake,measures,Assessment centre > Touchscreen > Lifestyle and environment > Alcohol,Lifestyle factors,30162,31.37,0,18625 (61.7%),,,,49.0
+participant,p1608_i0,1608,catord,Average weekly fortified wine intake,glasses,Assessment centre > Touchscreen > Lifestyle and environment > Alcohol,Lifestyle factors,30162,31.37,0,27028 (89.6%),,,,27.0
+participant,p1737_i0,1737,catord,Childhood sunburn occasions,,Assessment centre > Touchscreen > Lifestyle and environment > Sun exposure,Lifestyle factors,43716,0.53,0,18282 (41.8%),,,,37.0
+participant,p1807_i0,1807,continuous,Father's age at death,years,Assessment centre > Touchscreen > Family history,Health and medical history,33448,23.9,68.2863,17.7887,-3.0,72.0,117.0,
+participant,p1845_i0,1845,continuous,Mother's age,,Assessment centre > Touchscreen > Family history,Health and medical history,16829,61.71,77.5034,11.0405,-3.0,78.0,104.0,
+participant,p1873_i0,1873,catord,Number of full brothers,,Assessment centre > Touchscreen > Family history,Health and medical history,43257,1.58,1,15699 (36.3%),,,,21.0
+participant,p1883_i0,1883,catord,Number of full sisters,,Assessment centre > Touchscreen > Family history,Health and medical history,43257,1.58,0,16108 (37.2%),,,,17.0
+participant,p2050_i0,2050,catord,Frequency of depressed mood in last 2 weeks,,Assessment centre > Touchscreen > Psychosocial factors > Mental health,Mental health,43904,0.1,1,31753 (72.3%),,,,6.0
+participant,p2060_i0,2060,catord,Frequency of unenthusiasm / disinterest in last 2 weeks,,Assessment centre > Touchscreen > Psychosocial factors > Mental health,Mental health,43904,0.1,1,33017 (75.2%),,,,6.0
+participant,p2070_i0,2070,catord,Frequency of tenseness / restlessness in last 2 weeks,,Assessment centre > Touchscreen > Psychosocial factors > Mental health,Mental health,43904,0.1,1,30741 (70.0%),,,,6.0
+participant,p2080_i0,2080,catord,Frequency of tiredness / lethargy in last 2 weeks,,Assessment centre > Touchscreen > Psychosocial factors > Mental health,Mental health,43904,0.1,1,19715 (44.9%),,,,6.0
+participant,p2139_i0,2139,continuous,Age first had sexual intercourse,years,Assessment centre > Touchscreen > Lifestyle and environment > Sexual factors,Lifestyle factors,39750,9.56,18.181,5.8334,-3.0,18.0,69.0,
+participant,p2149_i0,2149,catord,Lifetime number of sexual partners,,Assessment centre > Touchscreen > Lifestyle and environment > Sexual factors,Health and medical history,39382,10.39,1,10280 (26.1%),,,,103.0
+participant,p2178_i0,2178,catord,Overall health rating,,Assessment centre > Touchscreen > Health and medical history > General health,Health and medical history,43903,0.11,2,24915 (56.8%),,,,6.0
+participant,p2217_i0,2217,continuous,Age started wearing glasses or contact lenses,,Assessment centre > Touchscreen > Health and medical history > Eyesight,Eye measures,38655,12.05,30.8652,17.6912,-3.0,35.0,69.0,
+participant,p2277_i0,2277,catord,Frequency of solarium/sunlamp use,,Assessment centre > Touchscreen > Lifestyle and environment > Sun exposure,Lifestyle factors,43715,0.53,0,39189 (89.6%),,,,45.0
+participant,p2405_i0,2405,catord,Number of children fathered,,Assessment centre > Touchscreen > Sex-specific factors > Male-specific factors,Health and medical history,20054,54.37,2,8135 (40.6%),,,,18.0
+participant,p2714_i0,2714,catord,Age when periods started (menarche),,Assessment centre > Touchscreen > Sex-specific factors > Female-specific factors,Health and medical history,23761,45.94,13,5581 (23.5%),,,,20.0
+participant,p2734_i0,2734,catord,Number of live births,,Assessment centre > Touchscreen > Sex-specific factors > Female-specific factors,Health and medical history,23761,45.94,2,10167 (42.8%),,,,15.0
+participant,p2744_i0,2744,catord,Birth weight of first child,,Assessment centre > Touchscreen > Sex-specific factors > Female-specific factors,Health and medical history,19332,56.01,7,7308 (37.8%),,,,14.0
+participant,p2867_i0,2867,continuous,Age started smoking in former smokers,,Assessment centre > Touchscreen > Lifestyle and environment > Smoking,Lifestyle factors,10847,75.32,17.2283,3.9675,-3.0,17.0,56.0,
+participant,p2887_i0,2887,catord,Number of cigarettes previously smoked daily,,Assessment centre > Touchscreen > Lifestyle and environment > Smoking,Lifestyle factors,10339,76.48,20,3438 (33.3%),,,,45.0
+participant,p2897_i0,2897,continuous,Age stopped smoking,years,Assessment centre > Touchscreen > Lifestyle and environment > Smoking,Lifestyle factors,10847,75.32,39.9569,11.9994,-3.0,40.0,69.0,
+participant,p2926_i0,2926,catord,Number of unsuccessful stop-smoking attempts,,Assessment centre > Touchscreen > Lifestyle and environment > Smoking,Lifestyle factors,10790,75.45,0,2680 (24.8%),,,,38.0
+participant,p2946_i0,2946,continuous,Father's age,,Assessment centre > Touchscreen > Family history,Health and medical history,9697,77.94,76.8315,12.0628,-3.0,78.0,103.0,
+participant,p2966_i0,2966,continuous,Age high blood pressure diagnosed,years,Assessment centre > Touchscreen > Health and medical history > Medical conditions,Health and medical history,12145,72.37,45.4758,18.4249,-3.0,50.0,70.0,
+participant,p2976_i0,2976,continuous,Age diabetes diagnosed,,Assessment centre > Touchscreen > Health and medical history > Medical conditions,Health and medical history,2315,94.73,48.8635,15.9492,-3.0,54.0,69.0,
+participant,p3083_i0,3083,continuous,"Heel quantitative ultrasound index (QUI), manual entry",,Assessment centre > Physical measures > Bone-densitometry of heel,Physical measures,3711,91.56,97.0362,20.4358,0.0,95.4,249.7,
+participant,p3084_i0,3084,continuous,"Heel bone mineral density (BMD), manual entry",g/cm2,Assessment centre > Physical measures > Bone-densitometry of heel,Physical measures,3711,91.56,0.5378,0.1274,0.049,0.527,1.503,
+participant,p3085_i0,3085,continuous,"Heel Broadband ultrasound attenuation (BUA), manual entry",,Assessment centre > Physical measures > Bone-densitometry of heel,Physical measures,3711,91.56,75.7945,18.7801,0.0,74.7,207.1,
+participant,p3086_i0,3086,continuous,"Speed of sound through heel, manual entry",m/s,Assessment centre > Physical measures > Bone-densitometry of heel,Physical measures,3711,91.56,1551.9949,48.309,300.0,1549.9,1794.7,
+participant,p3137_i0,3137,catord,Number of measurements made,,Assessment centre > Physical measures > Spirometry,Physical measures,39800,9.44,3,29249 (73.5%),,,,3.0
+participant,p3143_i0,3143,continuous,Ankle spacing width,mm,Assessment centre > Physical measures > Bone-densitometry of heel,Physical measures,24836,43.49,43.8609,4.6066,23.46,43.621,64.382,
+participant,p3144_i0,3144,continuous,"Heel Broadband ultrasound attenuation, direct entry",dB/MHz,Assessment centre > Physical measures > Bone-densitometry of heel,Physical measures,24835,43.49,77.8106,19.9672,0.387,76.04,209.291,
+participant,p3146_i0,3146,continuous,Speed of sound through heel,m/s,Assessment centre > Physical measures > Bone-densitometry of heel,Physical measures,24836,43.49,1553.4241,36.2816,1400.37,1549.425,1799.02,
+participant,p3147_i0,3147,continuous,"Heel quantitative ultrasound index (QUI), direct entry",,Assessment centre > Physical measures > Bone-densitometry of heel,Physical measures,24836,43.49,97.8049,22.4553,4.282,95.497,252.407,
+participant,p3148_i0,3148,continuous,Heel bone mineral density (BMD),g/cm2,Assessment centre > Physical measures > Bone-densitometry of heel,Physical measures,24815,43.54,0.5426,0.1411,0.006,0.528,1.52,
+participant,p3456_i0,3456,catord,Number of cigarettes currently smoked daily (current cigarette smokers),,Assessment centre > Touchscreen > Lifestyle and environment > Smoking,Lifestyle factors,3254,92.6,20,713 (21.9%),,,,39.0
+participant,p3466_i0,3466,catord,Time from waking to first cigarette,,Assessment centre > Touchscreen > Lifestyle and environment > Smoking,Lifestyle factors,3239,92.63,2,1180 (36.4%),,,,7.0
+participant,p3476_i0,3476,catord,Difficulty not smoking for 1 day,,Assessment centre > Touchscreen > Lifestyle and environment > Smoking,Lifestyle factors,3239,92.63,4,1172 (36.2%),,,,5.0
+participant,p3526_i0,3526,continuous,Mother's age at death,years,Assessment centre > Touchscreen > Family history,Health and medical history,26736,39.17,72.3514,17.061,-3.0,76.0,106.0,
+participant,p3680_i0,3680,continuous,Age when last ate meat,,Assessment centre > Touchscreen > Lifestyle and environment > Diet,Diet and food preferences,1794,95.92,29.3489,15.3875,-3.0,30.0,68.0,
+participant,p3761_i0,3761,continuous,"Age hay fever, rhinitis or eczema diagnosed",years,Assessment centre > Touchscreen > Health and medical history > Medical conditions,Health and medical history,10015,77.21,21.78,17.6151,-3.0,18.0,69.0,
+participant,p3786_i0,3786,continuous,Age asthma diagnosed,,Assessment centre > Touchscreen > Health and medical history > Medical conditions,Health and medical history,5079,88.44,27.6649,20.6889,-3.0,29.0,69.0,
+participant,p4100_i0,4100,continuous,Ankle spacing width (left),mm,Assessment centre > Physical measures > Bone-densitometry of heel,Physical measures,14274,67.52,44.0485,4.6427,25.365,43.868,66.587,
+participant,p4101_i0,4101,continuous,Heel broadband ultrasound attenuation (left),dB/MHz,Assessment centre > Physical measures > Bone-densitometry of heel,Physical measures,14271,67.53,77.6797,21.0099,2.132,75.677,209.747,
+participant,p4103_i0,4103,continuous,Speed of sound through heel (left),m/s,Assessment centre > Physical measures > Bone-densitometry of heel,Physical measures,14274,67.52,1554.9638,37.9792,1400.42,1550.33,1799.9,
+participant,p4104_i0,4104,continuous,"Heel quantitative ultrasound index (QUI), direct entry (left)",,Assessment centre > Physical measures > Bone-densitometry of heel,Physical measures,14274,67.52,98.377,23.6169,5.205,95.6395,252.955,
+participant,p4105_i0,4105,continuous,Heel bone mineral density (BMD) (left),g/cm2,Assessment centre > Physical measures > Bone-densitometry of heel,Physical measures,14265,67.54,0.5461,0.1487,0.008,0.529,1.523,
+participant,p4106_i0,4106,continuous,"Heel bone mineral density (BMD) T-score, automated (left)",Std.Devs,Assessment centre > Physical measures > Bone-densitometry of heel,Physical measures,14274,67.52,-0.315,1.3333,-5.575,-0.47,8.412,
+participant,p4119_i0,4119,continuous,Ankle spacing width (right),mm,Assessment centre > Physical measures > Bone-densitometry of heel,Physical measures,14263,67.55,44.0463,4.5862,12.594,43.868,71.42,
+participant,p4120_i0,4120,continuous,Heel broadband ultrasound attenuation (right),dB/MHz,Assessment centre > Physical measures > Bone-densitometry of heel,Physical measures,14262,67.55,79.0818,20.8197,0.401,77.2795,209.553,
+participant,p4122_i0,4122,continuous,Speed of sound through heel (right),m/s,Assessment centre > Physical measures > Bone-densitometry of heel,Physical measures,14263,67.55,1555.6846,37.8692,1402.21,1551.62,1799.52,
+participant,p4123_i0,4123,continuous,"Heel quantitative ultrasound index (QUI), direct entry (right)",,Assessment centre > Physical measures > Bone-densitometry of heel,Physical measures,14263,67.55,99.2519,23.4795,6.556,96.837,252.721,
+participant,p4124_i0,4124,continuous,Heel bone mineral density (BMD) (right),g/cm2,Assessment centre > Physical measures > Bone-densitometry of heel,Physical measures,14252,67.57,0.5517,0.1477,0.002,0.536,1.522,
+participant,p4125_i0,4125,continuous,"Heel bone mineral density (BMD) T-score, automated (right)",Std.Devs,Assessment centre > Physical measures > Bone-densitometry of heel,Physical measures,14263,67.55,-0.2656,1.3255,-5.499,-0.402,8.399,
+participant,p4194_i0,4194,continuous,Pulse rate,bpm,Assessment centre > Physical measures > Arterial stiffness,Physical measures,14790,66.35,69.1594,11.8285,34.0,68.0,192.0,
+participant,p4195_i0,4195,continuous,Pulse wave reflection index,,Assessment centre > Physical measures > Arterial stiffness,Physical measures,14790,66.35,67.3789,29.3306,-348.0,69.0,1248.0,
+participant,p4196_i0,4196,continuous,Pulse wave peak to peak time,milliseconds,Assessment centre > Physical measures > Arterial stiffness,Physical measures,14780,66.37,200.9965,71.0409,20.0,188.0,1310.0,
+participant,p4198_i0,4198,continuous,Position of the pulse wave peak,,Assessment centre > Physical measures > Arterial stiffness,Physical measures,14790,66.35,22.2466,5.4227,7.0,24.0,64.0,
+participant,p4199_i0,4199,continuous,Position of pulse wave notch,,Assessment centre > Physical measures > Arterial stiffness,Physical measures,14790,66.35,43.4838,6.315,17.0,43.0,77.0,
+participant,p4200_i0,4200,continuous,Position of the shoulder on the pulse waveform,,Assessment centre > Physical measures > Arterial stiffness,Physical measures,14790,66.35,21.0978,5.6051,3.0,22.0,57.0,
+participant,p4269_i0,4269,catord,Number of triplets attempted (left),,Assessment centre > Physical measures > Hearing test,Physical measures,14510,66.99,15,14072 (97.0%),,,,15.0
+participant,p4270_i0,4270,catord,Volume level set by participant (left),,Assessment centre > Physical measures > Hearing test,Physical measures,14355,67.34,10,5399 (37.6%),,,,5.0
+participant,p4272_i0,4272,continuous,Duration of hearing test (left),deciseconds,Assessment centre > Physical measures > Hearing test,Physical measures,14510,66.99,1733.5037,620.3406,11.0,1580.0,16476.0,
+participant,p4276_i0,4276,catord,Number of triplets attempted (right),,Assessment centre > Physical measures > Hearing test,Physical measures,14515,66.97,15,14054 (96.8%),,,,15.0
+participant,p4277_i0,4277,catord,Volume level set by participant (right),,Assessment centre > Physical measures > Hearing test,Physical measures,14344,67.36,10,5108 (35.6%),,,,5.0
+participant,p4279_i0,4279,continuous,Duration of hearing test (right),,Assessment centre > Physical measures > Hearing test,Physical measures,14515,66.97,1731.9466,640.428,11.0,1574.0,16918.0,
+participant,p4282_i0,4282,catord,Maximum digits remembered correctly,,Assessment centre > Cognitive function > Numeric memory,Cognitive function,4748,89.2,7,1497 (31.5%),,,,12.0
+participant,p4283_i0,4283,catord,Number of rounds of numeric memory test performed,rounds,Assessment centre > Cognitive function > Numeric memory,Cognitive function,4748,89.2,8,1244 (26.2%),,,,16.0
+participant,p4285_i0,4285,continuous,Time to complete test,deciseconds,Assessment centre > Cognitive function > Numeric memory,Cognitive function,4748,89.2,1361.604,434.017,20.0,1317.0,8733.0,
+participant,p4288_i0,4288,continuous,Time to answer,seconds,Assessment centre > Cognitive function > Prospective memory,Cognitive function,14820,66.28,468.1387,128.4496,62.0,425.0,1415.0,
+participant,p4290_i0,4290,continuous,Duration screen displayed,deciseconds,Assessment centre > Cognitive function > Prospective memory,Cognitive function,14820,66.28,155.7919,270.589,7.0,58.0,5135.0,
+participant,p4291_i0,4291,catord,Number of attempts,,Assessment centre > Cognitive function > Prospective memory,Cognitive function,14820,66.28,1,11187 (75.5%),,,,27.0
+participant,p4407_i0,4407,catord,Average monthly red wine intake,glasses,Assessment centre > Touchscreen > Lifestyle and environment > Alcohol,Lifestyle factors,3482,92.08,0,2078 (59.7%),,,,16.0
+participant,p4418_i0,4418,catord,Average monthly champagne plus white wine intake,,Assessment centre > Touchscreen > Lifestyle and environment > Alcohol,Lifestyle factors,3482,92.08,0,1929 (55.4%),,,,15.0
+participant,p4429_i0,4429,catord,Average monthly beer plus cider intake,pints,Assessment centre > Touchscreen > Lifestyle and environment > Alcohol,Lifestyle factors,3482,92.08,0,2309 (66.3%),,,,21.0
+participant,p4440_i0,4440,catord,Average monthly spirits intake,measures,Assessment centre > Touchscreen > Lifestyle and environment > Alcohol,Lifestyle factors,3482,92.08,0,2561 (73.5%),,,,22.0
+participant,p4451_i0,4451,catord,Average monthly fortified wine intake,glasses,Assessment centre > Touchscreen > Lifestyle and environment > Alcohol,Lifestyle factors,3482,92.08,0,3107 (89.2%),,,,12.0
+participant,p4462_i0,4462,catord,Average monthly intake of other alcoholic drinks,glasses,Assessment centre > Touchscreen > Lifestyle and environment > Alcohol,Lifestyle factors,3482,92.08,0,3282 (94.3%),,,,13.0
+participant,p4537_i0,4537,catord,Work/job satisfaction,,Assessment centre > Touchscreen > Psychosocial factors > Mental health,Mental health,14938,66.01,3,4715 (31.6%),,,,9.0
+participant,p4548_i0,4548,catord,Health satisfaction,,Assessment centre > Touchscreen > Psychosocial factors > Mental health,Mental health,14938,66.01,3,7267 (48.6%),,,,8.0
+participant,p4559_i0,4559,catord,Family relationship satisfaction,,Assessment centre > Touchscreen > Psychosocial factors > Mental health,Mental health,14938,66.01,2,6538 (43.8%),,,,8.0
+participant,p4570_i0,4570,catord,Friendships satisfaction,,Assessment centre > Touchscreen > Psychosocial factors > Mental health,Mental health,14938,66.01,2,7561 (50.6%),,,,8.0
+participant,p4581_i0,4581,catord,Financial situation satisfaction,,Assessment centre > Touchscreen > Psychosocial factors > Mental health,Mental health,14938,66.01,3,6853 (45.9%),,,,8.0
+participant,p4609_i0,4609,continuous,Longest period of depression,,Assessment centre > Touchscreen > Psychosocial factors > Mental health,Mental health,7707,82.46,12.2459,35.6839,-3.0,3.0,999.0,
+participant,p4620_i0,4620,catord,Number of depression episodes,,Assessment centre > Touchscreen > Psychosocial factors > Mental health,Mental health,7707,82.46,-1,2056 (26.7%),,,,58.0
+participant,p4803_i0,4803,catord,Tinnitus,,Assessment centre > Touchscreen > Health and medical history > Hearing,Health and medical history,14926,66.04,0,10238 (68.6%),,,,7.0
+participant,p4814_i0,4814,catord,Tinnitus severity/nuisance,,Assessment centre > Touchscreen > Health and medical history > Hearing,Health and medical history,4304,90.21,13,2041 (47.4%),,,,6.0
+participant,p5057_i0,5057,catord,Number of older siblings,,Assessment centre > Touchscreen > Family history,Health and medical history,13055,70.3,0,4940 (37.8%),,,,17.0
+participant,p5181_i0,5181,catord,Ever had eye surgery,,Assessment centre > Eye measures > Eye surgery,Eye measures,10028,77.18,0,9223 (92.0%),,,,4.0
+participant,p5186_i0,5186,continuous,Duration visual-acuity screen displayed (right),seconds,Assessment centre > Eye measures > Visual acuity,Eye measures,10004,77.24,20.6638,20.8698,3.0,15.0,359.0,
+participant,p5188_i0,5188,continuous,Duration visual-acuity screen displayed (left),seconds,Assessment centre > Eye measures > Visual acuity,Eye measures,10002,77.24,91.7158,41.9921,9.0,82.0,523.0,
+participant,p5190_i0,5190,continuous,Duration at which refractometer first shown (right),seconds,Assessment centre > Eye measures > Refractometry > Refractometer 1,Eye measures,9892,77.49,138.3741,55.4827,10.0,127.0,766.0,
+participant,p5193_i0,5193,continuous,Duration at which refractometer first shown (left),seconds,Assessment centre > Eye measures > Refractometry > Refractometer 1,Eye measures,9889,77.5,210.98,81.1779,15.0,194.0,1441.0,
+participant,p5199_i0,5199,catord,"logMAR, initial (right)",,Assessment centre > Eye measures > Visual acuity,Eye measures,9966,77.32,-0.2,2646 (26.6%),,,,13.0
+participant,p5200_i0,5200,catord,Final number of letters displayed (right),,Assessment centre > Eye measures > Visual acuity,Eye measures,9966,77.32,5,9905 (99.4%),,,,4.0
+participant,p5201_i0,5201,continuous,"logMAR, final (right)",,Assessment centre > Eye measures > Visual acuity,Eye measures,9867,77.55,0.0288,0.206,-0.46,-0.02,1.35,
+participant,p5202_i0,5202,catord,Number of rounds to result (right),,Assessment centre > Eye measures > Visual acuity,Eye measures,9966,77.32,2,3202 (32.1%),,,,13.0
+participant,p5206_i0,5206,catord,"logMAR, initial (left)",,Assessment centre > Eye measures > Visual acuity,Eye measures,9960,77.34,-0.2,2674 (26.8%),,,,13.0
+participant,p5207_i0,5207,catord,Final number of letters displayed (left),,Assessment centre > Eye measures > Visual acuity,Eye measures,9960,77.34,5,9889 (99.3%),,,,4.0
+participant,p5208_i0,5208,continuous,"logMAR, final (left)",,Assessment centre > Eye measures > Visual acuity,Eye measures,9867,77.55,0.0244,0.2103,-0.4,-0.02,1.35,
+participant,p5209_i0,5209,catord,Number of rounds to result (left),,Assessment centre > Eye measures > Visual acuity,Eye measures,9960,77.34,3,3078 (30.9%),,,,15.0
+participant,p5221_i0,5221,catord,Index of best refractometry result (right),,Assessment centre > Eye measures > Refractometry > Refractometer 1,Eye measures,9718,77.89,2,3418 (35.2%),,,,7.0
+participant,p5237_i0,5237,catord,3mm index of best keratometry results (right),,Assessment centre > Eye measures > Refractometry > Refractometer 1,Eye measures,9306,78.83,2,6045 (65.0%),,,,6.0
+participant,p5251_i0,5251,catord,6mm index of best keratometry results (right),,Assessment centre > Eye measures > Refractometry > Refractometer 1,Eye measures,8124,81.52,2,4602 (56.6%),,,,6.0
+participant,p5254_i0,5254,continuous,"Intra-ocular pressure, corneal-compensated (right)",mmHg,Assessment centre > Eye measures > Intraocular pressure,Eye measures,9542,78.29,16.0721,4.1734,0.0,15.735,114.13,
+participant,p5255_i0,5255,continuous,"Intra-ocular pressure, Goldmann-correlated (right)",mmHg,Assessment centre > Eye measures > Intraocular pressure,Eye measures,9542,78.29,15.8888,3.9165,0.0,15.585,66.54,
+participant,p5256_i0,5256,continuous,Corneal hysteresis (right),,Assessment centre > Eye measures > Intraocular pressure,Eye measures,9542,78.29,10.6707,2.5217,0.0,10.62,79.6,
+participant,p5257_i0,5257,continuous,Corneal resistance factor (right),,Assessment centre > Eye measures > Intraocular pressure,Eye measures,9542,78.29,10.7527,2.5825,0.0,10.64,73.93,
+participant,p5262_i0,5262,continuous,"Intra-ocular pressure, corneal-compensated (left)",mmHg,Assessment centre > Eye measures > Intraocular pressure,Eye measures,9518,78.34,16.0591,4.3165,0.0,15.75,89.49,
+participant,p5263_i0,5263,continuous,"Intra-ocular pressure, Goldmann-correlated (left)",mmHg,Assessment centre > Eye measures > Intraocular pressure,Eye measures,9518,78.34,15.7795,4.0251,3.5,15.42,65.47,
+participant,p5264_i0,5264,continuous,Corneal hysteresis (left),,Assessment centre > Eye measures > Intraocular pressure,Eye measures,9518,78.34,10.5947,2.4818,0.0,10.54,82.49,
+participant,p5265_i0,5265,continuous,Corneal resistance factor (left),,Assessment centre > Eye measures > Intraocular pressure,Eye measures,9518,78.34,10.6499,2.5675,0.0,10.5,76.71,
+participant,p5276_i0,5276,catord,Index of best refractometry result (left),,Assessment centre > Eye measures > Refractometry > Refractometer 1,Eye measures,9658,78.03,2,3349 (34.7%),,,,8.0
+participant,p5292_i0,5292,catord,3mm index of best keratometry results (left),,Assessment centre > Eye measures > Refractometry > Refractometer 1,Eye measures,9310,78.82,2,6584 (70.7%),,,,6.0
+participant,p5306_i0,5306,catord,6mm index of best keratometry results (left),,Assessment centre > Eye measures > Refractometry > Refractometer 1,Eye measures,8089,81.59,2,5016 (62.0%),,,,6.0
+participant,p5364_i0,5364,catord,Average weekly intake of other alcoholic drinks,glasses,Assessment centre > Touchscreen > Lifestyle and environment > Alcohol,Lifestyle factors,9975,77.3,0,9793 (98.2%),,,,19.0
+participant,p5375_i0,5375,continuous,Longest period of unenthusiasm / disinterest,,Assessment centre > Touchscreen > Psychosocial factors > Mental health,Mental health,5199,88.17,11.0514,33.5223,-3.0,3.0,900.0,
+participant,p5386_i0,5386,catord,Number of unenthusiastic/disinterested episodes,,Assessment centre > Touchscreen > Psychosocial factors > Mental health,Mental health,5197,88.18,-1,1446 (27.8%),,,,55.0
+participant,p5507_i0,5507,catord,Leg pain on walking : action taken,,Assessment centre > Touchscreen > Health and medical history > Claudication and peripheral artery disease,Health and medical history,3626,91.75,2,1922 (53.0%),,,,5.0
+participant,p6014_i0,6014,catord,Doctor restricts physical activity due to heart condition,,Assessment centre > Physical measures > ECG during exercise,Physical measures,6470,85.28,0,6173 (95.4%),,,,3.0
+participant,p6015_i0,6015,catord,Chest pain felt during physical activity,,Assessment centre > Physical measures > ECG during exercise,Physical measures,6470,85.28,0,6090 (94.1%),,,,3.0
+participant,p6016_i0,6016,catord,Chest pain felt outside physical activity,,Assessment centre > Physical measures > ECG during exercise,Physical measures,6470,85.28,0,6169 (95.3%),,,,3.0
+participant,p6017_i0,6017,catord,Able to walk or cycle unaided for 10 minutes,,Assessment centre > Physical measures > ECG during exercise,Physical measures,6470,85.28,1,6086 (94.1%),,,,3.0
+participant,p6032_i0,6032,continuous,Maximum workload during fitness test,Watts,Assessment centre > Physical measures > ECG during exercise,Physical measures,6332,85.59,71.319,35.7362,0.0,70.0,140.0,
+participant,p6033_i0,6033,continuous,Maximum heart rate during fitness test,bpm,Assessment centre > Physical measures > ECG during exercise,Physical measures,6331,85.59,110.4931,20.4118,39.0,113.0,279.0,
+participant,p6038_i0,6038,continuous,Number of trend entries,,Assessment centre > Physical measures > ECG during exercise,Physical measures,6332,85.59,58.2187,25.8834,2.0,61.0,104.0,
+participant,p6039_i0,6039,catord,Duration of fitness test,seconds,Assessment centre > Physical measures > ECG during exercise,Physical measures,6332,85.59,435,3267 (51.6%),,,,285.0
+participant,p6071_i0,6071,continuous,Duration at which OCT screen shown (right),seconds,Assessment centre > Eye measures > Retinal optical coherence tomography,Eye measures,6421,85.39,308.4367,107.7562,20.0,286.0,1881.0,
+participant,p6073_i0,6073,continuous,Duration at which OCT screen shown (left),seconds,Assessment centre > Eye measures > Retinal optical coherence tomography,Eye measures,6421,85.39,490.9539,172.3241,34.0,468.0,3386.0,
+participant,p6144_i0,6144_1,binary,"Never eat eggs, dairy, wheat, sugar-Eggs or foods containing eggs",,Assessment centre > Touchscreen > Lifestyle and environment > Diet,Diet and food preferences,43716,0.53,5,33294 (76.2%),,,,17.0
+participant,p6144_i0,6144_2,binary,"Never eat eggs, dairy, wheat, sugar-Dairy products",,Assessment centre > Touchscreen > Lifestyle and environment > Diet,Diet and food preferences,43716,0.53,5,33294 (76.2%),,,,17.0
+participant,p6144_i0,6144_3,binary,"Never eat eggs, dairy, wheat, sugar-Wheat products",,Assessment centre > Touchscreen > Lifestyle and environment > Diet,Diet and food preferences,43716,0.53,5,33294 (76.2%),,,,17.0
+participant,p6144_i0,6144_4,binary,"Never eat eggs, dairy, wheat, sugar-Sugar or foods drinks containing sugar",,Assessment centre > Touchscreen > Lifestyle and environment > Diet,Diet and food preferences,43716,0.53,5,33294 (76.2%),,,,17.0
+participant,p6144_i0,6144_5,binary,"Never eat eggs, dairy, wheat, sugar-I eat all of the above",,Assessment centre > Touchscreen > Lifestyle and environment > Diet,Diet and food preferences,43716,0.53,5,33294 (76.2%),,,,17.0
+participant,p6145_i0,6145_1,binary,"Illness, injury, bereavement, stress in last 2 years-Serious illness injury or assault to yourself",,Assessment centre > Touchscreen > Psychosocial factors > Mental health,Mental health,43715,0.53,-7,23705 (54.2%),,,,59.0
+participant,p6145_i0,6145_2,binary,"Illness, injury, bereavement, stress in last 2 years-Serious illness injury or assault of a close relative",,Assessment centre > Touchscreen > Psychosocial factors > Mental health,Mental health,43715,0.53,-7,23705 (54.2%),,,,59.0
+participant,p6145_i0,6145_3,binary,"Illness, injury, bereavement, stress in last 2 years-Death of a close relative",,Assessment centre > Touchscreen > Psychosocial factors > Mental health,Mental health,43715,0.53,-7,23705 (54.2%),,,,59.0
+participant,p6145_i0,6145_4,binary,"Illness, injury, bereavement, stress in last 2 years-Death of a spouse or partner",,Assessment centre > Touchscreen > Psychosocial factors > Mental health,Mental health,43715,0.53,-7,23705 (54.2%),,,,59.0
+participant,p6145_i0,6145_5,binary,"Illness, injury, bereavement, stress in last 2 years-Marital separation divorce",,Assessment centre > Touchscreen > Psychosocial factors > Mental health,Mental health,43715,0.53,-7,23705 (54.2%),,,,59.0
+participant,p6145_i0,6145_6,binary,"Illness, injury, bereavement, stress in last 2 years-Financial difficulties",,Assessment centre > Touchscreen > Psychosocial factors > Mental health,Mental health,43715,0.53,-7,23705 (54.2%),,,,59.0
+participant,p6147_i0,6147_1,binary,Reason for glasses/contact lenses-For short sightedness i e only or mainly for distance viewing such as driving cinema etc called myopia,,Assessment centre > Touchscreen > Health and medical history > Eyesight,Eye measures,9000,79.52,3,2724 (30.3%),,,,59.0
+participant,p6147_i0,6147_2,binary,Reason for glasses/contact lenses-For long sightedness i e for distance and near but particularly for near tasks like reading called hypermetropia,,Assessment centre > Touchscreen > Health and medical history > Eyesight,Eye measures,9000,79.52,3,2724 (30.3%),,,,59.0
+participant,p6147_i0,6147_3,binary,Reason for glasses/contact lenses-For just reading near work as you are getting older called presbyopia,,Assessment centre > Touchscreen > Health and medical history > Eyesight,Eye measures,9000,79.52,3,2724 (30.3%),,,,59.0
+participant,p6147_i0,6147_4,binary,Reason for glasses/contact lenses-For astigmatism,,Assessment centre > Touchscreen > Health and medical history > Eyesight,Eye measures,9000,79.52,3,2724 (30.3%),,,,59.0
+participant,p6147_i0,6147_5,binary,Reason for glasses/contact lenses-For a squint or turn in an eye since childhood called strabismus,,Assessment centre > Touchscreen > Health and medical history > Eyesight,Eye measures,9000,79.52,3,2724 (30.3%),,,,59.0
+participant,p6147_i0,6147_6,binary,Reason for glasses/contact lenses-For a lazy eye or an eye with poor vision since childhood called amblyopia,,Assessment centre > Touchscreen > Health and medical history > Eyesight,Eye measures,9000,79.52,3,2724 (30.3%),,,,59.0
+participant,p6147_i0,6147_7,binary,Reason for glasses/contact lenses-Other eye condition,,Assessment centre > Touchscreen > Health and medical history > Eyesight,Eye measures,9000,79.52,3,2724 (30.3%),,,,59.0
+participant,p6148_i0,6148_1,binary,Eye problems/disorders-Diabetes related eye disease,,Assessment centre > Touchscreen > Health and medical history > Eyesight,Eye measures,15083,65.68,-7,11249 (74.6%),,,,39.0
+participant,p6148_i0,6148_2,binary,Eye problems/disorders-Glaucoma,,Assessment centre > Touchscreen > Health and medical history > Eyesight,Eye measures,15083,65.68,-7,11249 (74.6%),,,,39.0
+participant,p6148_i0,6148_3,binary,Eye problems/disorders-Injury or trauma resulting in loss of vision,,Assessment centre > Touchscreen > Health and medical history > Eyesight,Eye measures,15083,65.68,-7,11249 (74.6%),,,,39.0
+participant,p6148_i0,6148_4,binary,Eye problems/disorders-Cataract,,Assessment centre > Touchscreen > Health and medical history > Eyesight,Eye measures,15083,65.68,-7,11249 (74.6%),,,,39.0
+participant,p6148_i0,6148_5,binary,Eye problems/disorders-Macular degeneration,,Assessment centre > Touchscreen > Health and medical history > Eyesight,Eye measures,15083,65.68,-7,11249 (74.6%),,,,39.0
+participant,p6148_i0,6148_6,binary,Eye problems/disorders-Other serious eye condition,,Assessment centre > Touchscreen > Health and medical history > Eyesight,Eye measures,15083,65.68,-7,11249 (74.6%),,,,39.0
+participant,p6149_i0,6149_1,binary,Mouth/teeth dental problems-Mouth ulcers,,Assessment centre > Touchscreen > Health and medical history > Mouth,Health and medical history,43715,0.53,-7,25763 (58.9%),,,,65.0
+participant,p6149_i0,6149_2,binary,Mouth/teeth dental problems-Painful gums,,Assessment centre > Touchscreen > Health and medical history > Mouth,Health and medical history,43715,0.53,-7,25763 (58.9%),,,,65.0
+participant,p6149_i0,6149_3,binary,Mouth/teeth dental problems-Bleeding gums,,Assessment centre > Touchscreen > Health and medical history > Mouth,Health and medical history,43715,0.53,-7,25763 (58.9%),,,,65.0
+participant,p6149_i0,6149_4,binary,Mouth/teeth dental problems-Loose teeth,,Assessment centre > Touchscreen > Health and medical history > Mouth,Health and medical history,43715,0.53,-7,25763 (58.9%),,,,65.0
+participant,p6149_i0,6149_5,binary,Mouth/teeth dental problems-Toothache,,Assessment centre > Touchscreen > Health and medical history > Mouth,Health and medical history,43715,0.53,-7,25763 (58.9%),,,,65.0
+participant,p6149_i0,6149_6,binary,Mouth/teeth dental problems-Dentures,,Assessment centre > Touchscreen > Health and medical history > Mouth,Health and medical history,43715,0.53,-7,25763 (58.9%),,,,65.0
+participant,p6150_i0,6150_1,binary,Vascular/heart problems diagnosed by doctor-Heart attack,,Assessment centre > Touchscreen > Health and medical history > Medical conditions,Health and medical history,43903,0.11,-7,30298 (69.0%),,,,17.0
+participant,p6150_i0,6150_2,binary,Vascular/heart problems diagnosed by doctor-Angina,,Assessment centre > Touchscreen > Health and medical history > Medical conditions,Health and medical history,43903,0.11,-7,30298 (69.0%),,,,17.0
+participant,p6150_i0,6150_3,binary,Vascular/heart problems diagnosed by doctor-Stroke,,Assessment centre > Touchscreen > Health and medical history > Medical conditions,Health and medical history,43903,0.11,-7,30298 (69.0%),,,,17.0
+participant,p6150_i0,6150_4,binary,Vascular/heart problems diagnosed by doctor-High blood pressure,,Assessment centre > Touchscreen > Health and medical history > Medical conditions,Health and medical history,43903,0.11,-7,30298 (69.0%),,,,17.0
+participant,p6151_i0,6151_1,binary,Fractured bone site(s)-Ankle,,Assessment centre > Touchscreen > Health and medical history > Medical conditions,Health and medical history,4223,90.39,7,2039 (48.3%),,,,49.0
+participant,p6151_i0,6151_2,binary,Fractured bone site(s)-Leg,,Assessment centre > Touchscreen > Health and medical history > Medical conditions,Health and medical history,4223,90.39,7,2039 (48.3%),,,,49.0
+participant,p6151_i0,6151_3,binary,Fractured bone site(s)-Hip,,Assessment centre > Touchscreen > Health and medical history > Medical conditions,Health and medical history,4223,90.39,7,2039 (48.3%),,,,49.0
+participant,p6151_i0,6151_4,binary,Fractured bone site(s)-Spine,,Assessment centre > Touchscreen > Health and medical history > Medical conditions,Health and medical history,4223,90.39,7,2039 (48.3%),,,,49.0
+participant,p6151_i0,6151_5,binary,Fractured bone site(s)-Wrist,,Assessment centre > Touchscreen > Health and medical history > Medical conditions,Health and medical history,4223,90.39,7,2039 (48.3%),,,,49.0
+participant,p6151_i0,6151_6,binary,Fractured bone site(s)-Arm,,Assessment centre > Touchscreen > Health and medical history > Medical conditions,Health and medical history,4223,90.39,7,2039 (48.3%),,,,49.0
+participant,p6151_i0,6151_7,binary,Fractured bone site(s)-Other bones,,Assessment centre > Touchscreen > Health and medical history > Medical conditions,Health and medical history,4223,90.39,7,2039 (48.3%),,,,49.0
+participant,p6152_i0,6152_5,binary,"Blood clot, DVT, bronchitis, emphysema, asthma, rhinitis, eczema, allergy diagnosed by doctor-Blood clot in the leg DVT",,Assessment centre > Touchscreen > Health and medical history > Medical conditions,Health and medical history,43903,0.11,-7,29596 (67.4%),,,,32.0
+participant,p6152_i0,6152_6,binary,"Blood clot, DVT, bronchitis, emphysema, asthma, rhinitis, eczema, allergy diagnosed by doctor-Emphysema chronic bronchitis",,Assessment centre > Touchscreen > Health and medical history > Medical conditions,Health and medical history,43903,0.11,-7,29596 (67.4%),,,,32.0
+participant,p6152_i0,6152_7,binary,"Blood clot, DVT, bronchitis, emphysema, asthma, rhinitis, eczema, allergy diagnosed by doctor-Blood clot in the lung",,Assessment centre > Touchscreen > Health and medical history > Medical conditions,Health and medical history,43903,0.11,-7,29596 (67.4%),,,,32.0
+participant,p6152_i0,6152_8,binary,"Blood clot, DVT, bronchitis, emphysema, asthma, rhinitis, eczema, allergy diagnosed by doctor-Asthma",,Assessment centre > Touchscreen > Health and medical history > Medical conditions,Health and medical history,43903,0.11,-7,29596 (67.4%),,,,32.0
+participant,p6152_i0,6152_9,binary,"Blood clot, DVT, bronchitis, emphysema, asthma, rhinitis, eczema, allergy diagnosed by doctor-Hayfever allergic rhinitis or eczema",,Assessment centre > Touchscreen > Health and medical history > Medical conditions,Health and medical history,43903,0.11,-7,29596 (67.4%),,,,32.0
+participant,p6154_i0,6154_1,binary,"Medication for pain relief, constipation, heartburn-Aspirin",,Assessment centre > Touchscreen > Health and medical history > Medication,Health and medical history,43715,0.53,-7,23386 (53.5%),,,,65.0
+participant,p6154_i0,6154_2,binary,"Medication for pain relief, constipation, heartburn-Ibuprofen e g Nurofen",,Assessment centre > Touchscreen > Health and medical history > Medication,Health and medical history,43715,0.53,-7,23386 (53.5%),,,,65.0
+participant,p6154_i0,6154_3,binary,"Medication for pain relief, constipation, heartburn-Paracetamol",,Assessment centre > Touchscreen > Health and medical history > Medication,Health and medical history,43715,0.53,-7,23386 (53.5%),,,,65.0
+participant,p6154_i0,6154_4,binary,"Medication for pain relief, constipation, heartburn-Ranitidine e g Zantac",,Assessment centre > Touchscreen > Health and medical history > Medication,Health and medical history,43715,0.53,-7,23386 (53.5%),,,,65.0
+participant,p6154_i0,6154_5,binary,"Medication for pain relief, constipation, heartburn-Omeprazole e g Zanprol",,Assessment centre > Touchscreen > Health and medical history > Medication,Health and medical history,43715,0.53,-7,23386 (53.5%),,,,65.0
+participant,p6154_i0,6154_6,binary,"Medication for pain relief, constipation, heartburn-Laxatives e g Dulcolax Senokot",,Assessment centre > Touchscreen > Health and medical history > Medication,Health and medical history,43715,0.53,-7,23386 (53.5%),,,,65.0
+participant,p6155_i0,6155_1,binary,Vitamin and mineral supplements-Vitamin A,,Assessment centre > Touchscreen > Health and medical history > Medication,Health and medical history,43715,0.53,-7,29521 (67.5%),,,,111.0
+participant,p6155_i0,6155_2,binary,Vitamin and mineral supplements-Vitamin B,,Assessment centre > Touchscreen > Health and medical history > Medication,Health and medical history,43715,0.53,-7,29521 (67.5%),,,,111.0
+participant,p6155_i0,6155_3,binary,Vitamin and mineral supplements-Vitamin C,,Assessment centre > Touchscreen > Health and medical history > Medication,Health and medical history,43715,0.53,-7,29521 (67.5%),,,,111.0
+participant,p6155_i0,6155_4,binary,Vitamin and mineral supplements-Vitamin D,,Assessment centre > Touchscreen > Health and medical history > Medication,Health and medical history,43715,0.53,-7,29521 (67.5%),,,,111.0
+participant,p6155_i0,6155_5,binary,Vitamin and mineral supplements-Vitamin E,,Assessment centre > Touchscreen > Health and medical history > Medication,Health and medical history,43715,0.53,-7,29521 (67.5%),,,,111.0
+participant,p6155_i0,6155_6,binary,Vitamin and mineral supplements-Folic acid or Folate Vit B9,,Assessment centre > Touchscreen > Health and medical history > Medication,Health and medical history,43715,0.53,-7,29521 (67.5%),,,,111.0
+participant,p6155_i0,6155_7,binary,Vitamin and mineral supplements-Multivitamins   minerals,,Assessment centre > Touchscreen > Health and medical history > Medication,Health and medical history,43715,0.53,-7,29521 (67.5%),,,,111.0
+participant,p6156_i0,6156_11,binary,Manic/hyper symptoms-I was more active than usual,,Assessment centre > Touchscreen > Psychosocial factors > Mental health,Mental health,3202,92.71,-7,1102 (34.4%),,,,17.0
+participant,p6156_i0,6156_12,binary,Manic/hyper symptoms-I was more talkative than usual,,Assessment centre > Touchscreen > Psychosocial factors > Mental health,Mental health,3202,92.71,-7,1102 (34.4%),,,,17.0
+participant,p6156_i0,6156_13,binary,Manic/hyper symptoms-I needed less sleep than usual,,Assessment centre > Touchscreen > Psychosocial factors > Mental health,Mental health,3202,92.71,-7,1102 (34.4%),,,,17.0
+participant,p6156_i0,6156_14,binary,Manic/hyper symptoms-I was more creative or had more ideas than usual,,Assessment centre > Touchscreen > Psychosocial factors > Mental health,Mental health,3202,92.71,-7,1102 (34.4%),,,,17.0
+participant,p6156_i0,6156_15,binary,Manic/hyper symptoms-All of the above,,Assessment centre > Touchscreen > Psychosocial factors > Mental health,Mental health,3202,92.71,-7,1102 (34.4%),,,,17.0
+participant,p6157_i0,6157_1,binary,Why stopped smoking-Illness or ill health,,Assessment centre > Touchscreen > Lifestyle and environment > Smoking,Lifestyle factors,10790,75.45,3,4514 (41.8%),,,,18.0
+participant,p6157_i0,6157_2,binary,Why stopped smoking-Doctor s advice,,Assessment centre > Touchscreen > Lifestyle and environment > Smoking,Lifestyle factors,10790,75.45,3,4514 (41.8%),,,,18.0
+participant,p6157_i0,6157_3,binary,Why stopped smoking-Health precaution,,Assessment centre > Touchscreen > Lifestyle and environment > Smoking,Lifestyle factors,10790,75.45,3,4514 (41.8%),,,,18.0
+participant,p6157_i0,6157_4,binary,Why stopped smoking-Financial reasons,,Assessment centre > Touchscreen > Lifestyle and environment > Smoking,Lifestyle factors,10790,75.45,3,4514 (41.8%),,,,18.0
+participant,p6159_i0,6159_0,binary,Pain type(s) experienced in last month-None of the above,,Assessment centre > Touchscreen > Health and medical history > Pain,Health and medical history,43903,0.11,-7,17043 (38.8%),,,,124.0
+participant,p6159_i0,6159_1,binary,Pain type(s) experienced in last month-Headache,,Assessment centre > Touchscreen > Health and medical history > Pain,Health and medical history,43903,0.11,-7,17043 (38.8%),,,,124.0
+participant,p6159_i0,6159_2,binary,Pain type(s) experienced in last month-Facial pain,,Assessment centre > Touchscreen > Health and medical history > Pain,Health and medical history,43903,0.11,-7,17043 (38.8%),,,,124.0
+participant,p6159_i0,6159_3,binary,Pain type(s) experienced in last month-Neck or shoulder pain,,Assessment centre > Touchscreen > Health and medical history > Pain,Health and medical history,43903,0.11,-7,17043 (38.8%),,,,124.0
+participant,p6159_i0,6159_4,binary,Pain type(s) experienced in last month-Back pain,,Assessment centre > Touchscreen > Health and medical history > Pain,Health and medical history,43903,0.11,-7,17043 (38.8%),,,,124.0
+participant,p6159_i0,6159_5,binary,Pain type(s) experienced in last month-Stomach or abdominal pain,,Assessment centre > Touchscreen > Health and medical history > Pain,Health and medical history,43903,0.11,-7,17043 (38.8%),,,,124.0
+participant,p6159_i0,6159_6,binary,Pain type(s) experienced in last month-Hip pain,,Assessment centre > Touchscreen > Health and medical history > Pain,Health and medical history,43903,0.11,-7,17043 (38.8%),,,,124.0
+participant,p6159_i0,6159_7,binary,Pain type(s) experienced in last month-Knee pain,,Assessment centre > Touchscreen > Health and medical history > Pain,Health and medical history,43903,0.11,-7,17043 (38.8%),,,,124.0
+participant,p6159_i0,6159_8,binary,Pain type(s) experienced in last month-Pain all over the body,,Assessment centre > Touchscreen > Health and medical history > Pain,Health and medical history,43903,0.11,-7,17043 (38.8%),,,,124.0
+participant,p6160_i0,6160_1,binary,Leisure/social activities-Sports club or gym,,Assessment centre > Touchscreen > Psychosocial factors > Social support,Lifestyle factors,43904,0.1,-7,13312 (30.3%),,,,33.0
+participant,p6160_i0,6160_2,binary,Leisure/social activities-Pub or social club,,Assessment centre > Touchscreen > Psychosocial factors > Social support,Lifestyle factors,43904,0.1,-7,13312 (30.3%),,,,33.0
+participant,p6160_i0,6160_3,binary,Leisure/social activities-Religious group,,Assessment centre > Touchscreen > Psychosocial factors > Social support,Lifestyle factors,43904,0.1,-7,13312 (30.3%),,,,33.0
+participant,p6160_i0,6160_4,binary,Leisure/social activities-Adult education class,,Assessment centre > Touchscreen > Psychosocial factors > Social support,Lifestyle factors,43904,0.1,-7,13312 (30.3%),,,,33.0
+participant,p6160_i0,6160_5,binary,Leisure/social activities-Other group activity,,Assessment centre > Touchscreen > Psychosocial factors > Social support,Lifestyle factors,43904,0.1,-7,13312 (30.3%),,,,33.0
+participant,p6162_i0,6162_1,binary,Types of transport used (excluding work)-Car motor vehicle,,Assessment centre > Touchscreen > Lifestyle and environment > Physical activity,Physical activities,43561,0.89,1,16776 (38.5%),,,,17.0
+participant,p6162_i0,6162_2,binary,Types of transport used (excluding work)-Walk,,Assessment centre > Touchscreen > Lifestyle and environment > Physical activity,Physical activities,43561,0.89,1,16776 (38.5%),,,,17.0
+participant,p6162_i0,6162_3,binary,Types of transport used (excluding work)-Public transport,,Assessment centre > Touchscreen > Lifestyle and environment > Physical activity,Physical activities,43561,0.89,1,16776 (38.5%),,,,17.0
+participant,p6162_i0,6162_4,binary,Types of transport used (excluding work)-Cycle,,Assessment centre > Touchscreen > Lifestyle and environment > Physical activity,Physical activities,43561,0.89,1,16776 (38.5%),,,,17.0
+participant,p6164_i0,6164_1,binary,Types of physical activity in last 4 weeks-Walking for pleasure not as a means of transport,,Assessment centre > Touchscreen > Lifestyle and environment > Physical activity,Physical activities,43582,0.84,1,5036 (11.6%),,,,33.0
+participant,p6164_i0,6164_2,binary,Types of physical activity in last 4 weeks-Other exercises eg swimming cycling keep fit bowling,,Assessment centre > Touchscreen > Lifestyle and environment > Physical activity,Physical activities,43582,0.84,1,5036 (11.6%),,,,33.0
+participant,p6164_i0,6164_3,binary,Types of physical activity in last 4 weeks-Strenuous sports,,Assessment centre > Touchscreen > Lifestyle and environment > Physical activity,Physical activities,43582,0.84,1,5036 (11.6%),,,,33.0
+participant,p6164_i0,6164_4,binary,Types of physical activity in last 4 weeks-Light DIY eg pruning watering the lawn,,Assessment centre > Touchscreen > Lifestyle and environment > Physical activity,Physical activities,43582,0.84,1,5036 (11.6%),,,,33.0
+participant,p6164_i0,6164_5,binary,Types of physical activity in last 4 weeks-Heavy DIY eg weeding lawn mowing carpentry digging,,Assessment centre > Touchscreen > Lifestyle and environment > Physical activity,Physical activities,43582,0.84,1,5036 (11.6%),,,,33.0
+participant,p6179_i0,6179_1,binary,Mineral and other dietary supplements-Fish oil including cod liver oil,,Assessment centre > Touchscreen > Health and medical history > Medication,Health and medical history,43715,0.53,-7,24582 (56.2%),,,,65.0
+participant,p6179_i0,6179_2,binary,Mineral and other dietary supplements-Glucosamine,,Assessment centre > Touchscreen > Health and medical history > Medication,Health and medical history,43715,0.53,-7,24582 (56.2%),,,,65.0
+participant,p6179_i0,6179_3,binary,Mineral and other dietary supplements-Calcium,,Assessment centre > Touchscreen > Health and medical history > Medication,Health and medical history,43715,0.53,-7,24582 (56.2%),,,,65.0
+participant,p6179_i0,6179_4,binary,Mineral and other dietary supplements-Zinc,,Assessment centre > Touchscreen > Health and medical history > Medication,Health and medical history,43715,0.53,-7,24582 (56.2%),,,,65.0
+participant,p6179_i0,6179_5,binary,Mineral and other dietary supplements-Iron,,Assessment centre > Touchscreen > Health and medical history > Medication,Health and medical history,43715,0.53,-7,24582 (56.2%),,,,65.0
+participant,p6179_i0,6179_6,binary,Mineral and other dietary supplements-Selenium,,Assessment centre > Touchscreen > Health and medical history > Medication,Health and medical history,43715,0.53,-7,24582 (56.2%),,,,65.0
+participant,p20015_i0,20015,continuous,Sitting height,,Assessment centre > Physical measures > Anthropometry > Body size measures,Physical measures,36604,16.71,89.1427,10.5713,1.0,89.0,832.3056,
+participant,p20016_i0,20016,catord,Fluid intelligence score,,Assessment centre > Cognitive function > Fluid intelligence / reasoning,Cognitive function,12239,72.15,4,2401 (19.6%),,,,435.0
+participant,p20018_i0,20018,catord,Prospective memory result,,Assessment centre > Cognitive function > Prospective memory,Cognitive function,12795,70.89,1,8990 (70.3%),,,,444.0
+participant,p20019_i0,20019,continuous,Speech-reception-threshold (SRT) estimate (left),,Assessment centre > Physical measures > Hearing test,Physical measures,12186,72.27,-1.1274,27.9559,-11.25,-6.5,283.6,
+participant,p20021_i0,20021,continuous,Speech-reception-threshold (SRT) estimate (right),,Assessment centre > Physical measures > Hearing test,Physical measures,12227,72.18,-2.4134,19.9886,-11.0,-6.5,759.6042,
+participant,p20022_i0,20022,continuous,Birth weight,,Assessment centre > Verbal interview > Early life factors,Health and medical history,19707,55.16,4.9389,11.0437,-19.0247,3.35,483.8403,
+participant,p20023_i0,20023,continuous,Mean time to correctly identify matches,,Assessment centre > Cognitive function > Reaction time,Cognitive function,37843,13.9,543.2935,163.6073,-31.8531,539.0,1938.0,
+participant,p20107_i0,20107_1,binary,Illnesses of father-Heart disease,,Assessment centre > Touchscreen > Family history,Health and medical history,37323,15.08,-17|-27,7285 (19.5%),,,,2506.0
+participant,p20107_i0,20107_2,binary,Illnesses of father-Stroke,,Assessment centre > Touchscreen > Family history,Health and medical history,37323,15.08,-17|-27,7285 (19.5%),,,,2506.0
+participant,p20107_i0,20107_3,binary,Illnesses of father-Lung cancer,,Assessment centre > Touchscreen > Family history,Health and medical history,37323,15.08,-17|-27,7285 (19.5%),,,,2506.0
+participant,p20107_i0,20107_4,binary,Illnesses of father-Bowel cancer,,Assessment centre > Touchscreen > Family history,Health and medical history,37323,15.08,-17|-27,7285 (19.5%),,,,2506.0
+participant,p20107_i0,20107_6,binary,Illnesses of father-Chronic bronchitis emphysema,,Assessment centre > Touchscreen > Family history,Health and medical history,37323,15.08,-17|-27,7285 (19.5%),,,,2506.0
+participant,p20107_i0,20107_8,binary,Illnesses of father-High blood pressure,,Assessment centre > Touchscreen > Family history,Health and medical history,37323,15.08,-17|-27,7285 (19.5%),,,,2506.0
+participant,p20107_i0,20107_9,binary,Illnesses of father-Diabetes,,Assessment centre > Touchscreen > Family history,Health and medical history,37323,15.08,-17|-27,7285 (19.5%),,,,2506.0
+participant,p20107_i0,20107_10,binary,Illnesses of father-Alzheimer s disease dementia,,Assessment centre > Touchscreen > Family history,Health and medical history,37323,15.08,-17|-27,7285 (19.5%),,,,2506.0
+participant,p20107_i0,20107_11,binary,Illnesses of father-Parkinson s disease,,Assessment centre > Touchscreen > Family history,Health and medical history,37323,15.08,-17|-27,7285 (19.5%),,,,2506.0
+participant,p20107_i0,20107_12,binary,Illnesses of father-Severe depression,,Assessment centre > Touchscreen > Family history,Health and medical history,37323,15.08,-17|-27,7285 (19.5%),,,,2506.0
+participant,p20107_i0,20107_13,binary,Illnesses of father-Prostate cancer,,Assessment centre > Touchscreen > Family history,Health and medical history,37323,15.08,-17|-27,7285 (19.5%),,,,2506.0
+participant,p20110_i0,20110_1,binary,Illnesses of mother-Heart disease,,Assessment centre > Touchscreen > Family history,Health and medical history,37744,14.12,-17|-27,9338 (24.7%),,,,2509.0
+participant,p20110_i0,20110_2,binary,Illnesses of mother-Stroke,,Assessment centre > Touchscreen > Family history,Health and medical history,37744,14.12,-17|-27,9338 (24.7%),,,,2509.0
+participant,p20110_i0,20110_3,binary,Illnesses of mother-Lung cancer,,Assessment centre > Touchscreen > Family history,Health and medical history,37744,14.12,-17|-27,9338 (24.7%),,,,2509.0
+participant,p20110_i0,20110_4,binary,Illnesses of mother-Bowel cancer,,Assessment centre > Touchscreen > Family history,Health and medical history,37744,14.12,-17|-27,9338 (24.7%),,,,2509.0
+participant,p20110_i0,20110_5,binary,Illnesses of mother-Breast cancer,,Assessment centre > Touchscreen > Family history,Health and medical history,37744,14.12,-17|-27,9338 (24.7%),,,,2509.0
+participant,p20110_i0,20110_6,binary,Illnesses of mother-Chronic bronchitis emphysema,,Assessment centre > Touchscreen > Family history,Health and medical history,37744,14.12,-17|-27,9338 (24.7%),,,,2509.0
+participant,p20110_i0,20110_8,binary,Illnesses of mother-High blood pressure,,Assessment centre > Touchscreen > Family history,Health and medical history,37744,14.12,-17|-27,9338 (24.7%),,,,2509.0
+participant,p20110_i0,20110_9,binary,Illnesses of mother-Diabetes,,Assessment centre > Touchscreen > Family history,Health and medical history,37744,14.12,-17|-27,9338 (24.7%),,,,2509.0
+participant,p20110_i0,20110_10,binary,Illnesses of mother-Alzheimer s disease dementia,,Assessment centre > Touchscreen > Family history,Health and medical history,37744,14.12,-17|-27,9338 (24.7%),,,,2509.0
+participant,p20110_i0,20110_11,binary,Illnesses of mother-Parkinson s disease,,Assessment centre > Touchscreen > Family history,Health and medical history,37744,14.12,-17|-27,9338 (24.7%),,,,2509.0
+participant,p20110_i0,20110_12,binary,Illnesses of mother-Severe depression,,Assessment centre > Touchscreen > Family history,Health and medical history,37744,14.12,-17|-27,9338 (24.7%),,,,2509.0
+participant,p20111_i0,20111_1,binary,Illnesses of siblings-Heart disease,,Assessment centre > Touchscreen > Family history,Health and medical history,33379,24.05,-17|-27,15427 (46.2%),,,,2536.0
+participant,p20111_i0,20111_2,binary,Illnesses of siblings-Stroke,,Assessment centre > Touchscreen > Family history,Health and medical history,33379,24.05,-17|-27,15427 (46.2%),,,,2536.0
+participant,p20111_i0,20111_3,binary,Illnesses of siblings-Lung cancer,,Assessment centre > Touchscreen > Family history,Health and medical history,33379,24.05,-17|-27,15427 (46.2%),,,,2536.0
+participant,p20111_i0,20111_4,binary,Illnesses of siblings-Bowel cancer,,Assessment centre > Touchscreen > Family history,Health and medical history,33379,24.05,-17|-27,15427 (46.2%),,,,2536.0
+participant,p20111_i0,20111_5,binary,Illnesses of siblings-Breast cancer,,Assessment centre > Touchscreen > Family history,Health and medical history,33379,24.05,-17|-27,15427 (46.2%),,,,2536.0
+participant,p20111_i0,20111_6,binary,Illnesses of siblings-Chronic bronchitis emphysema,,Assessment centre > Touchscreen > Family history,Health and medical history,33379,24.05,-17|-27,15427 (46.2%),,,,2536.0
+participant,p20111_i0,20111_8,binary,Illnesses of siblings-High blood pressure,,Assessment centre > Touchscreen > Family history,Health and medical history,33379,24.05,-17|-27,15427 (46.2%),,,,2536.0
+participant,p20111_i0,20111_9,binary,Illnesses of siblings-Diabetes,,Assessment centre > Touchscreen > Family history,Health and medical history,33379,24.05,-17|-27,15427 (46.2%),,,,2536.0
+participant,p20111_i0,20111_10,binary,Illnesses of siblings-Alzheimer s disease dementia,,Assessment centre > Touchscreen > Family history,Health and medical history,33379,24.05,-17|-27,15427 (46.2%),,,,2536.0
+participant,p20111_i0,20111_11,binary,Illnesses of siblings-Parkinson s disease,,Assessment centre > Touchscreen > Family history,Health and medical history,33379,24.05,-17|-27,15427 (46.2%),,,,2536.0
+participant,p20111_i0,20111_12,binary,Illnesses of siblings-Severe depression,,Assessment centre > Touchscreen > Family history,Health and medical history,33379,24.05,-17|-27,15427 (46.2%),,,,2536.0
+participant,p20111_i0,20111_13,binary,Illnesses of siblings-Prostate cancer,,Assessment centre > Touchscreen > Family history,Health and medical history,33379,24.05,-17|-27,15427 (46.2%),,,,2536.0
+participant,p20127_i0,20127,catord,Neuroticism score,,Assessment centre > Touchscreen > Psychosocial factors > Mental health,Cognitive function,29973,31.8,0,4272 (14.3%),,,,1389.0
+participant,p20128_i0,20128,catord,Number of fluid intelligence questions attempted within time limit,,Assessment centre > Cognitive function > Fluid intelligence / reasoning,Cognitive function,14357,67.33,7,3868 (26.9%),,,,2602.0
+participant,p20150_i0,20150,continuous,"Forced expiratory volume in 1-second (FEV1), Best measure",,Assessment centre > Physical measures > Spirometry,Physical measures,27432,37.58,2.3039,10.5063,-48.0455,2.67,238.2229,
+participant,p20151_i0,20151,continuous,"Forced vital capacity (FVC), Best measure",,Assessment centre > Physical measures > Spirometry,Physical measures,26180,40.43,5.0936,16.9149,-36.4201,3.61,952.639,
+participant,p20153_i0,20153,continuous,"Forced expiratory volume in 1-second (FEV1), predicted",,Assessment centre > Physical measures > Spirometry,Physical measures,20542,53.26,4.5845,16.7538,-31.2012,2.8332,872.4167,
+participant,p20154_i0,20154,continuous,"Forced expiratory volume in 1-second (FEV1), predicted percentage",,Assessment centre > Physical measures > Spirometry,Physical measures,21760,50.49,88.4514,29.4832,-51.818,94.102,874.9237,
+participant,p20161_i0,20161,continuous,Pack years of smoking,,Assessment centre > Touchscreen > Lifestyle and environment > Smoking,Lifestyle factors,12720,71.06,25.0521,20.6763,-26.6731,20.25,255.0,
+participant,p20162_i0,20162,continuous,Pack years adult smoking as proportion of life span exposed to smoking,,Assessment centre > Touchscreen > Lifestyle and environment > Smoking,Lifestyle factors,12748,70.99,3.4943,13.8102,-34.8712,0.5234,809.7431,
+participant,p20191_i0,20191,catord,Fluid intelligence score,correct-answers,Online follow-up > Cognitive function online > Fluid intelligence / reasoning,Cognitive function,10599,75.88,4,2223 (21.0%),,,,15.0
+participant,p20192_i0,20192,catord,Number of fluid intelligence questions attempted within time limit,,Online follow-up > Cognitive function online > Fluid intelligence / reasoning,Cognitive function,10599,75.88,7,3859 (36.4%),,,,16.0
+participant,p20240_i0,20240,catord,Maximum digits remembered correctly,,Online follow-up > Cognitive function online > Numeric memory,Cognitive function,9537,78.3,7,2998 (31.4%),,,,10.0
+participant,p20247_i0,20247,catord,Total errors traversing numeric path (trail #1),,Online follow-up > Cognitive function online > Trail making,Cognitive function,2258,94.86,1,1083 (48.0%),,,,36.0
+participant,p20248_i0,20248,catord,Total errors traversing alphanumeric path (trail #2),,Online follow-up > Cognitive function online > Trail making,Cognitive function,3661,91.67,1,1540 (42.1%),,,,37.0
+participant,p20256,20256,continuous,Forced expiratory volume in 1-second (FEV1) Z-score,Z,Assessment centre > Physical measures > Spirometry,Physical measures,27468,37.5,0.796,11.037,-38.7827,0.458,1001.0,
+participant,p20257,20257,continuous,Forced vital capacity (FVC) Z-score,Z,Assessment centre > Physical measures > Spirometry,Physical measures,27353,37.76,1.2115,30.1646,-32.8562,0.244,2000.0,
+participant,p20258,20258,continuous,FEV1/ FVC ratio Z-score,Z,Assessment centre > Physical measures > Spirometry,Physical measures,27469,37.5,0.8277,13.8093,-38.5773,0.386,1003.0,
+participant,p20261,20261,continuous,avMSE,dioptres,Assessment centre > Eye measures > Visual acuity,Eye measures,8910,79.73,2.7492,55.336,-33.9481,0.2738,2003.0,
+participant,p20262,20262,catord,Myopia diagnosis,,Assessment centre > Eye measures > Visual acuity,Eye measures,9019,79.48,0,5851 (64.9%),,,,851.0
+participant,p20403,20403,catord,Amount of alcohol drunk on a typical drinking day,,Online follow-up > Mental health > Alcohol use,Lifestyle factors,12311,71.99,1,6356 (51.6%),,,,6.0
+participant,p20407,20407,catord,Frequency of failure to fulfil normal expectations due to drinking alcohol in last year,,Online follow-up > Mental health > Alcohol use,Lifestyle factors,7263,83.47,1,6701 (92.3%),,,,6.0
+participant,p20408,20408,catord,Frequency of memory loss due to drinking alcohol in last year,,Online follow-up > Mental health > Alcohol use,Lifestyle factors,7263,83.47,1,6221 (85.7%),,,,6.0
+participant,p20409,20409,catord,Frequency of feeling guilt or remorse after drinking alcohol in last year,,Online follow-up > Mental health > Alcohol use,Lifestyle factors,7263,83.47,1,5805 (79.9%),,,,6.0
+participant,p20412,20412,catord,Frequency of needing morning drink of alcohol after heavy drinking session in last year,,Online follow-up > Mental health > Alcohol use,Lifestyle factors,7263,83.47,1,7224 (99.5%),,,,6.0
+participant,p20413,20413,catord,Frequency of inability to cease drinking in last year,,Online follow-up > Mental health > Alcohol use,Lifestyle factors,7263,83.47,1,6366 (87.6%),,,,6.0
+participant,p20414,20414,catord,Frequency of drinking alcohol,,Online follow-up > Mental health > Alcohol use,Lifestyle factors,13520,69.24,4,4123 (30.5%),,,,6.0
+participant,p20416,20416,catord,Frequency of consuming six or more units of alcohol,,Online follow-up > Mental health > Alcohol use,Lifestyle factors,12311,71.99,1,6224 (50.6%),,,,6.0
+participant,p20418,20418,catord,Impact on normal roles during worst period of anxiety,,Online follow-up > Mental health > Anxiety,Mental health,4223,90.39,2,1528 (36.2%),,,,5.0
+participant,p20436,20436,catord,Fraction of day affected during worst episode of depression,,Online follow-up > Mental health > Depression,Mental health,7635,82.63,3,3471 (45.5%),,,,6.0
+participant,p20438,20438,catord,Duration of worst depression,,Online follow-up > Mental health > Depression,Mental health,7635,82.63,2,2346 (30.7%),,,,7.0
+participant,p20439,20439,catord,Frequency of depressed days during worst episode of depression,,Online follow-up > Mental health > Depression,Mental health,7635,82.63,2,3794 (49.7%),,,,5.0
+participant,p20440,20440,catord,Impact on normal roles during worst period of depression,,Online follow-up > Mental health > Depression,Mental health,7635,82.63,2,2677 (35.1%),,,,5.0
+participant,p20442,20442,catord,Lifetime number of depressed periods,,Online follow-up > Mental health > Depression,Mental health,7635,82.63,1,3586 (47.0%),,,,26.0
+participant,p20453,20453,catord,Ever taken cannabis,,Online follow-up > Mental health > Cannabis use,Lifestyle factors,13520,69.24,0,10499 (77.7%),,,,6.0
+participant,p20454,20454,catord,Maximum frequency of taking cannabis,,Online follow-up > Mental health > Cannabis use,Lifestyle factors,3021,93.13,1,1815 (60.1%),,,,6.0
+participant,p20458,20458,catord,General happiness,,Online follow-up > Mental health > Happiness and subjective well-being,Mental health,13520,69.24,2,5841 (43.2%),,,,8.0
+participant,p20459,20459,catord,General happiness with own health,,Online follow-up > Mental health > Happiness and subjective well-being,Mental health,13520,69.24,3,5596 (41.4%),,,,8.0
+participant,p20460,20460,catord,Belief that own life is meaningful,,Online follow-up > Mental health > Happiness and subjective well-being,Mental health,13520,69.24,4,6903 (51.1%),,,,7.0
+participant,p20479,20479,catord,Ever thought that life not worth living,,Online follow-up > Mental health > Self-harm behaviours,Mental health,13520,69.24,0,9213 (68.1%),,,,4.0
+participant,p20485,20485,catord,Ever contemplated self-harm,,Online follow-up > Mental health > Self-harm behaviours,Mental health,13520,69.24,0,11492 (85.0%),,,,4.0
+participant,p20487,20487,catord,Felt hated by family member as a child,,Online follow-up > Mental health > Traumatic events,Mental health,13520,69.24,0,11348 (83.9%),,,,6.0
+participant,p20488,20488,catord,Physically abused by family as a child,,Online follow-up > Mental health > Traumatic events,Mental health,13520,69.24,0,10943 (80.9%),,,,6.0
+participant,p20489,20489,catord,Felt loved as a child,,Online follow-up > Mental health > Traumatic events,Mental health,13520,69.24,4,6908 (51.1%),,,,6.0
+participant,p20490,20490,catord,Sexually molested as a child,,Online follow-up > Mental health > Traumatic events,Mental health,13520,69.24,0,12137 (89.8%),,,,6.0
+participant,p20491,20491,catord,Someone to take to doctor when needed as a child,,Online follow-up > Mental health > Traumatic events,Mental health,13520,69.24,4,11150 (82.5%),,,,6.0
+participant,p20492,20492,catord,Longest period of mania or irritability,,Online follow-up > Mental health > Mania,Mental health,3661,91.67,2,1283 (35.0%),,,,5.0
+participant,p20494,20494,catord,Felt irritable or had angry outbursts in past month,,Online follow-up > Mental health > Traumatic events,Mental health,6168,85.97,0,3699 (60.0%),,,,6.0
+participant,p20495,20495,catord,Avoided activities or situations because of previous stressful experience in past month,,Online follow-up > Mental health > Traumatic events,Mental health,13520,69.24,0,10681 (79.0%),,,,6.0
+participant,p20496,20496,catord,Felt distant from other people in past month,,Online follow-up > Mental health > Traumatic events,Mental health,6168,85.97,0,3512 (56.9%),,,,6.0
+participant,p20497,20497,catord,Repeated disturbing thoughts of stressful experience in past month,,Online follow-up > Mental health > Traumatic events,Mental health,13520,69.24,0,9693 (71.7%),,,,6.0
+participant,p20498,20498,catord,Felt very upset when reminded of stressful experience in past month,,Online follow-up > Mental health > Traumatic events,Mental health,13520,69.24,0,8362 (61.8%),,,,6.0
+participant,p20505,20505,catord,Recent easy annoyance or irritability,,Online follow-up > Mental health > Anxiety,Mental health,13520,69.24,1,9651 (71.4%),,,,5.0
+participant,p20506,20506,catord,Recent feelings or nervousness or anxiety,,Online follow-up > Mental health > Anxiety,Mental health,13520,69.24,1,9586 (70.9%),,,,5.0
+participant,p20507,20507,catord,Recent feelings of inadequacy,,Online follow-up > Mental health > Depression,Mental health,13520,69.24,1,10670 (78.9%),,,,5.0
+participant,p20508,20508,catord,Recent trouble concentrating on things,,Online follow-up > Mental health > Depression,Mental health,13520,69.24,1,11005 (81.4%),,,,5.0
+participant,p20509,20509,catord,Recent inability to stop or control worrying,,Online follow-up > Mental health > Anxiety,Mental health,13520,69.24,1,10154 (75.1%),,,,5.0
+participant,p20510,20510,catord,Recent feelings of depression,,Online follow-up > Mental health > Depression,Mental health,13520,69.24,1,10360 (76.6%),,,,5.0
+participant,p20511,20511,catord,Recent poor appetite or overeating,,Online follow-up > Mental health > Depression,Mental health,13520,69.24,1,10924 (80.8%),,,,5.0
+participant,p20512,20512,catord,Recent feelings of foreboding,,Online follow-up > Mental health > Anxiety,Mental health,13520,69.24,1,11115 (82.2%),,,,5.0
+participant,p20513,20513,catord,Recent thoughts of suicide or self-harm,,Online follow-up > Mental health > Depression,Mental health,13520,69.24,1,12821 (94.8%),,,,5.0
+participant,p20514,20514,catord,Recent lack of interest or pleasure in doing things,,Online follow-up > Mental health > Depression,Mental health,13520,69.24,1,10811 (80.0%),,,,5.0
+participant,p20515,20515,catord,Recent trouble relaxing,,Online follow-up > Mental health > Anxiety,Mental health,13520,69.24,1,9550 (70.6%),,,,5.0
+participant,p20516,20516,catord,Recent restlessness,,Online follow-up > Mental health > Anxiety,Mental health,13520,69.24,1,11809 (87.3%),,,,5.0
+participant,p20517,20517,catord,"Trouble falling or staying asleep, or sleeping too much",,Online follow-up > Mental health > Depression,Mental health,13520,69.24,1,6750 (49.9%),,,,5.0
+participant,p20518,20518,catord,Recent changes in speed/amount of moving or speaking,,Online follow-up > Mental health > Depression,Mental health,13520,69.24,1,12664 (93.7%),,,,5.0
+participant,p20519,20519,catord,Recent feelings of tiredness or low energy,,Online follow-up > Mental health > Depression,Mental health,13520,69.24,1,6650 (49.2%),,,,5.0
+participant,p20520,20520,catord,Recent worrying too much about different things,,Online follow-up > Mental health > Anxiety,Mental health,13520,69.24,1,9003 (66.6%),,,,5.0
+participant,p20521,20521,catord,Belittlement by partner or ex-partner as an adult,,Online follow-up > Mental health > Traumatic events,Mental health,13520,69.24,0,10262 (75.9%),,,,6.0
+participant,p20522,20522,catord,Been in a confiding relationship as an adult,,Online follow-up > Mental health > Traumatic events,Mental health,13520,69.24,4,6550 (48.4%),,,,6.0
+participant,p20523,20523,catord,Physical violence by partner or ex-partner as an adult,,Online follow-up > Mental health > Traumatic events,Mental health,13520,69.24,0,11742 (86.8%),,,,6.0
+participant,p20524,20524,catord,Sexual interference by partner or ex-partner without consent as an adult,,Online follow-up > Mental health > Traumatic events,Mental health,13520,69.24,0,12699 (93.9%),,,,6.0
+participant,p20525,20525,catord,Able to pay rent/mortgage as an adult,,Online follow-up > Mental health > Traumatic events,Mental health,13520,69.24,4,11349 (83.9%),,,,6.0
+participant,p20526,20526,catord,Been in serious accident believed to be life-threatening,,Online follow-up > Mental health > Traumatic events,Mental health,13520,69.24,0,12194 (90.2%),,,,4.0
+participant,p20527,20527,catord,Been involved in combat or exposed to war-zone,,Online follow-up > Mental health > Traumatic events,Mental health,13520,69.24,0,13004 (96.2%),,,,4.0
+participant,p20528,20528,catord,Diagnosed with life-threatening illness,,Online follow-up > Mental health > Traumatic events,Mental health,13520,69.24,0,11206 (82.9%),,,,4.0
+participant,p20529,20529,catord,Victim of physically violent crime,,Online follow-up > Mental health > Traumatic events,Mental health,13520,69.24,0,10838 (80.2%),,,,4.0
+participant,p20530,20530,catord,Witnessed sudden violent death,,Online follow-up > Mental health > Traumatic events,Mental health,13520,69.24,0,11577 (85.6%),,,,4.0
+participant,p20531,20531,catord,Victim of sexual assault,,Online follow-up > Mental health > Traumatic events,Mental health,13520,69.24,0,11308 (83.6%),,,,4.0
+participant,p20537,20537,catord,Frequency of difficulty controlling worry during worst period of anxiety,,Online follow-up > Mental health > Anxiety,Mental health,4223,90.39,2,1852 (43.9%),,,,6.0
+participant,p20539,20539,catord,Frequency of inability to stop worrying during worst period of anxiety,,Online follow-up > Mental health > Anxiety,Mental health,4223,90.39,2,1871 (44.3%),,,,6.0
+participant,p20544,20544_1,binary,Mental health problems ever diagnosed by a professional-Social anxiety or social phobia,,Online follow-up > Mental health > Mental distress,Mental health,4308,90.2,11,1656 (38.4%),,,,205.0
+participant,p20544,20544_3,binary,Mental health problems ever diagnosed by a professional-Any other type of psychosis or psychotic illness,,Online follow-up > Mental health > Mental distress,Mental health,4308,90.2,11,1656 (38.4%),,,,205.0
+participant,p20544,20544_5,binary,Mental health problems ever diagnosed by a professional-Any other phobia eg disabling fear of heights or spiders,,Online follow-up > Mental health > Mental distress,Mental health,4308,90.2,11,1656 (38.4%),,,,205.0
+participant,p20544,20544_6,binary,Mental health problems ever diagnosed by a professional-Panic attacks,,Online follow-up > Mental health > Mental distress,Mental health,4308,90.2,11,1656 (38.4%),,,,205.0
+participant,p20544,20544_7,binary,Mental health problems ever diagnosed by a professional-Obsessive compulsive disorder OCD,,Online follow-up > Mental health > Mental distress,Mental health,4308,90.2,11,1656 (38.4%),,,,205.0
+participant,p20544,20544_10,binary,Mental health problems ever diagnosed by a professional-Mania hypomania bipolar or manic depression,,Online follow-up > Mental health > Mental distress,Mental health,4308,90.2,11,1656 (38.4%),,,,205.0
+participant,p20544,20544_11,binary,Mental health problems ever diagnosed by a professional-Depression,,Online follow-up > Mental health > Mental distress,Mental health,4308,90.2,11,1656 (38.4%),,,,205.0
+participant,p20544,20544_15,binary,Mental health problems ever diagnosed by a professional-Anxiety nerves or generalized anxiety disorder,,Online follow-up > Mental health > Mental distress,Mental health,4308,90.2,11,1656 (38.4%),,,,205.0
+participant,p20544,20544_16,binary,Mental health problems ever diagnosed by a professional-Anorexia nervosa,,Online follow-up > Mental health > Mental distress,Mental health,4308,90.2,11,1656 (38.4%),,,,205.0
+participant,p20544,20544_17,binary,Mental health problems ever diagnosed by a professional-Agoraphobia,,Online follow-up > Mental health > Mental distress,Mental health,4308,90.2,11,1656 (38.4%),,,,205.0
+participant,p20546,20546_1,binary,Substances taken for depression-Unprescribed medication more than once,,Online follow-up > Mental health > Depression,Mental health,3912,91.1,3,2591 (66.2%),,,,8.0
+participant,p20546,20546_3,binary,Substances taken for depression-Medication prescribed to you for at least two weeks,,Online follow-up > Mental health > Depression,Mental health,3912,91.1,3,2591 (66.2%),,,,8.0
+participant,p20546,20546_4,binary,Substances taken for depression-Drugs or alcohol more than once,,Online follow-up > Mental health > Depression,Mental health,3912,91.1,3,2591 (66.2%),,,,8.0
+participant,p20547,20547_1,binary,Activities undertaken to treat depression-Talking therapies such as psychotherapy counselling group therapy or CBT,,Online follow-up > Mental health > Depression,Mental health,3427,92.2,1,2352 (68.6%),,,,4.0
+participant,p20547,20547_3,binary,Activities undertaken to treat depression-Other therapeutic activities such as mindfulness yoga or art classes,,Online follow-up > Mental health > Depression,Mental health,3427,92.2,1,2352 (68.6%),,,,4.0
+participant,p20548,20548_1,binary,Manifestations of mania or irritability-I was more talkative than usual,,Online follow-up > Mental health > Mania,Mental health,2481,94.35,2,304 (12.3%),,,,205.0
+participant,p20548,20548_2,binary,Manifestations of mania or irritability-I was more restless than usual,,Online follow-up > Mental health > Mania,Mental health,2481,94.35,2,304 (12.3%),,,,205.0
+participant,p20548,20548_3,binary,Manifestations of mania or irritability-My thoughts were racing,,Online follow-up > Mental health > Mania,Mental health,2481,94.35,2,304 (12.3%),,,,205.0
+participant,p20548,20548_5,binary,Manifestations of mania or irritability-I needed less sleep than usual,,Online follow-up > Mental health > Mania,Mental health,2481,94.35,2,304 (12.3%),,,,205.0
+participant,p20548,20548_6,binary,Manifestations of mania or irritability-I was more creative or had more ideas than usual,,Online follow-up > Mental health > Mania,Mental health,2481,94.35,2,304 (12.3%),,,,205.0
+participant,p20548,20548_7,binary,Manifestations of mania or irritability-I was easily distracted,,Online follow-up > Mental health > Mania,Mental health,2481,94.35,2,304 (12.3%),,,,205.0
+participant,p20548,20548_8,binary,Manifestations of mania or irritability-I was more confident than usual,,Online follow-up > Mental health > Mania,Mental health,2481,94.35,2,304 (12.3%),,,,205.0
+participant,p20548,20548_9,binary,Manifestations of mania or irritability-I was more active than usual,,Online follow-up > Mental health > Mania,Mental health,2481,94.35,2,304 (12.3%),,,,205.0
+participant,p20549,20549_1,binary,Substances taken for anxiety-Unprescribed medication more than once,,Online follow-up > Mental health > Anxiety,Mental health,2315,94.73,3,1339 (57.8%),,,,8.0
+participant,p20549,20549_3,binary,Substances taken for anxiety-Medication prescribed to you for at least two weeks,,Online follow-up > Mental health > Anxiety,Mental health,2315,94.73,3,1339 (57.8%),,,,8.0
+participant,p20549,20549_4,binary,Substances taken for anxiety-Drugs or alcohol more than once,,Online follow-up > Mental health > Anxiety,Mental health,2315,94.73,3,1339 (57.8%),,,,8.0
+participant,p20550,20550_1,binary,Activities undertaken to treat anxiety-Talking therapies such as psychotherapy counselling group therapy or CBT,,Online follow-up > Mental health > Anxiety,Mental health,2109,95.2,1,1353 (64.2%),,,,4.0
+participant,p20550,20550_3,binary,Activities undertaken to treat anxiety-Other therapeutic activities such as mindfulness yoga or art classes,,Online follow-up > Mental health > Anxiety,Mental health,2109,95.2,1,1353 (64.2%),,,,4.0
+participant,p20551,20551_1,binary,Substance of prescription or over-the-counter medication addiction-A sedative benzodiazepine or sleeping tablet,,Online follow-up > Mental health > Addictions,Mental health,107,99.76,1,40 (37.4%),,,,6.0
+participant,p20552,20552_2,binary,Behavioural and miscellaneous addictions-A behaviour,,Online follow-up > Mental health > Addictions,Mental health,205,99.53,2,151 (73.7%),,,,4.0
+participant,p20553,20553_4,binary,Methods of self-harm used-Ingesting a medication in excess of the normal dose,,Online follow-up > Mental health > Self-harm behaviours,Mental health,560,98.73,4,199 (35.5%),,,,28.0
+participant,p20553,20553_5,binary,Methods of self-harm used-Self injury such as self cutting scratching or hitting etc,,Online follow-up > Mental health > Self-harm behaviours,Mental health,560,98.73,4,199 (35.5%),,,,28.0
+participant,p20553,20553_6,binary,Methods of self-harm used-Ingesting alcohol or a recreational or illicit drug,,Online follow-up > Mental health > Self-harm behaviours,Mental health,560,98.73,4,199 (35.5%),,,,28.0
+participant,p20554,20554_1,binary,Actions taken following self-harm-See anyone from psychiatric or mental health services including liaison services,,Online follow-up > Mental health > Self-harm behaviours,Mental health,348,99.21,3,61 (17.5%),,,,30.0
+participant,p20554,20554_3,binary,Actions taken following self-harm-Need hospital treatment eg A E,,Online follow-up > Mental health > Self-harm behaviours,Mental health,348,99.21,3,61 (17.5%),,,,30.0
+participant,p20554,20554_4,binary,Actions taken following self-harm-Use a helpline  voluntary organization,,Online follow-up > Mental health > Self-harm behaviours,Mental health,348,99.21,3,61 (17.5%),,,,30.0
+participant,p20554,20554_5,binary,Actions taken following self-harm-See own GP,,Online follow-up > Mental health > Self-harm behaviours,Mental health,348,99.21,3,61 (17.5%),,,,30.0
+participant,p20554,20554_6,binary,Actions taken following self-harm-Receive help from friends  family  neighbours,,Online follow-up > Mental health > Self-harm behaviours,Mental health,348,99.21,3,61 (17.5%),,,,30.0
+participant,p20600,20600,catord,Liking for adding salt to foods,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,1,3541 (22.8%),,,,11.0
+participant,p20601,20601,catord,Liking for aniseed,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,5,2954 (19.0%),,,,11.0
+participant,p20602,20602,catord,Liking for apple juice,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,7,2887 (18.6%),,,,11.0
+participant,p20603,20603,catord,Liking for apples,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,5348 (34.4%),,,,11.0
+participant,p20604,20604,catord,Liking for asparagus,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,4956 (31.9%),,,,11.0
+participant,p20605,20605,catord,Liking for aubergine,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,7,2714 (17.5%),,,,11.0
+participant,p20606,20606,catord,Liking for avocados,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,4700 (30.3%),,,,11.0
+participant,p20607,20607,catord,Liking for bacon,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,3738 (24.1%),,,,11.0
+participant,p20608,20608,catord,Liking for baked/steamed fish,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,4943 (31.8%),,,,11.0
+participant,p20609,20609,catord,Liking for bananas,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,6347 (40.9%),,,,11.0
+participant,p20610,20610,catord,Liking for barbequed or grilled meat,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,7,3170 (20.4%),,,,11.0
+participant,p20611,20611,catord,Liking for beef steak,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,3730 (24.0%),,,,11.0
+participant,p20612,20612,catord,Liking for beetroot,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,5117 (32.9%),,,,11.0
+participant,p20613,20613,catord,Liking for bell pepper,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,3114 (20.0%),,,,11.0
+participant,p20614,20614,catord,Liking for bicycling,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,5,3384 (21.8%),,,,11.0
+participant,p20615,20615,catord,Liking for biscuits,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,7,3658 (23.5%),,,,11.0
+participant,p20616,20616,catord,Liking for bitter foods,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,5,3707 (23.9%),,,,11.0
+participant,p20617,20617,catord,Liking for bitter/ale,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,1,4583 (29.5%),,,,11.0
+participant,p20618,20618,catord,Liking for black olives,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,3525 (22.7%),,,,11.0
+participant,p20619,20619,catord,Liking for black pepper,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,4064 (26.2%),,,,11.0
+participant,p20620,20620,catord,Liking for blue cheese,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,3262 (21.0%),,,,11.0
+participant,p20621,20621,catord,Liking for bolognese sauce,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,7,3700 (23.8%),,,,11.0
+participant,p20622,20622,catord,Liking for broad beans,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,3446 (22.2%),,,,11.0
+participant,p20623,20623,catord,Liking for broccoli,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,5750 (37.0%),,,,11.0
+participant,p20624,20624,catord,Liking for brown rice,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,7,3337 (21.5%),,,,11.0
+participant,p20625,20625,catord,Liking for brussel sprouts,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,4567 (29.4%),,,,11.0
+participant,p20626,20626,catord,Liking for burgers (meat),,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,7,2555 (16.4%),,,,11.0
+participant,p20627,20627,catord,Liking for burn of spicy foods,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,1,3292 (21.2%),,,,11.0
+participant,p20628,20628,catord,Liking for butter on bread,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,5008 (32.2%),,,,11.0
+participant,p20629,20629,catord,Liking for butternut squash,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,7,2869 (18.5%),,,,11.0
+participant,p20630,20630,catord,Liking for cabbage,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,4054 (26.1%),,,,11.0
+participant,p20631,20631,catord,Liking for cake,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,7,3373 (21.7%),,,,11.0
+participant,p20632,20632,catord,Liking for cake icing,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,1,2386 (15.4%),,,,11.0
+participant,p20633,20633,catord,Liking for capers,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,5,2452 (15.8%),,,,11.0
+participant,p20634,20634,catord,Liking for cauliflower,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,4933 (31.8%),,,,11.0
+participant,p20635,20635,catord,Liking for cereal/granola bar,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,7,3004 (19.3%),,,,11.0
+participant,p20636,20636,catord,Liking for cheesecake,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,7,3038 (19.6%),,,,11.0
+participant,p20637,20637,catord,Liking for cherries,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,6958 (44.8%),,,,11.0
+participant,p20638,20638,catord,Liking for chicken,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,6850 (44.1%),,,,11.0
+participant,p20639,20639,catord,Liking for chilli pepper,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,7,2650 (17.1%),,,,11.0
+participant,p20640,20640,catord,Liking for chips/french fries,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,7,3951 (25.4%),,,,11.0
+participant,p20641,20641,catord,Liking for cigarette smoking,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,1,13108 (84.4%),,,,11.0
+participant,p20642,20642,catord,Liking for cod,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,5891 (37.9%),,,,11.0
+participant,p20643,20643,catord,Liking for coffee with sugar,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,1,8644 (55.6%),,,,11.0
+participant,p20644,20644,catord,Liking for coffee without sugar,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,5693 (36.6%),,,,11.0
+participant,p20645,20645,catord,Liking for coriander,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,3083 (19.8%),,,,11.0
+participant,p20646,20646,catord,Liking for corn flakes,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,5,3402 (21.9%),,,,11.0
+participant,p20647,20647,catord,Liking for cream,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,7,3188 (20.5%),,,,11.0
+participant,p20648,20648,catord,Liking for croissant,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,7,3109 (20.0%),,,,11.0
+participant,p20649,20649,catord,Liking for cucumber,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,3919 (25.2%),,,,11.0
+participant,p20650,20650,catord,Liking for curry,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,4070 (26.2%),,,,11.0
+participant,p20651,20651,catord,Liking for dairy products,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,8,4161 (26.8%),,,,11.0
+participant,p20652,20652,catord,Liking for dark chocolate,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,4673 (30.1%),,,,11.0
+participant,p20653,20653,catord,Liking for diet fizzy drinks,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,1,6158 (39.6%),,,,11.0
+participant,p20654,20654,catord,Liking for dried fruit,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,7,3612 (23.2%),,,,11.0
+participant,p20655,20655,catord,Liking for eggs,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,5950 (38.3%),,,,11.0
+participant,p20656,20656,catord,Liking for exercising alone,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,5,3361 (21.6%),,,,11.0
+participant,p20657,20657,catord,Liking for exercising with others,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,5,3195 (20.6%),,,,11.0
+participant,p20658,20658,catord,Liking for extra virgin olive oil,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,4647 (29.9%),,,,11.0
+participant,p20659,20659,catord,Liking for fatty foods,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,1,2846 (18.3%),,,,11.0
+participant,p20660,20660,catord,Liking for fresh tomatoes,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,7852 (50.5%),,,,11.0
+participant,p20661,20661,catord,Liking for fried chicken,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,7,2714 (17.5%),,,,11.0
+participant,p20662,20662,catord,Liking for fried/battered fish,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,7,3447 (22.2%),,,,11.0
+participant,p20663,20663,catord,Liking for fruit,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,8854 (57.0%),,,,11.0
+participant,p20664,20664,catord,Liking for garlic,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,4571 (29.4%),,,,11.0
+participant,p20665,20665,catord,Liking for gherkins,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,1,2903 (18.7%),,,,11.0
+participant,p20666,20666,catord,Liking for globe artichoke,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,-121,4231 (27.2%),,,,11.0
+participant,p20667,20667,catord,Liking for goat's cheese,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,2568 (16.5%),,,,11.0
+participant,p20668,20668,catord,Liking for going to a cafe,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,3672 (23.6%),,,,11.0
+participant,p20669,20669,catord,Liking for going to the gym,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,5,2754 (17.7%),,,,11.0
+participant,p20670,20670,catord,Liking for going to the pub,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,5,3181 (20.5%),,,,11.0
+participant,p20671,20671,catord,Liking for grapefruit,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,7,2634 (17.0%),,,,11.0
+participant,p20672,20672,catord,Liking for green olives,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,3683 (23.7%),,,,11.0
+participant,p20673,20673,catord,Liking for haddock,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,5438 (35.0%),,,,11.0
+participant,p20674,20674,catord,Liking for ham,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,7,3699 (23.8%),,,,11.0
+participant,p20675,20675,catord,Liking for hard cheese,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,5351 (34.4%),,,,11.0
+participant,p20676,20676,catord,Liking for herring,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,1,2309 (14.9%),,,,11.0
+participant,p20677,20677,catord,Liking for honey,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,3356 (21.6%),,,,11.0
+participant,p20678,20678,catord,Liking for horseradish/wasabi,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,1,2995 (19.3%),,,,11.0
+participant,p20679,20679,catord,Liking for ice cream,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,4027 (25.9%),,,,11.0
+participant,p20680,20680,catord,Liking for jam,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,7,3502 (22.5%),,,,11.0
+participant,p20681,20681,catord,Liking for kiwi fruit,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,3502 (22.5%),,,,11.0
+participant,p20682,20682,catord,Liking for lager,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,1,3512 (22.6%),,,,11.0
+participant,p20683,20683,catord,Liking for lamb,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,4514 (29.1%),,,,11.0
+participant,p20684,20684,catord,Liking for lemons,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,7,3532 (22.7%),,,,11.0
+participant,p20685,20685,catord,Liking for lentils/beans,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,7,3559 (22.9%),,,,11.0
+participant,p20686,20686,catord,Liking for liver,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,1,3516 (22.6%),,,,11.0
+participant,p20687,20687,catord,Liking for mackerel,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,3344 (21.5%),,,,11.0
+participant,p20688,20688,catord,Liking for marzipan,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,1,2651 (17.1%),,,,11.0
+participant,p20689,20689,catord,Liking for mayonnaise,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,7,3541 (22.8%),,,,11.0
+participant,p20690,20690,catord,Liking for melon,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,5893 (37.9%),,,,11.0
+participant,p20691,20691,catord,Liking for milk chocolate,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,3890 (25.0%),,,,11.0
+participant,p20692,20692,catord,Liking for mushrooms,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,6013 (38.7%),,,,11.0
+participant,p20694,20694,catord,Liking for orange juice,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,3407 (21.9%),,,,11.0
+participant,p20695,20695,catord,Liking for oranges,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,5248 (33.8%),,,,11.0
+participant,p20696,20696,catord,Liking for pasta,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,4061 (26.1%),,,,11.0
+participant,p20697,20697,catord,Liking for pears,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,5173 (33.3%),,,,11.0
+participant,p20698,20698,catord,Liking for pizza,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,7,3597 (23.2%),,,,11.0
+participant,p20699,20699,catord,Liking for plain yogurt,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,3882 (25.0%),,,,11.0
+participant,p20700,20700,catord,Liking for plums,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,5248 (33.8%),,,,11.0
+participant,p20701,20701,catord,Liking for pollock,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,-121,2822 (18.2%),,,,11.0
+participant,p20702,20702,catord,Liking for pork chop,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,7,3196 (20.6%),,,,11.0
+participant,p20703,20703,catord,Liking for porridge,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,5626 (36.2%),,,,11.0
+participant,p20704,20704,catord,Liking for potato crisps,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,7,3401 (21.9%),,,,11.0
+participant,p20705,20705,catord,Liking for potatoes,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,4721 (30.4%),,,,10.0
+participant,p20706,20706,catord,Liking for prawns,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,5279 (34.0%),,,,11.0
+participant,p20707,20707,catord,Liking for raw carrots,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,4350 (28.0%),,,,11.0
+participant,p20708,20708,catord,Liking for red meat,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,7,3330 (21.4%),,,,11.0
+participant,p20709,20709,catord,Liking for red wine,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,4211 (27.1%),,,,11.0
+participant,p20710,20710,catord,Liking for regular (non-diet) fizzy drinks,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,1,6457 (41.6%),,,,11.0
+participant,p20711,20711,catord,Liking for roast chicken,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,6963 (44.8%),,,,11.0
+participant,p20712,20712,catord,Liking for salad dressing,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,7,3597 (23.2%),,,,11.0
+participant,p20713,20713,catord,Liking for salad leaves,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,5295 (34.1%),,,,11.0
+participant,p20714,20714,catord,Liking for salami,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,1,3215 (20.7%),,,,11.0
+participant,p20715,20715,catord,Liking for salmon,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,6926 (44.6%),,,,11.0
+participant,p20716,20716,catord,Liking for salty foods,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,7,2472 (15.9%),,,,11.0
+participant,p20717,20717,catord,Liking for salty pretzels,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,1,3273 (21.1%),,,,11.0
+participant,p20718,20718,catord,Liking for sardines,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,2793 (18.0%),,,,11.0
+participant,p20719,20719,catord,Liking for sausages (meat),,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,7,3464 (22.3%),,,,11.0
+participant,p20720,20720,catord,Liking for savoury biscuits,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,7,4211 (27.1%),,,,11.0
+participant,p20721,20721,catord,Liking for shellfish (other than prawns),,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,1,3201 (20.6%),,,,11.0
+participant,p20722,20722,catord,Liking for skimmed milk,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,3374 (21.7%),,,,11.0
+participant,p20723,20723,catord,Liking for smoked fish,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,3451 (22.2%),,,,11.0
+participant,p20724,20724,catord,Liking for soft cheese,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,7,3689 (23.7%),,,,11.0
+participant,p20725,20725,catord,Liking for soy sauce,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,7,3738 (24.1%),,,,11.0
+participant,p20726,20726,catord,Liking for soya milk,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,-121,4265 (27.5%),,,,11.0
+participant,p20727,20727,catord,Liking for spicy foods,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,7,3118 (20.1%),,,,11.0
+participant,p20728,20728,catord,Liking for spinach,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,4324 (27.8%),,,,11.0
+participant,p20729,20729,catord,Liking for spirits,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,1,2723 (17.5%),,,,11.0
+participant,p20730,20730,catord,Liking for strawberries,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,8287 (53.3%),,,,11.0
+participant,p20731,20731,catord,Liking for sweet coffee house drinks,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,1,6310 (40.6%),,,,11.0
+participant,p20732,20732,catord,Liking for sweet foods,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,7,3279 (21.1%),,,,11.0
+participant,p20733,20733,catord,Liking for taking the stairs,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,4739 (30.5%),,,,11.0
+participant,p20734,20734,catord,Liking for tea with sugar,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,1,10587 (68.1%),,,,11.0
+participant,p20735,20735,catord,Liking for tea without sugar,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,7309 (47.0%),,,,11.0
+participant,p20736,20736,catord,Liking for tomato ketchup,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,7,2670 (17.2%),,,,11.0
+participant,p20737,20737,catord,Liking for tinned tuna,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,3581 (23.0%),,,,11.0
+participant,p20738,20738,catord,Liking for turnip (white),,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,5,3049 (19.6%),,,,11.0
+participant,p20739,20739,catord,Liking for vegetables,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,8435 (54.3%),,,,11.0
+participant,p20740,20740,catord,Liking for vinegar,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,7,3208 (20.6%),,,,11.0
+participant,p20741,20741,catord,Liking for watching television,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,7,4213 (27.1%),,,,11.0
+participant,p20742,20742,catord,Liking for whisky,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,1,6083 (39.2%),,,,11.0
+participant,p20743,20743,catord,Liking for white bread,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,5,2480 (16.0%),,,,11.0
+participant,p20744,20744,catord,Liking for white rice,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,7,3978 (25.6%),,,,11.0
+participant,p20745,20745,catord,Liking for white wine,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,3138 (20.2%),,,,11.0
+participant,p20746,20746,catord,Liking for whole grain breakfast cereal,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,4554 (29.3%),,,,11.0
+participant,p20747,20747,catord,Liking for whole milk,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,1,2834 (18.2%),,,,11.0
+participant,p20748,20748,catord,Liking for wholemeal bread,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,9,6771 (43.6%),,,,11.0
+participant,p20749,20749,catord,Liking for working up a sweat,,Online follow-up > Food (and other) preferences,Diet and food preferences,15537,64.65,5,3592 (23.1%),,,,11.0
+participant,p21001_i0,21001,continuous,Body mass index (BMI),Kg/m2,Assessment centre > Physical measures > Anthropometry > Body size measures,Physical measures,37159,15.45,27.1706,7.9864,-46.5037,26.9102,491.3612,
+participant,p21002_i0,21002,continuous,Weight,Kg,Assessment centre > Physical measures > Anthropometry > Body size measures,Physical measures,37178,15.41,76.8981,19.752,-45.5713,76.2,1000.0,
+participant,p21021_i0,21021,continuous,Pulse wave Arterial Stiffness index,,Assessment centre > Physical measures > Arterial stiffness,Physical measures,12940,70.56,9.4777,21.8111,-24.9373,8.9267,2001.0,
+participant,p21025,21025,catord,Frequency of discomfort/pain in abdomen in last 3 months,,Online follow-up > Digestive health,Health and medical history,15743,64.18,0,7280 (46.2%),,,,8.0
+participant,p21028,21028,catord,Frequency of discomfort/pain getting better or stopping after a bowel movement,,Online follow-up > Digestive health,Health and medical history,8437,80.8,-501,2232 (26.5%),,,,6.0
+participant,p21029,21029,catord,More frequent bowel movements when abdominal discomfort/pain started,,Online follow-up > Digestive health,Health and medical history,8437,80.8,-500,3556 (42.1%),,,,6.0
+participant,p21030,21030,catord,Less frequent bowel movements when abdominal discomfort/pain started,,Online follow-up > Digestive health,Health and medical history,8437,80.8,-500,4927 (58.4%),,,,6.0
+participant,p21031,21031,catord,Stools looser when abdominal discomfort/pain started,,Online follow-up > Digestive health,Health and medical history,8437,80.8,-501,3140 (37.2%),,,,6.0
+participant,p21032,21032,catord,Frequency of harder stools when abdominal discomfort/pain started,,Online follow-up > Digestive health,Health and medical history,8437,80.8,-500,4193 (49.7%),,,,6.0
+participant,p21033,21033,catord,Frequency of hard/lumpy stools in the last 3 months,,Online follow-up > Digestive health,Health and medical history,15743,64.18,-500,7584 (48.2%),,,,6.0
+participant,p21034,21034,catord,Frequency of loose/mushy/watery stools in the last 3 months,,Online follow-up > Digestive health,Health and medical history,15743,64.18,-501,7276 (46.2%),,,,6.0
+participant,p21036,21036,catord,Severity of current abdominal pain,,Online follow-up > Digestive health,Health and medical history,4530,89.69,2,806 (17.8%),,,,12.0
+participant,p21037,21037,catord,Number of days (out of 10) with abdominal pain,,Online follow-up > Digestive health,Health and medical history,4530,89.69,1,1289 (28.5%),,,,12.0
+participant,p21039,21039,catord,Severity of current abdominal distension/tightness,,Online follow-up > Digestive health,Health and medical history,3648,91.7,5,599 (16.4%),,,,12.0
+participant,p21040,21040,catord,Satisfaction with bowel habits,,Online follow-up > Digestive health,Health and medical history,15743,64.18,0,3050 (19.4%),,,,12.0
+participant,p21041,21041,catord,Degree to which abdominal pain/discomfort/altered bowel habits affect/interfere with life in general,,Online follow-up > Digestive health,Health and medical history,15743,64.18,0,7667 (48.7%),,,,12.0
+participant,p21042,21042,catord,Greatest number of times bowels opened per day,times/day,Online follow-up > Digestive health,Health and medical history,15743,64.18,2,5814 (36.9%),,,,38.0
+participant,p21043,21043,catord,Least number of times bowels opened per week,times/week,Online follow-up > Digestive health,Health and medical history,15743,64.18,7,4451 (28.3%),,,,46.0
+participant,p21044,21044,catord,Average number of times bowels opened per day,times/day,Online follow-up > Digestive health,Health and medical history,15743,64.18,1,10429 (66.2%),,,,15.0
+participant,p21048,21048,catord,Degree bothered by back pain in the past 3 months,,Online follow-up > Digestive health,Health and medical history,15743,64.18,-601,7347 (46.7%),,,,4.0
+participant,p21049,21049,catord,Degree bothered by pain in arms/legs/joints in the past 3 months,,Online follow-up > Digestive health,Health and medical history,15743,64.18,-601,8047 (51.1%),,,,4.0
+participant,p21050,21050,catord,Degree bothered by menstrual cramps or other problems with period in the last 3 months,,Online follow-up > Digestive health,Health and medical history,8873,79.81,-313,6088 (68.6%),,,,5.0
+participant,p21051,21051,catord,Degree bothered by headaches in the last 3 months,,Online follow-up > Digestive health,Health and medical history,15743,64.18,-600,9637 (61.2%),,,,4.0
+participant,p21052,21052,catord,Degree bothered by chest pain in the last 3 months,,Online follow-up > Digestive health,Health and medical history,15743,64.18,-600,13468 (85.5%),,,,4.0
+participant,p21053,21053,catord,Degree bothered by dizziness in the last 3 months,,Online follow-up > Digestive health,Health and medical history,15743,64.18,-600,11413 (72.5%),,,,4.0
+participant,p21054,21054,catord,Degree bothered by fainting spells in the last 3 months,,Online follow-up > Digestive health,Health and medical history,15743,64.18,-600,15192 (96.5%),,,,4.0
+participant,p21055,21055,catord,Degree bothered by feeling heart pound/race in the last 3 months,,Online follow-up > Digestive health,Health and medical history,15743,64.18,-600,10994 (69.8%),,,,4.0
+participant,p21056,21056,catord,Degree bothered by shortness of breath in the last 3 months,,Online follow-up > Digestive health,Health and medical history,15743,64.18,-600,10658 (67.7%),,,,4.0
+participant,p21057,21057,catord,Degree bothered by pain/problems during intercourse in the last 3 months,,Online follow-up > Digestive health,Health and medical history,15743,64.18,-600,8187 (52.0%),,,,5.0
+participant,p21058,21058,catord,Degree bothered by urinary frequency/bladder irritability in the last 3 months,,Online follow-up > Digestive health,Health and medical history,15743,64.18,-600,8540 (54.2%),,,,4.0
+participant,p21059,21059,catord,Degree bothered by nausea in the last 3 months,,Online follow-up > Digestive health,Health and medical history,15743,64.18,-600,13397 (85.1%),,,,4.0
+participant,p21060,21060,catord,Degree bothered by feeling tired all the time in the last 3 months,,Online follow-up > Digestive health,Health and medical history,15743,64.18,-601,7711 (49.0%),,,,4.0
+participant,p21061,21061,catord,Degree bothered by trouble sleeping in the last 3 months,,Online follow-up > Digestive health,Health and medical history,15743,64.18,-601,7580 (48.1%),,,,4.0
+participant,p21100_i0,21100,catord,Water hardness (USGS classification),,Additional exposures > Local environment > Water minerals,Working and living environment,43506,1.01,0,16208 (37.3%),,,,4.0
+participant,p22032_i0,22032,catord,IPAQ activity group,,Assessment centre > Touchscreen > Lifestyle and environment > Physical activity > MET Scores,Physical activities,29657,32.52,2,11203 (37.8%),,,,2328.0
+participant,p22033_i0,22033,continuous,Summed days activity,days,Assessment centre > Touchscreen > Lifestyle and environment > Physical activity > MET Scores,Physical activities,29659,32.52,482.8872,16128.825,0.0,10.0,827425.13,
+participant,p22034_i0,22034,continuous,Summed minutes activity,minutes,Assessment centre > Touchscreen > Lifestyle and environment > Physical activity > MET Scores,Physical activities,29659,32.52,635.2417,17885.2287,-3.2023,95.0,1454191.03,
+participant,p22037_i0,22037,continuous,MET minutes per week for walking,minutes/week,Assessment centre > Touchscreen > Lifestyle and environment > Physical activity > MET Scores,Physical activities,29642,32.56,1972.0695,33900.3171,-10.7822,594.0,1621085.66,
+participant,p22038_i0,22038,continuous,MET minutes per week for moderate activity,minutes/week,Assessment centre > Touchscreen > Lifestyle and environment > Physical activity > MET Scores,Physical activities,29642,32.56,1401.8072,23405.2922,-3.1873,400.0,1406864.33,
+participant,p22039_i0,22039,catord,MET minutes per week for vigorous activity,minutes/week,Assessment centre > Touchscreen > Lifestyle and environment > Physical activity > MET Scores,Physical activities,29637,32.57,0.0,11343 (38.3%),,,,1051.0
+participant,p22040_i0,22040,continuous,Summed MET minutes per week for all activity,minutes/week,Assessment centre > Touchscreen > Lifestyle and environment > Physical activity > MET Scores,Physical activities,29629,32.58,2906.2825,21536.1789,-0.302,1610.0,1598240.89,
+participant,p22146,22146,continuous,Age hayfever or allergic rhinitis diagnosed by doctor,,Online follow-up > Work environment > Medical information,Health and medical history,2345,94.66,28.9151,18.3124,0.0,25.0,75.0,
+participant,p22506,22506,catord,Tobacco smoking,,Online follow-up > Work environment > Medical information,Lifestyle factors,10443,76.24,114,6102 (58.4%),,,,5.0
+participant,p22507,22507,continuous,Age of stopping smoking,,Online follow-up > Work environment > Medical information,Lifestyle factors,3850,91.24,37.3621,12.091,5.0,35.0,75.0,
+participant,p23098_i0,23098,continuous,Weight,,Assessment centre > Physical measures > Anthropometry > Body composition by impedance,Physical measures,37004,15.8,75.5859,21.2292,0.0007,75.9,178.6,
+participant,p23099_i0,23099,continuous,Body fat percentage,,Assessment centre > Physical measures > Anthropometry > Body composition by impedance,Physical measures,36979,15.86,30.7792,10.1884,0.0007,31.1,66.8,
+participant,p23100_i0,23100,continuous,Whole body fat mass,,Assessment centre > Physical measures > Anthropometry > Body composition by impedance,Physical measures,36941,15.95,24.4189,10.5945,0.0007,23.3,97.4,
+participant,p23101_i0,23101,continuous,Whole body fat-free mass,,Assessment centre > Physical measures > Anthropometry > Body composition by impedance,Physical measures,36999,15.82,51.2257,14.7878,0.0006,49.6,99.1,
+participant,p23102_i0,23102,continuous,Whole body water mass,,Assessment centre > Physical measures > Anthropometry > Body composition by impedance,Physical measures,37004,15.8,37.4973,10.81,0.0007,36.3,75.8,
+participant,p23104_i0,23104,continuous,Body mass index (BMI),,Assessment centre > Physical measures > Anthropometry > Body composition by impedance,Physical measures,37003,15.81,26.7064,6.901,0.0006,26.8,60.3,
+participant,p23105_i0,23105,continuous,Basal metabolic rate,,Assessment centre > Physical measures > Anthropometry > Body composition by impedance,Physical measures,37002,15.81,6371.6732,1801.4416,0.0007,6251.0,13698.0,
+participant,p23106_i0,23106,continuous,Impedance of whole body,,Assessment centre > Physical measures > Anthropometry > Body composition by impedance,Physical measures,37000,15.81,579.075,140.5605,0.0007,590.0,987.0,
+participant,p23107_i0,23107,continuous,Impedance of leg (right),,Assessment centre > Physical measures > Anthropometry > Body composition by impedance,Physical measures,37002,15.81,238.1589,57.688,0.0006,244.0,628.0,
+participant,p23108_i0,23108,continuous,Impedance of leg (left),,Assessment centre > Physical measures > Anthropometry > Body composition by impedance,Physical measures,37001,15.81,238.9489,57.6613,0.0007,245.0,660.0,
+participant,p23109_i0,23109,continuous,Impedance of arm (right),,Assessment centre > Physical measures > Anthropometry > Body composition by impedance,Physical measures,36994,15.83,314.3948,80.8847,0.0006,319.0,985.0,
+participant,p23110_i0,23110,continuous,Impedance of arm (left),,Assessment centre > Physical measures > Anthropometry > Body composition by impedance,Physical measures,37000,15.81,320.7295,82.6396,0.0006,325.0,937.0,
+participant,p23111_i0,23111,continuous,Leg fat percentage (right),,Assessment centre > Physical measures > Anthropometry > Body composition by impedance,Physical measures,37000,15.81,31.3138,12.09,0.0006,32.9,65.1,
+participant,p23112_i0,23112,continuous,Leg fat mass (right),,Assessment centre > Physical measures > Anthropometry > Body composition by impedance,Physical measures,37000,15.81,4.2395,2.0514,0.0007,4.0,26.5,
+participant,p23113_i0,23113,continuous,Leg fat-free mass (right),,Assessment centre > Physical measures > Anthropometry > Body composition by impedance,Physical measures,36999,15.82,8.6448,2.5468,-0.1692,8.4,23.0,
+participant,p23114_i0,23114,continuous,Leg predicted mass (right),,Assessment centre > Physical measures > Anthropometry > Body composition by impedance,Physical measures,36998,15.82,8.1809,2.4128,0.0006,7.9,21.8,
+participant,p23115_i0,23115,continuous,Leg fat percentage (left),,Assessment centre > Physical measures > Anthropometry > Body composition by impedance,Physical measures,36995,15.82,31.1996,12.0551,0.0007,32.6,63.8,
+participant,p23116_i0,23116,continuous,Leg fat mass (left),,Assessment centre > Physical measures > Anthropometry > Body composition by impedance,Physical measures,36995,15.82,4.1665,2.0333,0.0006,4.0,24.0,
+participant,p23117_i0,23117,continuous,Leg fat-free mass (left),,Assessment centre > Physical measures > Anthropometry > Body composition by impedance,Physical measures,36993,15.83,8.5437,2.5454,0.0007,8.3,20.5,
+participant,p23118_i0,23118,continuous,Leg predicted mass (left),,Assessment centre > Physical measures > Anthropometry > Body composition by impedance,Physical measures,36992,15.83,8.0817,2.4256,0.0006,7.9,19.3,
+participant,p23119_i0,23119,continuous,Arm fat percentage (right),,Assessment centre > Physical measures > Anthropometry > Body composition by impedance,Physical measures,36992,15.83,28.9363,11.5128,0.0006,27.6,69.9,
+participant,p23120_i0,23120,continuous,Arm fat mass (right),,Assessment centre > Physical measures > Anthropometry > Body composition by impedance,Physical measures,36990,15.84,1.2213,0.681,0.0007,1.1,8.3,
+participant,p23121_i0,23121,continuous,Arm fat-free mass (right),,Assessment centre > Physical measures > Anthropometry > Body composition by impedance,Physical measures,36990,15.84,2.7831,0.9582,0.0007,2.6,6.7,
+participant,p23122_i0,23122,continuous,Arm predicted mass (right),,Assessment centre > Physical measures > Anthropometry > Body composition by impedance,Physical measures,36989,15.84,2.6066,0.9081,0.0007,2.4,6.3,
+participant,p23123_i0,23123,continuous,Arm fat percentage (left),,Assessment centre > Physical measures > Anthropometry > Body composition by impedance,Physical measures,36985,15.85,29.7814,11.6667,0.0005,28.9,71.2,
+participant,p23124_i0,23124,continuous,Arm fat mass (left),,Assessment centre > Physical measures > Anthropometry > Body composition by impedance,Physical measures,36985,15.85,1.3006,0.7557,0.0004,1.1,9.9,
+participant,p23125_i0,23125,continuous,Arm fat-free mass (left),,Assessment centre > Physical measures > Anthropometry > Body composition by impedance,Physical measures,36983,15.85,2.8173,0.973,0.0004,2.7,6.7,
+participant,p23126_i0,23126,continuous,Arm predicted mass (left),,Assessment centre > Physical measures > Anthropometry > Body composition by impedance,Physical measures,36980,15.86,2.6392,0.9212,0.0006,2.5,6.3,
+participant,p23127_i0,23127,continuous,Trunk fat percentage,,Assessment centre > Physical measures > Anthropometry > Body composition by impedance,Physical measures,36979,15.86,30.4925,9.7854,0.0005,31.2,71.9,
+participant,p23128_i0,23128,continuous,Trunk fat mass,,Assessment centre > Physical measures > Anthropometry > Body composition by impedance,Physical measures,36976,15.87,13.4787,5.7452,0.0006,13.2,46.4,
+participant,p23129_i0,23129,continuous,Trunk fat-free mass,,Assessment centre > Physical measures > Anthropometry > Body composition by impedance,Physical measures,36972,15.88,28.4629,7.9351,0.0005,27.7,57.6,
+participant,p23130_i0,23130,continuous,Trunk predicted mass,,Assessment centre > Physical measures > Anthropometry > Body composition by impedance,Physical measures,36968,15.89,27.2909,7.6589,0.0004,26.5,55.4,
+participant,p27800_i0,27800,continuous,Overall macular thickness (left),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4787,89.11,362.8016,732.2551,1.536,274.22,8679.0,
+participant,p27801_i0,27801,continuous,Overall macular thickness (right),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4828,89.01,333.9655,509.5219,1.623,276.79,6701.0,
+participant,p27802_i0,27802,continuous,Macular thickness at the central subfield (left),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4880,88.9,281.6175,306.0357,0.0,263.635,6814.0,
+participant,p27803_i0,27803,continuous,Macular thickness at the central subfield (right),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4879,88.9,303.7893,468.6289,0.0,266.22,6919.0,
+participant,p27804_i0,27804,continuous,Macular thickness at the inner inferior subfield (left),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4821,89.03,390.0609,755.3871,0.0,306.62,11007.0,
+participant,p27805_i0,27805,continuous,Macular thickness at the inner inferior subfield (right),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4851,88.96,375.5349,664.5476,0.0,308.58,10894.0,
+participant,p27806_i0,27806,continuous,Macular thickness at the inner nasal subfield (left),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4874,88.91,362.0947,566.6411,0.09,313.755,13257.0,
+participant,p27807_i0,27807,continuous,Macular thickness at the inner nasal subfield (right),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4879,88.9,365.4263,577.5864,1.946,314.87,12945.0,
+participant,p27808_i0,27808,continuous,Macular thickness at the inner superior subfield (left),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4880,88.9,352.0057,533.7616,0.0,308.635,13664.0,
+participant,p27809_i0,27809,continuous,Macular thickness at the inner superior subfield (right),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4879,88.9,349.8437,514.9432,0.0,310.58,13330.0,
+participant,p27810_i0,27810,continuous,Macular thickness at the inner temporal subfield (left),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4880,88.9,331.2856,398.9906,0.08,298.11,5793.0,
+participant,p27811_i0,27811,continuous,Macular thickness at the inner temporal subfield (right),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4871,88.92,343.2367,450.5769,0.0,300.96,5984.0,
+participant,p27812_i0,27812,continuous,Macular thickness at the outer inferior subfield (left),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4799,89.08,323.43,610.1422,0.83,261.41,14239.0,
+participant,p27813_i0,27813,continuous,Macular thickness at the outer inferior subfield (right),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4834,89.0,308.458,541.2581,0.0,261.63,13685.0,
+participant,p27814_i0,27814,continuous,Macular thickness at the outer nasal subfield (left),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4862,88.94,302.5225,362.0305,1.683,286.775,7858.0,
+participant,p27815_i0,27815,continuous,Macular thickness at the outer nasal subfield (right),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4866,88.93,302.9382,377.0271,1.411,282.045,7597.0,
+participant,p27816_i0,27816,continuous,Macular thickness at the outer superior subfield (left),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4862,88.94,292.8218,405.1051,0.0,264.275,8539.0,
+participant,p27817_i0,27817,continuous,Macular thickness at the outer superior subfield (right),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4857,88.95,297.7696,419.7638,0.0,268.73,8650.0,
+participant,p27818_i0,27818,continuous,Macular thickness at the outer temporal subfield (left),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4859,88.94,292.6738,508.7028,1.699,247.99,8344.0,
+participant,p27819_i0,27819,continuous,Macular thickness at the outer temporal subfield (right),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4862,88.94,300.3557,508.8866,0.18,258.05,8788.0,
+participant,p27822_i0,27822,continuous,Overall average retinal pigment epithelium thickness (left),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4787,89.11,82.3368,450.7816,1.942,24.73,10155.0,
+participant,p27823_i0,27823,continuous,Overall average retinal pigment epithelium thickness (right),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4828,89.01,92.1268,510.716,1.39,24.61,7541.0,
+participant,p27851_i0,27851,continuous,Disc diameter after inverse rank normal transformation (left),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,3736,91.5,116.0092,888.7287,-3.2611,0.121,14892.0,
+participant,p27853_i0,27853,continuous,Mean of vertical disc diameter (left),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,3736,91.5,172.9465,665.8839,1.691,120.0042,14492.0,
+participant,p27855_i0,27855,continuous,Vertical cup to disc ratio (VCDR) regressed and transformed (left),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,3639,91.72,99.4049,678.9695,-2.4762,0.1742,11957.0,
+participant,p27857_i0,27857,continuous,Vertical cup to disc ratio (VCDR) (left),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,3639,91.72,160.3066,1080.1962,0.0,0.35,13354.0,
+participant,p28500_i0,28500,continuous,Average retinal nerve fibre layer thickness (left),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4787,89.11,186.1935,1121.803,0.25,26.3,17283.0,
+participant,p28501_i0,28501,continuous,Average retinal nerve fibre layer thickness (right),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4828,89.01,112.8284,656.3528,0.15,28.805,16984.0,
+participant,p28502_i0,28502,continuous,Average inner nuclear layer thickness (left),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4787,89.11,343.5029,1803.0618,0.08,32.42,21425.0,
+participant,p28503_i0,28503,continuous,Average inner nuclear layer thickness (right),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4828,89.01,403.2813,1853.1233,0.0,32.625,17481.0,
+participant,p28504_i0,28504,continuous,Average ganglion cell-inner plexiform layer thickness (left),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4787,89.11,454.3632,1908.4675,1.829,74.22,18726.0,
+participant,p28505_i0,28505,continuous,Average ganglion cell-inner plexiform layer thickness (right),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4828,89.01,375.4917,1455.2893,1.574,74.195,26802.0,
+participant,p28506_i0,28506,continuous,INL-ELM thickness of the central subfield (left),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4918,88.81,538.1602,2147.2868,0.0,107.215,20207.0,
+participant,p28507_i0,28507,continuous,INL-ELM thickness of the central subfield (right),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4917,88.81,404.1156,1472.7213,0.0,107.83,16768.0,
+participant,p28508_i0,28508,continuous,INL-ELM thickness of the inner subfield (left),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4857,88.95,576.5969,2047.472,0.0,93.4725,15073.0,
+participant,p28509_i0,28509,continuous,INL-ELM thickness of the inner subfield (right),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4889,88.88,597.3408,2243.7195,0.0,93.18,18617.0,
+participant,p28510_i0,28510,continuous,INL-ELM thickness of the outer subfield (left),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4787,89.11,661.1076,2548.7149,0.0,75.735,28347.0,
+participant,p28511_i0,28511,continuous,INL-ELM thickness of the outer subfield (right),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4828,89.01,316.546,1410.3923,0.0,75.32,24972.0,
+participant,p28512_i0,28512,continuous,Average INL-ELM thickness (left),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4787,89.11,566.2186,2272.445,0.0,80.5,19319.0,
+participant,p28513_i0,28513,continuous,Average INL-ELM thickness (right),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4828,89.01,481.0996,1696.797,0.0,80.175,15676.0,
+participant,p28514_i0,28514,continuous,ELM-ISOS thickness of central subfield (left),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4918,88.81,310.6478,1275.427,0.0,28.24,13949.0,
+participant,p28515_i0,28515,continuous,ELM-ISOS thickness of central subfield (right),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4917,88.81,393.5394,1682.1086,0.0,28.4,17089.0,
+participant,p28516_i0,28516,continuous,ELM-ISOS thickness of inner subfield (left),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4857,88.95,444.386,2023.7404,0.0,24.54,17382.0,
+participant,p28517_i0,28517,continuous,ELM-ISOS thickness of inner subfield (right),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4889,88.88,335.81,1575.9461,0.0,24.6225,22138.0,
+participant,p28518_i0,28518,continuous,ELM-ISOS thickness of outer subfield (left),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4787,89.11,330.2376,1554.875,0.0,23.295,21755.0,
+participant,p28519_i0,28519,continuous,ELM-ISOS thickness of outer subfield (right),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4828,89.01,587.9803,2733.8639,0.0,23.2775,27609.0,
+participant,p28520_i0,28520,continuous,Average ELM-ISOS thickness (left),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4787,89.11,422.6045,1875.7642,0.0,23.71,17485.0,
+participant,p28521_i0,28521,continuous,Average ELM-ISOS thickness (right),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4828,89.01,300.7842,1371.9581,0.0,23.71,16149.0,
+participant,p28522_i0,28522,continuous,ISOS-RPE thickness of central subfield (left),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4918,88.81,556.5934,2513.9172,0.0,42.05,22172.0,
+participant,p28523_i0,28523,continuous,ISOS-RPE thickness of central subfield (right),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4917,88.81,780.367,3528.894,0.0,42.58,32426.0,
+participant,p28524_i0,28524,continuous,ISOS-RPE thickness of inner subfield (left),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4857,88.95,528.4507,2363.1926,0.0,38.965,25820.0,
+participant,p28525_i0,28525,continuous,ISOS-RPE thickness of inner subfield (right),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4889,88.88,721.9858,2857.166,0.0,39.18,18294.0,
+participant,p28526_i0,28526,continuous,ISOS-RPE thickness of outer subfield (left),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4787,89.11,630.702,2383.7701,0.0,38.06,18886.0,
+participant,p28527_i0,28527,continuous,ISOS-RPE thickness of outer subfield (right),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4828,89.01,287.317,1460.9535,0.0,38.0712,19539.0,
+participant,p28528_i0,28528,continuous,Average ISOS-RPE thickness (left),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4787,89.11,677.3824,3031.9474,0.0,38.36,29028.0,
+participant,p28529_i0,28529,continuous,Average ISOS-RPE thickness (right),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4828,89.01,764.1957,3775.2985,0.0,38.38,31386.0,
+participant,p28530_i0,28530,continuous,INL-RPE thickness of central subfield (left),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4918,88.81,801.4458,2630.2255,0.0,178.395,19639.0,
+participant,p28531_i0,28531,continuous,INL-RPE thickness of central subfield (right),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4917,88.81,677.8836,2341.7042,0.0,179.44,17701.0,
+participant,p28532_i0,28532,continuous,INL-RPE thickness of inner subfield (left),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4857,88.95,594.8045,2053.7275,0.0,157.1125,16172.0,
+participant,p28533_i0,28533,continuous,INL-RPE thickness of inner subfield (right),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4889,88.88,412.7236,1182.8725,0.0,157.0575,17670.0,
+participant,p28534_i0,28534,continuous,INL-RPE thickness of outer subfield (left),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4787,89.11,412.0771,1276.2624,0.0,137.38,17345.0,
+participant,p28535_i0,28535,continuous,INL-RPE thickness of outer subfield (right),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4828,89.01,324.9406,1068.9322,0.0,136.8887,21461.0,
+participant,p28536_i0,28536,continuous,Average INL-RPE thickness (left),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4787,89.11,628.3279,1892.8896,0.0,142.87,19135.0,
+participant,p28537_i0,28537,continuous,Average INL-RPE thickness (right),,Assessment centre > Eye measures > Retinal optical coherence tomography > Derived OCT measures,Eye measures,4828,89.01,556.6477,1985.7844,0.0,142.495,27062.0,
+participant,p28607,28607,catord,Length of time suffering from gastrointestinal issues,,Online follow-up > Health and well-being,Health and medical history,2239,94.91,3,1487 (66.4%),,,,6.0
+participant,p28610,28610,catord,Length of time suffering from vision problems,,Online follow-up > Health and well-being,Health and medical history,2452,94.42,3,1991 (81.2%),,,,6.0
+participant,p28622,28622,catord,Length of time suffering from nasal congestion,,Online follow-up > Health and well-being,Health and medical history,2564,94.17,3,1395 (54.4%),,,,6.0
+participant,p28625,28625,catord,Length of time suffering from tinnitus,,Online follow-up > Health and well-being,Health and medical history,3557,91.91,3,3292 (92.5%),,,,6.0
+participant,p28628,28628,catord,Length of time suffering from hearing loss,,Online follow-up > Health and well-being,Health and medical history,4053,90.78,3,3750 (92.5%),,,,6.0
+participant,p28637,28637,catord,Length of time suffering from neck pain/stiff neck,,Online follow-up > Health and well-being,Health and medical history,2928,93.34,3,2098 (71.7%),,,,6.0
+participant,p28640,28640,catord,Length of time suffering from back pain,,Online follow-up > Health and well-being,Health and medical history,4084,90.71,3,3297 (80.7%),,,,6.0
+participant,p28652,28652,catord,Length of time suffering from leg pain,,Online follow-up > Health and well-being,Health and medical history,3181,92.76,3,2548 (80.1%),,,,6.0
+participant,p28655,28655,catord,Length of time suffering from muscle pain/achy muscles,,Online follow-up > Health and well-being,Health and medical history,3982,90.94,3,3011 (75.6%),,,,6.0
+participant,p28658,28658,catord,Length of time suffering from joint pain or swelling of joint(s),,Online follow-up > Health and well-being,Health and medical history,5205,88.16,3,4502 (86.5%),,,,6.0
+participant,p28667,28667,catord,Length of time suffering from phlegm production/a chesty cough,,Online follow-up > Health and well-being,Health and medical history,1850,95.79,3,1046 (56.5%),,,,6.0
+participant,p28682,28682,catord,Length of time suffering from dizziness/light-headedness,,Online follow-up > Health and well-being,Health and medical history,1979,95.5,3,1263 (63.8%),,,,6.0
+participant,p28688,28688,catord,Length of time suffering from difficulty sleeping,,Online follow-up > Health and well-being,Health and medical history,4660,89.4,3,3848 (82.6%),,,,6.0
+participant,p28691,28691,catord,Length of time suffering from night sweats,,Online follow-up > Health and well-being,Health and medical history,2479,94.36,3,2015 (81.3%),,,,6.0
+participant,p28694,28694,catord,Length of time suffering from unrestful sleep,,Online follow-up > Health and well-being,Health and medical history,5948,86.47,3,4923 (82.8%),,,,6.0
+participant,p28697,28697,catord,Length of time suffering from mild fatigue,,Online follow-up > Health and well-being,Health and medical history,6421,85.39,3,4255 (66.3%),,,,6.0
+participant,p28706,28706,catord,Length of time suffering from skin issues,,Online follow-up > Health and well-being,Health and medical history,2232,94.92,3,1583 (70.9%),,,,5.0
+participant,p28721,28721,catord,Length of time suffering from problems thinking,,Online follow-up > Health and well-being,Health and medical history,3641,91.72,3,2895 (79.5%),,,,6.0
+participant,p28727,28727,catord,"Length of time suffering from problems relating to mood, anxiety and emotions",,Online follow-up > Health and well-being,Health and medical history,3574,91.87,3,2790 (78.1%),,,,6.0
+participant,p28730,28730,catord,Length of time suffering from weakness of muscles or difficulty moving arms and legs,,Online follow-up > Health and well-being,Health and medical history,1755,96.01,3,1491 (85.0%),,,,6.0
+participant,p28733,28733,catord,Length of time suffering from numbness or tingling somewhere in the body,,Online follow-up > Health and well-being,Health and medical history,2649,93.97,3,2161 (81.6%),,,,6.0
+participant,p28735,28735,catord,"Feeling anxious, nervous or on edge over the last 2 weeks",,Online follow-up > Health and well-being,Mental health,16491,62.48,0,11875 (72.0%),,,,5.0
+participant,p28736,28736,catord,Not being able to stop or control worrying over the last 2 weeks,,Online follow-up > Health and well-being,Mental health,16491,62.48,0,12974 (78.7%),,,,5.0
+participant,p28737,28737,catord,Little interest or pleasure in doing things over the last 2 weeks,,Online follow-up > Health and well-being,Mental health,16491,62.48,0,13317 (80.8%),,,,5.0
+participant,p28738,28738,catord,"Feeling down, depressed or hopeless over the last 2 weeks",,Online follow-up > Health and well-being,Mental health,16491,62.48,0,13042 (79.1%),,,,5.0
+participant,p28739,28739,catord,Difficulty with standing for long periods,,Online follow-up > Health and well-being,Health and medical history,16491,62.48,0,11042 (67.0%),,,,7.0
+participant,p28740,28740,catord,Difficulty with taking care of household responsibilities,,Online follow-up > Health and well-being,Health and medical history,16491,62.48,0,12691 (77.0%),,,,7.0
+participant,p28741,28741,catord,Difficulty learning a new task,,Online follow-up > Health and well-being,Mental health,16491,62.48,0,13708 (83.1%),,,,7.0
+participant,p28742,28742,catord,Difficulty with joining in community activities,,Online follow-up > Health and well-being,Mental health,16491,62.48,0,13163 (79.8%),,,,7.0
+participant,p28743,28743,catord,Difficulty with being emotionally affected by health problems,,Online follow-up > Health and well-being,Mental health,16491,62.48,0,12428 (75.4%),,,,7.0
+participant,p28744,28744,catord,Difficulty with concentrating on doing something for ten minutes,,Online follow-up > Health and well-being,Mental health,16491,62.48,0,14816 (89.8%),,,,7.0
+participant,p28745,28745,catord,Difficulty with walking a long distance,,Online follow-up > Health and well-being,Health and medical history,16491,62.48,0,12501 (75.8%),,,,7.0
+participant,p28746,28746,catord,Difficulty with washing whole body,,Online follow-up > Health and well-being,Health and medical history,16491,62.48,0,15220 (92.3%),,,,7.0
+participant,p28747,28747,catord,Difficulty with getting dressed,,Online follow-up > Health and well-being,Health and medical history,16491,62.48,0,15129 (91.7%),,,,7.0
+participant,p28748,28748,catord,Difficulty with dealing with people you do not know,,Online follow-up > Health and well-being,Mental health,16491,62.48,0,14534 (88.1%),,,,7.0
+participant,p28749,28749,catord,Difficulty with maintaining a friendship,,Online follow-up > Health and well-being,Mental health,16491,62.48,0,14636 (88.8%),,,,7.0
+participant,p28750,28750,catord,Difficulty with dealing with noisy environments,,Online follow-up > Health and well-being,Mental health,16491,62.48,0,10291 (62.4%),,,,7.0
+participant,p28751,28751,catord,Difficulty with doing your day-to-day work,,Online follow-up > Health and well-being,Mental health,16491,62.48,0,13454 (81.6%),,,,7.0
+participant,p28752,28752,catord,Difficulty with looking after children/grandchildren,,Online follow-up > Health and well-being,Mental health,16491,62.48,0,8924 (54.1%),,,,8.0
+participant,p29001,29001_0,binary,Mental health conditions experienced by first degree blood relatives-None of the above,,Online follow-up > Mental well-being > Mental health,Mental health,14810,66.3,0,9498 (64.1%),,,,154.0
+participant,p29001,29001_1,binary,Mental health conditions experienced by first degree blood relatives-Depression,,Online follow-up > Mental well-being > Mental health,Mental health,14810,66.3,0,9498 (64.1%),,,,154.0
+participant,p29001,29001_2,binary,Mental health conditions experienced by first degree blood relatives-Mania hypomania bipolar or manic depression,,Online follow-up > Mental well-being > Mental health,Mental health,14810,66.3,0,9498 (64.1%),,,,154.0
+participant,p29001,29001_3,binary,Mental health conditions experienced by first degree blood relatives-Schizophrenia,,Online follow-up > Mental well-being > Mental health,Mental health,14810,66.3,0,9498 (64.1%),,,,154.0
+participant,p29001,29001_4,binary,Mental health conditions experienced by first degree blood relatives-Any other type of psychosis or psychotic illness,,Online follow-up > Mental well-being > Mental health,Mental health,14810,66.3,0,9498 (64.1%),,,,154.0
+participant,p29001,29001_5,binary,Mental health conditions experienced by first degree blood relatives-A personality disorder,,Online follow-up > Mental well-being > Mental health,Mental health,14810,66.3,0,9498 (64.1%),,,,154.0
+participant,p29001,29001_6,binary,Mental health conditions experienced by first degree blood relatives-Autism Asperger s or autistic spectrum disorder,,Online follow-up > Mental well-being > Mental health,Mental health,14810,66.3,0,9498 (64.1%),,,,154.0
+participant,p29001,29001_7,binary,Mental health conditions experienced by first degree blood relatives-Attention deficit or attention deficit and hyperactivity disorder,,Online follow-up > Mental well-being > Mental health,Mental health,14810,66.3,0,9498 (64.1%),,,,154.0
+participant,p29001,29001_8,binary,Mental health conditions experienced by first degree blood relatives-An anxiety disorder,,Online follow-up > Mental well-being > Mental health,Mental health,14810,66.3,0,9498 (64.1%),,,,154.0
+participant,p29001,29001_9,binary,Mental health conditions experienced by first degree blood relatives-An eating disorder,,Online follow-up > Mental well-being > Mental health,Mental health,14810,66.3,0,9498 (64.1%),,,,154.0
+participant,p29002,29002,catord,Recent lack of interest or pleasure in doing things,,Online follow-up > Mental well-being > Depression,Mental health,14642,66.68,0,11473 (78.4%),,,,5.0
+participant,p29003,29003,catord,Recent feelings of depression,,Online follow-up > Mental well-being > Depression,Mental health,14642,66.68,0,11170 (76.3%),,,,5.0
+participant,p29004,29004,catord,"Trouble falling or staying asleep, or sleeping too much",,Online follow-up > Mental well-being > Depression,Mental health,14642,66.68,0,7557 (51.6%),,,,5.0
+participant,p29005,29005,catord,Recent feelings of tiredness or low energy,,Online follow-up > Mental well-being > Depression,Mental health,14642,66.68,0,7364 (50.3%),,,,5.0
+participant,p29006,29006,catord,Recent poor appetite or overeating,,Online follow-up > Mental well-being > Depression,Mental health,14642,66.68,0,12008 (82.0%),,,,5.0
+participant,p29007,29007,catord,Recent feelings of inadequacy,,Online follow-up > Mental well-being > Depression,Mental health,14642,66.68,0,11853 (81.0%),,,,5.0
+participant,p29008,29008,catord,Recent trouble concentrating on things,,Online follow-up > Mental well-being > Depression,Mental health,14642,66.68,0,11858 (81.0%),,,,5.0
+participant,p29009,29009,catord,Recent changes in speed/amount of moving or speaking,,Online follow-up > Mental well-being > Depression,Mental health,14642,66.68,0,13839 (94.5%),,,,5.0
+participant,p29010,29010,catord,Recent thoughts of suicide or self-harm,,Online follow-up > Mental well-being > Depression,Mental health,14642,66.68,0,13908 (95.0%),,,,5.0
+participant,p29014,29014,catord,Fraction of day affected during worst episode of depression,,Online follow-up > Mental well-being > Depression,Mental health,6781,84.57,1,3074 (45.3%),,,,6.0
+participant,p29015,29015,catord,Frequency of depressed days during worst episode of depression,,Online follow-up > Mental well-being > Depression,Mental health,6781,84.57,1,3325 (49.0%),,,,5.0
+participant,p29020,29020,catord,Change in appetite during worst episode of depression,,Online follow-up > Mental well-being > Depression,Mental health,6781,84.57,2,2837 (41.8%),,,,5.0
+participant,p29030,29030,catord,Duration of worst depression,,Online follow-up > Mental well-being > Depression,Mental health,6781,84.57,1,1945 (28.7%),,,,7.0
+participant,p29031,29031,catord,Impact on normal roles during worst period of depression,,Online follow-up > Mental well-being > Depression,Mental health,6781,84.57,1,2369 (34.9%),,,,5.0
+participant,p29033,29033,catord,Lifetime number of depressed periods,,Online follow-up > Mental well-being > Depression,Mental health,6781,84.57,1,2556 (37.7%),,,,31.0
+participant,p29038,29038_0,binary,Substances taken for depression-None of options listed,,Online follow-up > Mental well-being > Depression,Mental health,6781,84.57,0,3121 (46.0%),,,,9.0
+participant,p29038,29038_1,binary,Substances taken for depression-Drugs or alcohol more than once,,Online follow-up > Mental well-being > Depression,Mental health,6781,84.57,0,3121 (46.0%),,,,9.0
+participant,p29038,29038_2,binary,Substances taken for depression-Medication prescribed to participant for at least 2 weeks,,Online follow-up > Mental well-being > Depression,Mental health,6781,84.57,0,3121 (46.0%),,,,9.0
+participant,p29038,29038_3,binary,Substances taken for depression-Unprescribed medication more than once,,Online follow-up > Mental well-being > Depression,Mental health,6781,84.57,0,3121 (46.0%),,,,9.0
+participant,p29039,29039_1,binary,Use of specific medications-Citalopram sometimes called Cipramil,,Online follow-up > Mental well-being > Depression,Mental health,3096,92.96,-1,621 (20.1%),,,,83.0
+participant,p29039,29039_2,binary,Use of specific medications-Fluoxetine Prozac or Oxactin,,Online follow-up > Mental well-being > Depression,Mental health,3096,92.96,-1,621 (20.1%),,,,83.0
+participant,p29039,29039_3,binary,Use of specific medications-Sertraline Lustral,,Online follow-up > Mental well-being > Depression,Mental health,3096,92.96,-1,621 (20.1%),,,,83.0
+participant,p29039,29039_4,binary,Use of specific medications-Paroxetine Seroxat,,Online follow-up > Mental well-being > Depression,Mental health,3096,92.96,-1,621 (20.1%),,,,83.0
+participant,p29039,29039_5,binary,Use of specific medications-Amitriptyline Elavil,,Online follow-up > Mental well-being > Depression,Mental health,3096,92.96,-1,621 (20.1%),,,,83.0
+participant,p29039,29039_6,binary,Use of specific medications-Dosulepin Prothiaden,,Online follow-up > Mental well-being > Depression,Mental health,3096,92.96,-1,621 (20.1%),,,,83.0
+participant,p29039,29039_7,binary,Use of specific medications-Other antidepressant s,,Online follow-up > Mental well-being > Depression,Mental health,3096,92.96,-1,621 (20.1%),,,,83.0
+participant,p29047,29047_0,binary,Activities undertaken to treat depression-None of options listed,,Online follow-up > Mental well-being > Depression,Mental health,6781,84.57,0,3244 (47.8%),,,,5.0
+participant,p29047,29047_1,binary,Activities undertaken to treat depression-Other therapeutic activities such as mindfulness yoga or art classes,,Online follow-up > Mental well-being > Depression,Mental health,6781,84.57,0,3244 (47.8%),,,,5.0
+participant,p29047,29047_2,binary,Activities undertaken to treat depression-Talking therapies such as psychotherapy counselling group therapy or CBT,,Online follow-up > Mental well-being > Depression,Mental health,6781,84.57,0,3244 (47.8%),,,,5.0
+participant,p29051,29051_0,binary,Manifestations of mania or irritability-None of options listed,,Online follow-up > Mental well-being > Mood changes,Mental health,3320,92.45,0,1185 (35.7%),,,,192.0
+participant,p29051,29051_1,binary,Manifestations of mania or irritability-More active than usual,,Online follow-up > Mental well-being > Mood changes,Mental health,3320,92.45,0,1185 (35.7%),,,,192.0
+participant,p29051,29051_2,binary,Manifestations of mania or irritability-More confident than usual,,Online follow-up > Mental well-being > Mood changes,Mental health,3320,92.45,0,1185 (35.7%),,,,192.0
+participant,p29051,29051_3,binary,Manifestations of mania or irritability-Easily distracted,,Online follow-up > Mental well-being > Mood changes,Mental health,3320,92.45,0,1185 (35.7%),,,,192.0
+participant,p29051,29051_4,binary,Manifestations of mania or irritability-More creative or had more ideas than usual,,Online follow-up > Mental well-being > Mood changes,Mental health,3320,92.45,0,1185 (35.7%),,,,192.0
+participant,p29051,29051_5,binary,Manifestations of mania or irritability-Neded less sleep than usual,,Online follow-up > Mental well-being > Mood changes,Mental health,3320,92.45,0,1185 (35.7%),,,,192.0
+participant,p29051,29051_6,binary,Manifestations of mania or irritability-Thoughts were racing,,Online follow-up > Mental well-being > Mood changes,Mental health,3320,92.45,0,1185 (35.7%),,,,192.0
+participant,p29051,29051_7,binary,Manifestations of mania or irritability-More restless than usual,,Online follow-up > Mental well-being > Mood changes,Mental health,3320,92.45,0,1185 (35.7%),,,,192.0
+participant,p29051,29051_8,binary,Manifestations of mania or irritability-More talkative than usual,,Online follow-up > Mental well-being > Mood changes,Mental health,3320,92.45,0,1185 (35.7%),,,,192.0
+participant,p29052,29052,catord,Longest period of mania or irritability,,Online follow-up > Mental well-being > Mood changes,Mental health,3320,92.45,0,1263 (38.0%),,,,6.0
+participant,p29058,29058,catord,Recent feelings or nervousness or anxiety,,Online follow-up > Mental well-being > Anxiety and panic,Mental health,14444,67.14,0,10318 (71.4%),,,,5.0
+participant,p29059,29059,catord,Recent inability to stop or control worrying,,Online follow-up > Mental well-being > Anxiety and panic,Mental health,14444,67.14,0,10773 (74.6%),,,,5.0
+participant,p29060,29060,catord,Recent worrying too much about different things,,Online follow-up > Mental well-being > Anxiety and panic,Mental health,14444,67.14,0,9697 (67.1%),,,,5.0
+participant,p29061,29061,catord,Recent trouble relaxing,,Online follow-up > Mental well-being > Anxiety and panic,Mental health,14444,67.14,0,10533 (72.9%),,,,5.0
+participant,p29062,29062,catord,Recent restlessness,,Online follow-up > Mental well-being > Anxiety and panic,Mental health,14444,67.14,0,12831 (88.8%),,,,5.0
+participant,p29063,29063,catord,Recent easy annoyance or irritability,,Online follow-up > Mental well-being > Anxiety and panic,Mental health,14444,67.14,0,10669 (73.9%),,,,5.0
+participant,p29064,29064,catord,Recent feelings of foreboding,,Online follow-up > Mental well-being > Anxiety and panic,Mental health,14444,67.14,0,11751 (81.4%),,,,5.0
+participant,p29065,29065_0,binary,Symptoms of panic attack-No I have not had this happen to me,,Online follow-up > Mental well-being > Anxiety and panic,Mental health,14444,67.14,0,9943 (68.8%),,,,1040.0
+participant,p29065,29065_1,binary,Symptoms of panic attack-Heart was pounding or racing,,Online follow-up > Mental well-being > Anxiety and panic,Mental health,14444,67.14,0,9943 (68.8%),,,,1040.0
+participant,p29065,29065_2,binary,Symptoms of panic attack-Sweating,,Online follow-up > Mental well-being > Anxiety and panic,Mental health,14444,67.14,0,9943 (68.8%),,,,1040.0
+participant,p29065,29065_3,binary,Symptoms of panic attack-Trembling or shaking,,Online follow-up > Mental well-being > Anxiety and panic,Mental health,14444,67.14,0,9943 (68.8%),,,,1040.0
+participant,p29065,29065_4,binary,Symptoms of panic attack-Felt short of breath or like being smothered,,Online follow-up > Mental well-being > Anxiety and panic,Mental health,14444,67.14,0,9943 (68.8%),,,,1040.0
+participant,p29065,29065_5,binary,Symptoms of panic attack-Felt like I was choking,,Online follow-up > Mental well-being > Anxiety and panic,Mental health,14444,67.14,0,9943 (68.8%),,,,1040.0
+participant,p29065,29065_6,binary,Symptoms of panic attack-Pain or discomfort in chest,,Online follow-up > Mental well-being > Anxiety and panic,Mental health,14444,67.14,0,9943 (68.8%),,,,1040.0
+participant,p29065,29065_7,binary,Symptoms of panic attack-Nauseous or felt sick in the stomach,,Online follow-up > Mental well-being > Anxiety and panic,Mental health,14444,67.14,0,9943 (68.8%),,,,1040.0
+participant,p29065,29065_8,binary,Symptoms of panic attack-Felt dizzy unsteady light headed or faint,,Online follow-up > Mental well-being > Anxiety and panic,Mental health,14444,67.14,0,9943 (68.8%),,,,1040.0
+participant,p29065,29065_9,binary,Symptoms of panic attack-Felt hot or cold,,Online follow-up > Mental well-being > Anxiety and panic,Mental health,14444,67.14,0,9943 (68.8%),,,,1040.0
+participant,p29065,29065_10,binary,Symptoms of panic attack-Felt numbness or tingling sensations,,Online follow-up > Mental well-being > Anxiety and panic,Mental health,14444,67.14,0,9943 (68.8%),,,,1040.0
+participant,p29065,29065_11,binary,Symptoms of panic attack-Felt like things weren t real or detached from self,,Online follow-up > Mental well-being > Anxiety and panic,Mental health,14444,67.14,0,9943 (68.8%),,,,1040.0
+participant,p29065,29065_12,binary,Symptoms of panic attack-Afraid of losing control or going crazy,,Online follow-up > Mental well-being > Anxiety and panic,Mental health,14444,67.14,0,9943 (68.8%),,,,1040.0
+participant,p29065,29065_13,binary,Symptoms of panic attack-Afraid I was going to die,,Online follow-up > Mental well-being > Anxiety and panic,Mental health,14444,67.14,0,9943 (68.8%),,,,1040.0
+participant,p29066,29066,catord,Lifetime number of panic attacks,,Online follow-up > Mental well-being > Anxiety and panic,Mental health,2033,95.37,-1,932 (45.8%),,,,35.0
+participant,p29074,29074,catord,"Panic attack caused by medical condition, medication, drugs or alcohol",,Online follow-up > Mental well-being > Anxiety and panic,Mental health,2033,95.37,0,1613 (79.3%),,,,5.0
+participant,p29075,29075,catord,Panic attack caused by strong fears,,Online follow-up > Mental well-being > Anxiety and panic,Mental health,2033,95.37,0,1076 (52.9%),,,,5.0
+participant,p29076,29076,catord,Felt loved as a child,,Online follow-up > Mental well-being > Adverse life events,Mental health,14396,67.24,4,8560 (59.5%),,,,6.0
+participant,p29077,29077,catord,Physically abused by family as a child,,Online follow-up > Mental well-being > Adverse life events,Mental health,14396,67.24,0,11862 (82.4%),,,,6.0
+participant,p29078,29078,catord,Felt hated by family member as a child,,Online follow-up > Mental well-being > Adverse life events,Mental health,14396,67.24,0,11934 (82.9%),,,,6.0
+participant,p29079,29079,catord,Sexually molested as a child,,Online follow-up > Mental well-being > Adverse life events,Mental health,14396,67.24,0,13000 (90.3%),,,,6.0
+participant,p29080,29080,catord,Someone to take to doctor when needed as a child,,Online follow-up > Mental well-being > Adverse life events,Mental health,14396,67.24,4,12240 (85.0%),,,,6.0
+participant,p29081,29081,catord,Stopped from seeing friends or family by partner or ex-partner as an adult,,Online follow-up > Mental well-being > Adverse life events,Mental health,14396,67.24,0,13232 (91.9%),,,,4.0
+participant,p29082,29082,catord,Belittlement by partner or ex-partner as an adult,,Online follow-up > Mental well-being > Adverse life events,Mental health,14396,67.24,0,12255 (85.1%),,,,4.0
+participant,p29083,29083,catord,Physical violence by partner or ex-partner as an adult,,Online follow-up > Mental well-being > Adverse life events,Mental health,14396,67.24,0,12799 (88.9%),,,,4.0
+participant,p29084,29084,catord,Sexual interference by partner or ex-partner without consent as an adult,,Online follow-up > Mental well-being > Adverse life events,Mental health,14396,67.24,0,13548 (94.1%),,,,4.0
+participant,p29085,29085,catord,Sexual intercourse by partner or ex-partner without consent as an adult,,Online follow-up > Mental well-being > Adverse life events,Mental health,14396,67.24,0,13486 (93.7%),,,,4.0
+participant,p29086,29086,catord,Experienced a violent or sexual assault,,Online follow-up > Mental well-being > Adverse life events,Mental health,14396,67.24,0,13185 (91.6%),,,,4.0
+participant,p29087,29087,catord,Experienced a life-threatening injury or illness,,Online follow-up > Mental well-being > Adverse life events,Mental health,14396,67.24,0,10794 (75.0%),,,,4.0
+participant,p29088,29088,catord,Experienced a marital separation/divorce,,Online follow-up > Mental well-being > Adverse life events,Mental health,14396,67.24,0,9728 (67.6%),,,,4.0
+participant,p29089,29089,catord,Experienced the death of a spouse or partner,,Online follow-up > Mental well-being > Adverse life events,Mental health,14396,67.24,0,12257 (85.1%),,,,4.0
+participant,p29090,29090,catord,Experienced the death of a close friend or family member due to suicide,,Online follow-up > Mental well-being > Adverse life events,Mental health,14396,67.24,0,12040 (83.6%),,,,4.0
+participant,p29091,29091,catord,Frequency of drinking alcohol,,Online follow-up > Mental well-being > Alcohol use,Lifestyle factors,14375,67.29,3,4240 (29.5%),,,,6.0
+participant,p29092,29092,catord,Amount of alcohol drunk on a typical drinking day,,Online follow-up > Mental well-being > Alcohol use,Lifestyle factors,12840,70.78,1,6697 (52.2%),,,,6.0
+participant,p29093,29093,catord,Frequency of consuming six or more units of alcohol,,Online follow-up > Mental well-being > Alcohol use,Lifestyle factors,12840,70.78,0,6873 (53.5%),,,,6.0
+participant,p29094,29094,catord,Frequency of inability to cease drinking in last year,,Online follow-up > Mental well-being > Alcohol use,Lifestyle factors,7351,83.27,0,6548 (89.1%),,,,6.0
+participant,p29095,29095,catord,Frequency of failure to fulfil normal expectations due to drinking alcohol in last year,,Online follow-up > Mental well-being > Alcohol use,Lifestyle factors,7351,83.27,0,6962 (94.7%),,,,6.0
+participant,p29096,29096,catord,Frequency of needing morning drink of alcohol after heavy drinking session in last year,,Online follow-up > Mental well-being > Alcohol use,Lifestyle factors,7351,83.27,0,7311 (99.5%),,,,6.0
+participant,p29097,29097,catord,Frequency of feeling guilt or remorse after drinking alcohol in last year,,Online follow-up > Mental well-being > Alcohol use,Lifestyle factors,7351,83.27,0,6036 (82.1%),,,,6.0
+participant,p29098,29098,catord,Frequency of memory loss due to drinking alcohol in last year,,Online follow-up > Mental well-being > Alcohol use,Lifestyle factors,7351,83.27,0,6446 (87.7%),,,,6.0
+participant,p29104,29104,catord,Ever used cannabis,,Online follow-up > Mental well-being > Cannabis use,Lifestyle factors,14364,67.32,0,11277 (78.5%),,,,6.0
+participant,p29107,29107,catord,Frequency of most regular cannabis use,,Online follow-up > Mental well-being > Cannabis use,Lifestyle factors,3070,93.01,0,1996 (65.0%),,,,6.0
+participant,p29108,29108,catord,Ever thought that life not worth living,,Online follow-up > Mental well-being > Harm behaviours,Mental health,14359,67.33,0,10432 (72.7%),,,,4.0
+participant,p29109,29109,catord,Ever contemplated self-harm,,Online follow-up > Mental well-being > Harm behaviours,Mental health,14359,67.33,0,12522 (87.2%),,,,4.0
+participant,p29111,29111,catord,Ever self-harmed,,Online follow-up > Mental well-being > Harm behaviours,Mental health,14359,67.33,0,13715 (95.5%),,,,4.0
+participant,p29115,29115_1,binary,Methods of self-harm used-Ingesting alcohol or a recreational or illicit drug,,Online follow-up > Mental well-being > Harm behaviours,Mental health,623,98.58,2,209 (33.5%),,,,30.0
+participant,p29115,29115_2,binary,Methods of self-harm used-Self injury such as self cutting scratching or hitting etc,,Online follow-up > Mental well-being > Harm behaviours,Mental health,623,98.58,2,209 (33.5%),,,,30.0
+participant,p29115,29115_3,binary,Methods of self-harm used-Ingesting a medication in excess of the normal dose,,Online follow-up > Mental well-being > Harm behaviours,Mental health,623,98.58,2,209 (33.5%),,,,30.0
+participant,p29132,29132,catord,Ever had recurrent episodes of excessive overeating or binge eating,,Online follow-up > Mental well-being > Eating patterns,Diet and food preferences,14348,67.35,0,12656 (88.2%),,,,4.0
+participant,p29135,29135,catord,Frequency of feeling had no control over eating during episodes of overeating/binge eating,,Online follow-up > Mental well-being > Eating patterns,Diet and food preferences,1677,96.18,2,857 (51.1%),,,,5.0
+participant,p29136,29136_1,binary,Actions and feelings during periods of overeating/binge eating-Eaten much more rapidly than normal,,Online follow-up > Mental well-being > Eating patterns,Diet and food preferences,1677,96.18,2,231 (13.8%),,,,33.0
+participant,p29136,29136_2,binary,Actions and feelings during periods of overeating/binge eating-Eaten until feeling uncomfortably full,,Online follow-up > Mental well-being > Eating patterns,Diet and food preferences,1677,96.18,2,231 (13.8%),,,,33.0
+participant,p29136,29136_3,binary,Actions and feelings during periods of overeating/binge eating-Eaten large amounts of food when not physically hungry,,Online follow-up > Mental well-being > Eating patterns,Diet and food preferences,1677,96.18,2,231 (13.8%),,,,33.0
+participant,p29136,29136_4,binary,Actions and feelings during periods of overeating/binge eating-Eaten alone because of feeling embarrassed by overeating,,Online follow-up > Mental well-being > Eating patterns,Diet and food preferences,1677,96.18,2,231 (13.8%),,,,33.0
+participant,p29136,29136_5,binary,Actions and feelings during periods of overeating/binge eating-Felt disgusted depressed or very guilty afterward,,Online follow-up > Mental well-being > Eating patterns,Diet and food preferences,1677,96.18,2,231 (13.8%),,,,33.0
+participant,p29140,29140_0,binary,Methods of controlling body shape or weight when overeating/binge eating-None of above,,Online follow-up > Mental well-being > Eating patterns,Diet and food preferences,245,99.44,0,93 (38.0%),,,,49.0
+participant,p29140,29140_6,binary,Methods of controlling body shape or weight when overeating/binge eating-Fasted or not eaten for eight waking hours or more,,Online follow-up > Mental well-being > Eating patterns,Diet and food preferences,245,99.44,0,93 (38.0%),,,,49.0
+participant,p29140,29140_7,binary,Methods of controlling body shape or weight when overeating/binge eating-Other methods to lose weight stay at low weight,,Online follow-up > Mental well-being > Eating patterns,Diet and food preferences,245,99.44,0,93 (38.0%),,,,49.0
+participant,p29143,29143,catord,Dependency of self-esteem on body shape or weight when overeating/binge eating,,Online follow-up > Mental well-being > Eating patterns,Mental health,1677,96.18,0,637 (38.0%),,,,4.0
+participant,p29149,29149,catord,Dependency of self-esteem on body shape or weight currently,,Online follow-up > Mental well-being > Eating patterns,Mental health,14348,67.35,0,8547 (59.6%),,,,4.0
+participant,p29150,29150,catord,Mobility problems today,,Online follow-up > Mental well-being > General health,Health and medical history,14339,67.37,0,10186 (71.0%),,,,5.0
+participant,p29151,29151,catord,Self-care problems today,,Online follow-up > Mental well-being > General health,Health and medical history,14339,67.37,0,13460 (93.9%),,,,5.0
+participant,p29152,29152,catord,Problems doing usual activities,,Online follow-up > Mental well-being > General health,Health and medical history,14339,67.37,0,10631 (74.1%),,,,5.0
+participant,p29153,29153,catord,Pain/discomfort today,,Online follow-up > Mental well-being > General health,Health and medical history,14339,67.37,1,6309 (44.0%),,,,5.0
+participant,p29154,29154,catord,Anxiety/depression today,,Online follow-up > Mental well-being > General health,Mental health,14339,67.37,0,11059 (77.1%),,,,5.0
+participant,p29156,29156,catord,Number of times have had COVID-19,,Online follow-up > Mental well-being > COVID-19,Health and medical history,14331,67.39,1,6825 (47.6%),,,,13.0
+participant,p29161,29161,catord,Recovery from COVID-19,,Online follow-up > Mental well-being > COVID-19,Health and medical history,8588,80.46,0,6106 (71.1%),,,,7.0
+participant,p29166,29166,catord,Frequency of confiding in someone close,,Online follow-up > Mental well-being > Social situation,Mental health,14321,67.42,5,6692 (46.7%),,,,7.0
+participant,p29167,29167_0,binary,Sports and social activities attended in person at least once a week-None of the above,,Online follow-up > Mental well-being > Social situation,Lifestyle factors,14321,67.42,0,4687 (32.7%),,,,33.0
+participant,p29167,29167_1,binary,Sports and social activities attended in person at least once a week-Sports club or gym fitness class,,Online follow-up > Mental well-being > Social situation,Lifestyle factors,14321,67.42,0,4687 (32.7%),,,,33.0
+participant,p29167,29167_2,binary,Sports and social activities attended in person at least once a week-Pub or social club,,Online follow-up > Mental well-being > Social situation,Lifestyle factors,14321,67.42,0,4687 (32.7%),,,,33.0
+participant,p29167,29167_3,binary,Sports and social activities attended in person at least once a week-Religious group,,Online follow-up > Mental well-being > Social situation,Lifestyle factors,14321,67.42,0,4687 (32.7%),,,,33.0
+participant,p29167,29167_4,binary,Sports and social activities attended in person at least once a week-Adult education class,,Online follow-up > Mental well-being > Social situation,Lifestyle factors,14321,67.42,0,4687 (32.7%),,,,33.0
+participant,p29167,29167_5,binary,Sports and social activities attended in person at least once a week-Other group activity,,Online follow-up > Mental well-being > Social situation,Lifestyle factors,14321,67.42,0,4687 (32.7%),,,,33.0
+participant,p29168,29168_0,binary,Sports and social activities attended virtually at least once a week-None of the above,,Online follow-up > Mental well-being > Social situation,Lifestyle factors,14321,67.42,0,10997 (76.8%),,,,28.0
+participant,p29168,29168_1,binary,Sports and social activities attended virtually at least once a week-Sports club or gym fitness class,,Online follow-up > Mental well-being > Social situation,Lifestyle factors,14321,67.42,0,10997 (76.8%),,,,28.0
+participant,p29168,29168_2,binary,Sports and social activities attended virtually at least once a week-Pub or social club,,Online follow-up > Mental well-being > Social situation,Lifestyle factors,14321,67.42,0,10997 (76.8%),,,,28.0
+participant,p29168,29168_3,binary,Sports and social activities attended virtually at least once a week-Religious group,,Online follow-up > Mental well-being > Social situation,Lifestyle factors,14321,67.42,0,10997 (76.8%),,,,28.0
+participant,p29168,29168_4,binary,Sports and social activities attended virtually at least once a week-Adult education class,,Online follow-up > Mental well-being > Social situation,Lifestyle factors,14321,67.42,0,10997 (76.8%),,,,28.0
+participant,p29168,29168_5,binary,Sports and social activities attended virtually at least once a week-Other group activity,,Online follow-up > Mental well-being > Social situation,Lifestyle factors,14321,67.42,0,10997 (76.8%),,,,28.0
+participant,p29171,29171,catord,Frequency of feeling 'in tune' with people,,Online follow-up > Mental well-being > Social situation,Mental health,14321,67.42,2,10448 (73.0%),,,,5.0
+participant,p29172,29172,catord,Freuency of feeling that lacks companionship,,Online follow-up > Mental well-being > Social situation,Mental health,14321,67.42,0,9441 (65.9%),,,,5.0
+participant,p29173,29173,catord,Frequency of feeling left out,,Online follow-up > Mental well-being > Social situation,Mental health,14321,67.42,0,9867 (68.9%),,,,5.0
+participant,p29174,29174,catord,Frequency of feeling isolated from others,,Online follow-up > Mental well-being > Social situation,Mental health,14321,67.42,0,10389 (72.5%),,,,5.0
+participant,p29175,29175,catord,Tendency to bounce back quickly after hard times,,Online follow-up > Mental well-being > Social situation,Mental health,14321,67.42,3,7213 (50.4%),,,,5.0
+participant,p29176,29176,catord,Ability to make it through stressful events,,Online follow-up > Mental well-being > Social situation,Mental health,14321,67.42,1,5541 (38.7%),,,,5.0
+participant,p29177,29177,catord,Quick recovery from stressful events,,Online follow-up > Mental well-being > Social situation,Mental health,14321,67.42,3,6718 (46.9%),,,,5.0
+participant,p29178,29178,catord,Hard to snap back when something bad happens,,Online follow-up > Mental well-being > Social situation,Mental health,14321,67.42,1,6036 (42.1%),,,,5.0
+participant,p29179,29179,catord,Comes through difficult times with little trouble,,Online follow-up > Mental well-being > Social situation,Mental health,14321,67.42,3,6417 (44.8%),,,,5.0
+participant,p29180,29180,catord,Tendency to take a long time to get over setbacks,,Online follow-up > Mental well-being > Social situation,Mental health,14321,67.42,1,6370 (44.5%),,,,5.0
+participant,p29182,29182,catord,Belief that own life is meaningful,,Online follow-up > Mental well-being > General well-being,Mental health,14318,67.42,3,7038 (49.2%),,,,7.0
+participant,p30000_i0,30000,continuous,White blood cell (leukocyte) count,,Biological samples > Blood assays > Blood count,Blood and urine assays,42495,3.31,6.8836,2.1025,1.08,6.65,114.7,
+participant,p30010_i0,30010,continuous,Red blood cell (erythrocyte) count,10^12 cells/Litre,Biological samples > Blood assays > Blood count,Blood and urine assays,42496,3.31,4.5125,0.4208,0.62,4.5,7.753,
+participant,p30020_i0,30020,continuous,Haemoglobin concentration,,Biological samples > Blood assays > Blood count,Blood and urine assays,42496,3.31,14.1569,1.2449,6.65,14.13,19.37,
+participant,p30030_i0,30030,continuous,Haematocrit percentage,percent,Biological samples > Blood assays > Blood count,Blood and urine assays,42496,3.31,41.0438,3.5612,6.6,41.0,71.09,
+participant,p30040_i0,30040,continuous,Mean corpuscular volume,,Biological samples > Blood assays > Blood count,Blood and urine assays,42496,3.31,91.1263,4.6523,57.36,91.23,133.6,
+participant,p30050_i0,30050,continuous,Mean corpuscular haemoglobin,picograms,Biological samples > Blood assays > Blood count,Blood and urine assays,42495,3.31,31.4451,1.9249,18.19,31.5,79.67,
+participant,p30060_i0,30060,continuous,Mean corpuscular haemoglobin concentration,,Biological samples > Blood assays > Blood count,Blood and urine assays,42495,3.31,34.5035,1.0575,19.03,34.46,71.73,
+participant,p30070_i0,30070,continuous,Red blood cell (erythrocyte) distribution width,percent,Biological samples > Blood assays > Blood count,Blood and urine assays,42496,3.31,13.5152,0.9927,11.14,13.36,36.29,
+participant,p30080_i0,30080,continuous,Platelet count,,Biological samples > Blood assays > Blood count,Blood and urine assays,42496,3.31,252.6998,59.6231,9.0,248.0,1171.0,
+participant,p30090_i0,30090,continuous,Platelet crit,percent,Biological samples > Blood assays > Blood count,Blood and urine assays,42496,3.31,0.2326,0.0489,0.009,0.229,1.044,
+participant,p30100_i0,30100,continuous,Mean platelet (thrombocyte) volume,,Biological samples > Blood assays > Blood count,Blood and urine assays,42496,3.31,9.3367,1.0894,6.2,9.2,15.2,
+participant,p30110_i0,30110,continuous,Platelet distribution width,percent,Biological samples > Blood assays > Blood count,Blood and urine assays,42496,3.31,16.4939,0.524,14.33,16.42,19.8,
+participant,p30120_i0,30120,continuous,Lymphocyte count,,Biological samples > Blood assays > Blood count,Blood and urine assays,42430,3.46,1.9592,1.1709,0.03,1.88,103.12,
+participant,p30130_i0,30130,continuous,Monocyte count,10^9 cells/Litre,Biological samples > Blood assays > Blood count,Blood and urine assays,42430,3.46,0.4757,0.2067,0.0,0.45,10.64,
+participant,p30140_i0,30140,continuous,Neutrophill count,,Biological samples > Blood assays > Blood count,Blood and urine assays,42430,3.46,4.2334,1.4358,0.02,4.02,25.1,
+participant,p30150_i0,30150,continuous,Eosinophill count,10^9 cells/Litre,Biological samples > Blood assays > Blood count,Blood and urine assays,42430,3.46,0.1737,0.1398,0.0,0.13,4.94,
+participant,p30160_i0,30160,catord,Basophill count,,Biological samples > Blood assays > Blood count,Blood and urine assays,42430,3.46,0.0,12452 (29.3%),,,,75.0
+participant,p30170_i0,30170,catord,Nucleated red blood cell count,10^9 cells/Litre,Biological samples > Blood assays > Blood count,Blood and urine assays,42430,3.46,0.0,41961 (98.9%),,,,56.0
+participant,p30180_i0,30180,continuous,Lymphocyte percentage,,Biological samples > Blood assays > Blood count,Blood and urine assays,42431,3.46,28.8682,7.6581,0.51,28.5,92.0,
+participant,p30190_i0,30190,continuous,Monocyte percentage,percent,Biological samples > Blood assays > Blood count,Blood and urine assays,42431,3.46,7.0673,2.6371,0.05,6.86,88.7,
+participant,p30200_i0,30200,continuous,Neutrophill percentage,,Biological samples > Blood assays > Blood count,Blood and urine assays,42431,3.46,60.9425,8.6625,0.38,61.2,97.7,
+participant,p30210_i0,30210,continuous,Eosinophill percentage,percent,Biological samples > Blood assays > Blood count,Blood and urine assays,42431,3.46,2.5533,1.8717,0.0,2.1,49.8,
+participant,p30220_i0,30220,continuous,Basophill percentage,,Biological samples > Blood assays > Blood count,Blood and urine assays,42431,3.46,0.5687,0.5932,0.0,0.43,22.81,
+participant,p30230_i0,30230,catord,Nucleated red blood cell percentage,percent,Biological samples > Blood assays > Blood count,Blood and urine assays,42430,3.46,0.0,41961 (98.9%),,,,177.0
+participant,p30240_i0,30240,continuous,Reticulocyte percentage,,Biological samples > Blood assays > Blood count,Blood and urine assays,41736,5.04,1.3557,0.9238,0.02,1.26,48.542,
+participant,p30250_i0,30250,continuous,Reticulocyte count,10^12 cells/Litre,Biological samples > Blood assays > Blood count,Blood and urine assays,41736,5.04,0.0612,0.0427,0.001,0.057,2.284,
+participant,p30260_i0,30260,continuous,Mean reticulocyte volume,,Biological samples > Blood assays > Blood count,Blood and urine assays,41736,5.04,106.0676,7.9235,52.92,106.0,173.69,
+participant,p30270_i0,30270,continuous,Mean sphered cell volume,femtolitres,Biological samples > Blood assays > Blood count,Blood and urine assays,41736,5.04,82.915,5.3448,51.27,82.7,137.8,
+participant,p30280_i0,30280,continuous,Immature reticulocyte fraction,,Biological samples > Blood assays > Blood count,Blood and urine assays,41736,5.04,0.2915,0.0614,0.008,0.29,0.6,
+participant,p30290_i0,30290,continuous,High light scatter reticulocyte percentage,percent,Biological samples > Blood assays > Blood count,Blood and urine assays,41736,5.04,0.4035,0.2379,0.0,0.361,13.394,
+participant,p30300_i0,30300,continuous,High light scatter reticulocyte count,,Biological samples > Blood assays > Blood count,Blood and urine assays,41736,5.04,0.0182,0.0109,0.0,0.016,0.6,
+participant,p30500_i0,30500,continuous,Microalbumin in urine,mg/L,Biological samples > Urine assays,Blood and urine assays,13785,68.63,34.4418,151.504,6.7,11.7,5378.8,
+participant,p30510_i0,30510,continuous,Creatinine (enzymatic) in urine,micromole/L,Biological samples > Urine assays,Blood and urine assays,42628,3.01,8897.9075,5863.4547,466.0,7526.0,88160.0,
+participant,p30520_i0,30520,continuous,Potassium in urine,millimole/L,Biological samples > Urine assays,Blood and urine assays,42550,3.19,62.8578,33.7165,4.3,56.7,199.9,
+participant,p30530_i0,30530,continuous,Sodium in urine,millimole/L,Biological samples > Urine assays,Blood and urine assays,42531,3.23,77.4824,44.7885,10.0,68.5,358.9,
+participant,p30610_i0,30610,continuous,Alkaline phosphatase,U/L,Biological samples > Blood assays > Blood biochemistry,Blood and urine assays,41763,4.98,83.8473,26.3975,14.8,80.7,1231.1,
+participant,p30620_i0,30620,continuous,Alanine aminotransferase,U/L,Biological samples > Blood assays > Blood biochemistry,Blood and urine assays,41758,4.99,23.3435,14.1034,3.37,19.98,490.02,
+participant,p30650_i0,30650,continuous,Aspartate aminotransferase,U/L,Biological samples > Blood assays > Blood biochemistry,Blood and urine assays,41634,5.27,26.3214,11.1353,3.3,24.4,649.5,
+participant,p30660_i0,30660,continuous,Direct bilirubin,umol/L,Biological samples > Blood assays > Blood biochemistry,Blood and urine assays,35405,19.44,1.8451,0.9086,1.0,1.62,70.06,
+participant,p30670_i0,30670,continuous,Urea,mmol/L,Biological samples > Blood assays > Blood biochemistry,Blood and urine assays,41750,5.01,5.4151,1.4295,1.2,5.27,36.07,
+participant,p30680_i0,30680,continuous,Calcium,mmol/L,Biological samples > Blood assays > Blood biochemistry,Blood and urine assays,38270,12.92,2.379,0.0936,1.794,2.375,3.017,
+participant,p30710_i0,30710,continuous,C-reactive protein,mg/L,Biological samples > Blood assays > Blood biochemistry,Blood and urine assays,41647,5.24,2.6507,4.4464,0.08,1.35,79.96,
+participant,p30720_i0,30720,continuous,Cystatin C,mg/L,Biological samples > Blood assays > Blood biochemistry,Blood and urine assays,41780,4.94,0.9118,0.1705,0.365,0.889,3.699,
+participant,p30730_i0,30730,continuous,Gamma glutamyltransferase,U/L,Biological samples > Blood assays > Blood biochemistry,Blood and urine assays,41760,4.98,37.5023,41.934,6.0,26.4,1167.2,
+participant,p30750_i0,30750,continuous,Glycated haemoglobin (HbA1c),mmol/mol,Biological samples > Blood assays > Blood biochemistry,Blood and urine assays,41610,5.32,36.2908,6.866,15.5,35.3,159.9,
+participant,p30770_i0,30770,continuous,IGF-1,nmol/L,Biological samples > Blood assays > Blood biochemistry,Blood and urine assays,41549,5.46,21.2666,5.7231,1.909,21.104,125.096,
+participant,p30790_i0,30790,continuous,Lipoprotein A,nmol/L,Biological samples > Blood assays > Blood biochemistry,Blood and urine assays,33419,23.96,45.1123,49.2754,3.8,21.63,189.0,
+participant,p30810_i0,30810,continuous,Phosphate,mmol/L,Biological samples > Blood assays > Blood biochemistry,Blood and urine assays,38189,13.11,1.1597,0.1614,0.482,1.163,1.904,
+participant,p30830_i0,30830,continuous,SHBG,nmol/L,Biological samples > Blood assays > Blood biochemistry,Blood and urine assays,37909,13.75,51.9527,28.0401,0.64,45.59,238.8,
+participant,p30840_i0,30840,continuous,Total bilirubin,umol/L,Biological samples > Blood assays > Blood biochemistry,Blood and urine assays,41610,5.32,9.1305,4.4492,1.08,8.06,144.52,
+participant,p30850_i0,30850,continuous,Testosterone,nmol/L,Biological samples > Blood assays > Blood biochemistry,Blood and urine assays,37716,14.18,6.594,6.067,0.35,4.58,38.248,
+participant,p30860_i0,30860,continuous,Total protein,g/L,Biological samples > Blood assays > Blood biochemistry,Blood and urine assays,38243,12.99,72.522,4.1339,36.27,72.32,99.2,
+participant,p30880_i0,30880,continuous,Urate,umol/L,Biological samples > Blood assays > Blood biochemistry,Blood and urine assays,41718,5.08,309.8246,80.3709,89.3,303.3,893.6,
+participant,p30890_i0,30890,continuous,Vitamin D,nmol/L,Biological samples > Blood assays > Blood biochemistry,Blood and urine assays,39880,9.26,48.4343,21.1108,10.0,46.7,233.0,
+participant,p90012,90012,continuous,Overall acceleration average,,Additional exposures > Physical activity measurement > Acceleration averages,Physical activities,9014,79.49,27.3359,9.1981,0.0,26.74,104.58,
+participant,p90013,90013,continuous,Standard deviation of acceleration,,Additional exposures > Physical activity measurement > Acceleration averages,Physical activities,9014,79.49,53.3564,24.3434,0.0,50.36,951.0,
+participant,p90051,90051,catord,Wear duration overall,,Additional exposures > Physical activity measurement > Accelerometer wear time duration,Lifestyle factors,9014,79.49,7.0,2615 (29.0%),,,,594.0
+participant,p90052,90052,catord,Non wear duration overall,,Additional exposures > Physical activity measurement > Accelerometer wear time duration,Lifestyle factors,9014,79.49,0.0,2901 (32.2%),,,,526.0
+participant,p90084,90084,catord,Unique hours of wear in a 24 hour cycle (scattered over multiple days),,Additional exposures > Physical activity measurement > Accelerometer wear time duration,Lifestyle factors,9014,79.49,24,8655 (96.0%),,,,24.0
+participant,p90085,90085,catord,Unique minutes of wear in a 24 hour cycle (scattered over multiple days),,Additional exposures > Physical activity measurement > Accelerometer wear time duration,Lifestyle factors,9014,79.49,1440,8609 (95.5%),,,,329.0
+participant,p90086,90086,catord,Non wear episodes over 1 hour duration,,Additional exposures > Physical activity measurement > Accelerometer wear time duration,Lifestyle factors,9014,79.49,0,2888 (32.0%),,,,37.0
+participant,p120020,120020,catord,Length of time of pain or discomfort,,Online follow-up > Experience of pain,Health and medical history,8672,80.27,-513,3315 (38.2%),,,,5.0
+participant,p120022,120022,catord,All over body pain in last three months and rating of pain,,Online follow-up > Experience of pain,Health and medical history,8672,80.27,-100,7703 (88.8%),,,,15.0
+participant,p120023,120023,catord,Head pain in last three months and rating of pain,,Online follow-up > Experience of pain,Health and medical history,7729,82.41,-100,6392 (82.7%),,,,15.0
+participant,p120024,120024,catord,Face pain in last three months and rating of pain,,Online follow-up > Experience of pain,Health and medical history,7729,82.41,-100,7285 (94.3%),,,,15.0
+participant,p120025,120025,catord,Neck or shoulder pain in last three months and rating of pain,,Online follow-up > Experience of pain,Health and medical history,7729,82.41,-100,4203 (54.4%),,,,15.0
+participant,p120026,120026,catord,Back pain in last three months and rating of pain,,Online follow-up > Experience of pain,Health and medical history,7729,82.41,-100,3525 (45.6%),,,,14.0
+participant,p120027,120027,catord,Stomach or abdomen pain in last three months and rating of pain,,Online follow-up > Experience of pain,Health and medical history,7729,82.41,-100,6262 (81.0%),,,,15.0
+participant,p120039,120039_0,binary,Location of pain during the past week-None of the given areas,,Online follow-up > Experience of pain,Health and medical history,9450,78.5,0,1521 (16.1%),,,,2016.0
+participant,p120039,120039_1,binary,Location of pain during the past week-Left shoulder,,Online follow-up > Experience of pain,Health and medical history,9450,78.5,0,1521 (16.1%),,,,2016.0
+participant,p120039,120039_2,binary,Location of pain during the past week-Right shoulder,,Online follow-up > Experience of pain,Health and medical history,9450,78.5,0,1521 (16.1%),,,,2016.0
+participant,p120039,120039_3,binary,Location of pain during the past week-Upper left arm,,Online follow-up > Experience of pain,Health and medical history,9450,78.5,0,1521 (16.1%),,,,2016.0
+participant,p120039,120039_4,binary,Location of pain during the past week-Upper right arm,,Online follow-up > Experience of pain,Health and medical history,9450,78.5,0,1521 (16.1%),,,,2016.0
+participant,p120039,120039_5,binary,Location of pain during the past week-Lower left arm,,Online follow-up > Experience of pain,Health and medical history,9450,78.5,0,1521 (16.1%),,,,2016.0
+participant,p120039,120039_6,binary,Location of pain during the past week-Lower right arm,,Online follow-up > Experience of pain,Health and medical history,9450,78.5,0,1521 (16.1%),,,,2016.0
+participant,p120039,120039_7,binary,Location of pain during the past week-Left hip,,Online follow-up > Experience of pain,Health and medical history,9450,78.5,0,1521 (16.1%),,,,2016.0
+participant,p120039,120039_8,binary,Location of pain during the past week-Right hip,,Online follow-up > Experience of pain,Health and medical history,9450,78.5,0,1521 (16.1%),,,,2016.0
+participant,p120039,120039_9,binary,Location of pain during the past week-Upper left leg,,Online follow-up > Experience of pain,Health and medical history,9450,78.5,0,1521 (16.1%),,,,2016.0
+participant,p120039,120039_10,binary,Location of pain during the past week-Upper right leg,,Online follow-up > Experience of pain,Health and medical history,9450,78.5,0,1521 (16.1%),,,,2016.0
+participant,p120039,120039_11,binary,Location of pain during the past week-Lower left leg,,Online follow-up > Experience of pain,Health and medical history,9450,78.5,0,1521 (16.1%),,,,2016.0
+participant,p120039,120039_12,binary,Location of pain during the past week-Lower right leg,,Online follow-up > Experience of pain,Health and medical history,9450,78.5,0,1521 (16.1%),,,,2016.0
+participant,p120039,120039_13,binary,Location of pain during the past week-Left jaw pain,,Online follow-up > Experience of pain,Health and medical history,9450,78.5,0,1521 (16.1%),,,,2016.0
+participant,p120039,120039_14,binary,Location of pain during the past week-Right jaw pain,,Online follow-up > Experience of pain,Health and medical history,9450,78.5,0,1521 (16.1%),,,,2016.0
+participant,p120039,120039_15,binary,Location of pain during the past week-Chest pain,,Online follow-up > Experience of pain,Health and medical history,9450,78.5,0,1521 (16.1%),,,,2016.0
+participant,p120039,120039_16,binary,Location of pain during the past week-Abdomen,,Online follow-up > Experience of pain,Health and medical history,9450,78.5,0,1521 (16.1%),,,,2016.0
+participant,p120039,120039_17,binary,Location of pain during the past week-Neck pain,,Online follow-up > Experience of pain,Health and medical history,9450,78.5,0,1521 (16.1%),,,,2016.0
+participant,p120039,120039_18,binary,Location of pain during the past week-Upper back,,Online follow-up > Experience of pain,Health and medical history,9450,78.5,0,1521 (16.1%),,,,2016.0
+participant,p120039,120039_19,binary,Location of pain during the past week-Lower back,,Online follow-up > Experience of pain,Health and medical history,9450,78.5,0,1521 (16.1%),,,,2016.0
+participant,p120057,120057,continuous,Days per month having headaches when they were at their worst,,Online follow-up > Experience of pain,Health and medical history,5220,88.12,-42.6245,195.3176,-818.0,3.0,31.0,
+participant,p120103,120103,continuous,Scale to indicate how health is today,,Online follow-up > Experience of pain,Health and medical history,15179,65.46,76.1916,57.5318,-818.0,85.0,100.0,
