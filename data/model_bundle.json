@@ -2,7 +2,8 @@
   "model_version": "2026-10-28-7:3-training-only",
   "project_name": "Proteo-Niches-Predictor",
   "code_repository": "https://github.com/liang6156/ukb_olink_Proteo-Niches",
-  "app_url": "https://proteo-niches-predictor.streamlit.app/",
+  "app_url": "https://olink-subtype-predictor.streamlit.app/",
+  "planned_app_url": "https://proteo-niches-predictor.streamlit.app/",
   "purpose": "Research-use label-transfer demonstration; not a diagnostic device.",
   "split": {
     "random_state": 42,

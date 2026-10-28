@@ -2,6 +2,13 @@
 
 Research-use Streamlit application for the circulating proteo-niche project.
 
+Current live application:
+https://olink-subtype-predictor.streamlit.app/
+
+The application has been updated to the 7:3 model bundle. The Streamlit
+subdomain remains the historical name until a new deployment is created from
+the renamed GitHub repository.
+
 ## Current model
 
 - Main split: 70% training / 30% internal validation.
