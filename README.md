@@ -7,7 +7,7 @@ https://olink-subtype-predictor.streamlit.app/
 
 The application has been updated to the 7:3 model bundle. The Streamlit
 subdomain remains the historical name until a new deployment is created from
-the renamed GitHub repository.
+the renamed GitHub repository. See `DEPLOYMENT.md` for the deployment checklist.
 
 ## Current model
 
