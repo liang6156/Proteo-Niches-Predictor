@@ -1,1 +1,53 @@
-The user interface was rigorously designed to accommodate two primary real-world clinical scenarios. For clinics lacking access to omics facilities, clinicians can utilize the "Clinical Triage (Channel 1)" interface. By manually inputting a patient's routine macroscopic markers (e.g., platelet count, physical activity frequency) into the sidebar form, the backend binary expert models instantly calculate the probabilistic risk of the patient harboring a lethal C2 or C0 systemic state. Conversely, for centers equipped with targeted proteomics panels, the "Molecular Profiling (Channel 2)" interface accepts CSV uploads containing the raw expression values of the 30 core biomarker proteins. Within milliseconds, the serialized multiclass LightGBM model processes the input vector and outputs a definitive, high-confidence molecular subtype diagnosis. By entirely bypassing the need for complex bioinformatic pipelines and ultra-high-dimensional sequencing, this globally accessible web tool serves as a tangible prototype for integrating population-derived proteomic topologies directly into the vanguard of personalized medical diagnostics.
+# Proteo-Niches Predictor
+
+Research-use Streamlit application for the circulating proteo-niche project.
+
+## Current model
+
+- Main split: 70% training / 30% internal validation.
+- Random seed: 42.
+- Training participants: 30,765.
+- Internal validation participants: 13,185.
+- Protein-panel features were selected using the training split only.
+- The clinical PN-FIB and PN-INF models were also trained using the same split.
+
+Models are stored in `models/`; panels, metrics and model metadata are stored in
+`data/`. The original 8:2 assets are retained under `legacy_8_2/` for audit and
+rollback.
+
+## Run locally
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+Run the model-bundle checks with:
+
+```powershell
+python -m unittest discover -s tests -v
+```
+
+On Windows PowerShell:
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+## Interpretation boundaries
+
+The classifier reproduces labels derived from the same UK Biobank protein
+matrix. Its internal AUC measures label reconstruction and is not external
+diagnostic or prognostic accuracy. PN-SIG and PN-HOR are small classes whose
+class-specific results are exploratory. This application is not a medical
+device and must not be used for clinical decisions.
+
+## Related repository
+
+Analysis code:
+https://github.com/liang6156/ukb_olink_Proteo-Niches

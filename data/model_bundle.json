@@ -1,0 +1,803 @@
+{
+  "model_version": "2026-10-28-7:3-training-only",
+  "project_name": "Proteo-Niches-Predictor",
+  "code_repository": "https://github.com/liang6156/ukb_olink_Proteo-Niches",
+  "app_url": "https://proteo-niches-predictor.streamlit.app/",
+  "purpose": "Research-use label-transfer demonstration; not a diagnostic device.",
+  "split": {
+    "random_state": 42,
+    "train_fraction": 0.7,
+    "validation_fraction": 0.3,
+    "n_train": 30765,
+    "n_validation": 13185
+  },
+  "proteomic_model": {
+    "file": "models/proteomic_panel_7_3.pkl",
+    "sha256": "f380a91ac67996d8608f9df7da72d32062da2802d0a2cb8aceb5658ef006fb51",
+    "features": [
+      "CEP164",
+      "CRKL",
+      "CWC15",
+      "DBN1",
+      "DBNL",
+      "DCUN1D1",
+      "DDX25",
+      "DOK2",
+      "ERP29",
+      "FOLH1",
+      "GCC1",
+      "GPR158",
+      "HDAC8",
+      "HMGCL",
+      "INPP1",
+      "KDM3A",
+      "LPCAT2",
+      "MESD",
+      "OTUD7B",
+      "PAFAH1B3",
+      "PALM3",
+      "PAXX",
+      "PGR",
+      "RLN1",
+      "SNAP29",
+      "SNRPB2",
+      "TBCC",
+      "TDP1",
+      "VPS4B",
+      "YWHAQ"
+    ],
+    "classes": [
+      "C0",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C5"
+    ],
+    "summary_metrics": {
+      "N_train": 30765.0,
+      "N_test": 13185.0,
+      "AUC_macro": 0.9900781283252552,
+      "AUC_micro": 0.9927557697127988,
+      "Accuracy": 0.9001896094046264,
+      "Balanced_accuracy": 0.902707100899197,
+      "F1_macro": 0.8677568220042847
+    },
+    "class_metrics": [
+      {
+        "Cluster": "C0",
+        "ProteoNiche": "PN-FIB",
+        "AUC_trainOnly": 0.9879479314506252,
+        "AUC_CI_low": 0.9864516127283166,
+        "AUC_CI_high": 0.9892616272290932,
+        "AUC_leaky_original": 0.989,
+        "AUC_drop": 0.0010520685493747,
+        "Precision": 0.9500202347227844,
+        "Recall": 0.910236525785188,
+        "F1": 0.9297029702970298,
+        "N_test": 5158
+      },
+      {
+        "Cluster": "C1",
+        "ProteoNiche": "PN-HOM",
+        "AUC_trainOnly": 0.9730538521942654,
+        "AUC_CI_low": 0.9707650681436888,
+        "AUC_CI_high": 0.9751323579521548,
+        "AUC_leaky_original": 0.973,
+        "AUC_drop": -5.385219426545795e-05,
+        "Precision": 0.8784882443419029,
+        "Recall": 0.8757940854326397,
+        "F1": 0.8771390960947784,
+        "N_test": 4565
+      },
+      {
+        "Cluster": "C2",
+        "ProteoNiche": "PN-INF",
+        "AUC_trainOnly": 0.9917145357455396,
+        "AUC_CI_low": 0.9904551065535272,
+        "AUC_CI_high": 0.9928807843569925,
+        "AUC_leaky_original": 0.993,
+        "AUC_drop": 0.0012854642544603,
+        "Precision": 0.8941176470588236,
+        "Recall": 0.9142857142857144,
+        "F1": 0.9040892193308552,
+        "N_test": 2660
+      },
+      {
+        "Cluster": "C3",
+        "ProteoNiche": "PN-AUT",
+        "AUC_trainOnly": 0.9964970175793048,
+        "AUC_CI_low": 0.9955313009001469,
+        "AUC_CI_high": 0.9973834079470236,
+        "AUC_leaky_original": 0.997,
+        "AUC_drop": 0.0005029824206952,
+        "Precision": 0.761455525606469,
+        "Recall": 0.940099833610649,
+        "F1": 0.8413998510796724,
+        "N_test": 601
+      },
+      {
+        "Cluster": "C4",
+        "ProteoNiche": "PN-SIG",
+        "AUC_trainOnly": 0.9925965241683662,
+        "AUC_CI_low": 0.9813578562615152,
+        "AUC_CI_high": 0.9994326370145477,
+        "AUC_leaky_original": 0.998,
+        "AUC_drop": 0.0054034758316338,
+        "Precision": 0.7956204379562044,
+        "Recall": 0.9008264462809916,
+        "F1": 0.8449612403100775,
+        "N_test": 121
+      },
+      {
+        "Cluster": "C5",
+        "ProteoNiche": "PN-HOR",
+        "AUC_trainOnly": 0.99865890881343,
+        "AUC_CI_low": 0.9974307084632196,
+        "AUC_CI_high": 0.9994469237164444,
+        "AUC_leaky_original": 0.999,
+        "AUC_drop": 0.0003410911865701,
+        "Precision": 0.7526881720430108,
+        "Recall": 0.875,
+        "F1": 0.8092485549132948,
+        "N_test": 80
+      }
+    ]
+  },
+  "clinical_models": {
+    "PN-FIB": {
+      "file": "models/clinical_pn_fib_7_3.pkl",
+      "sha256": "ca7004612c04cef68c0eccc0e756bbcefe01a27bac59cd91d8d89c943e4e83fc",
+      "features": [
+        "p30080_i0",
+        "p30160_i0",
+        "p1528_i0",
+        "p1458_i0",
+        "p30750_i0",
+        "p30190_i0",
+        "p30090_i0",
+        "p30120_i0",
+        "p30860_i0",
+        "p137_i0",
+        "p30730_i0",
+        "p2217_i0",
+        "p30720_i0",
+        "p30890_i0",
+        "p30770_i0",
+        "p30650_i0",
+        "p30680_i0",
+        "p30830_i0",
+        "p30530_i0",
+        "p30100_i0"
+      ]
+    },
+    "PN-INF": {
+      "file": "models/clinical_pn_inf_7_3.pkl",
+      "sha256": "0edafef04a029e7ad13ab5aff22c497517e93e25fbbad27110d7c590260697b3",
+      "features": [
+        "p30080_i0",
+        "p30160_i0",
+        "p1528_i0",
+        "p1458_i0",
+        "p30750_i0",
+        "p30190_i0",
+        "p30090_i0",
+        "p30120_i0",
+        "p30860_i0",
+        "p137_i0",
+        "p30730_i0",
+        "p2217_i0",
+        "p30720_i0",
+        "p30890_i0",
+        "p30770_i0",
+        "p30650_i0",
+        "p30680_i0",
+        "p30830_i0",
+        "p30530_i0",
+        "p30100_i0"
+      ]
+    }
+  },
+  "clinical_feature_defaults": {
+    "p30080_i0": {
+      "feature_code": "p30080_i0",
+      "phenotype": "Platelet count",
+      "type": "continuous",
+      "default": 248.0,
+      "min": 9.0,
+      "max": 1171.0
+    },
+    "p30160_i0": {
+      "feature_code": "p30160_i0",
+      "phenotype": "Basophill count",
+      "type": "catord",
+      "categories": [
+        "0.0",
+        "0.01",
+        "0.02",
+        "0.03",
+        "0.04",
+        "0.05",
+        "0.06",
+        "0.07",
+        "0.08",
+        "0.09",
+        "0.1",
+        "0.11",
+        "0.12",
+        "0.13",
+        "0.14",
+        "0.15",
+        "0.16",
+        "0.17",
+        "0.18",
+        "0.19",
+        "0.2",
+        "0.21",
+        "0.22",
+        "0.23",
+        "0.24",
+        "0.25",
+        "0.26",
+        "0.27",
+        "0.28",
+        "0.29",
+        "0.3",
+        "0.31",
+        "0.32",
+        "0.33",
+        "0.34",
+        "0.35",
+        "0.36",
+        "0.37",
+        "0.38",
+        "0.4",
+        "0.42",
+        "0.43",
+        "0.44",
+        "0.45",
+        "0.5",
+        "0.51",
+        "0.52",
+        "0.53",
+        "0.58",
+        "0.59",
+        "0.6",
+        "0.66",
+        "0.69",
+        "0.7",
+        "0.71",
+        "0.72",
+        "0.73",
+        "0.74",
+        "0.75",
+        "0.77",
+        "0.8",
+        "0.81",
+        "0.85",
+        "0.89",
+        "0.9",
+        "0.97",
+        "1.0",
+        "1.05",
+        "1.09",
+        "1.2",
+        "1.25",
+        "1.5",
+        "2.2",
+        "2.4",
+        "2.59"
+      ],
+      "default": "0.0"
+    },
+    "p1528_i0": {
+      "feature_code": "p1528_i0",
+      "phenotype": "Water intake",
+      "type": "catord",
+      "categories": [
+        "-1",
+        "-10",
+        "-3",
+        "0",
+        "1",
+        "10",
+        "11",
+        "12",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "2",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "28",
+        "3",
+        "30",
+        "4",
+        "48",
+        "5",
+        "58",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "default": "2.0"
+    },
+    "p1458_i0": {
+      "feature_code": "p1458_i0",
+      "phenotype": "Cereal intake",
+      "type": "catord",
+      "categories": [
+        "-1",
+        "-10",
+        "-3",
+        "0",
+        "1",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "2",
+        "20",
+        "21",
+        "25",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "default": "7.0"
+    },
+    "p30750_i0": {
+      "feature_code": "p30750_i0",
+      "phenotype": "Glycated haemoglobin (HbA1c)",
+      "type": "continuous",
+      "default": 35.3,
+      "min": 15.5,
+      "max": 159.9
+    },
+    "p30190_i0": {
+      "feature_code": "p30190_i0",
+      "phenotype": "Monocyte percentage",
+      "type": "continuous",
+      "default": 6.86,
+      "min": 0.17,
+      "max": 88.7
+    },
+    "p30090_i0": {
+      "feature_code": "p30090_i0",
+      "phenotype": "Platelet crit",
+      "type": "continuous",
+      "default": 0.229,
+      "min": 0.009,
+      "max": 1.044
+    },
+    "p30120_i0": {
+      "feature_code": "p30120_i0",
+      "phenotype": "Lymphocyte count",
+      "type": "continuous",
+      "default": 1.88,
+      "min": 0.03,
+      "max": 92.3
+    },
+    "p30860_i0": {
+      "feature_code": "p30860_i0",
+      "phenotype": "Total protein",
+      "type": "continuous",
+      "default": 72.31,
+      "min": 36.27,
+      "max": 96.32
+    },
+    "p137_i0": {
+      "feature_code": "p137_i0",
+      "phenotype": "Number of treatments/medications taken",
+      "type": "catord",
+      "categories": [
+        "0",
+        "1",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "2",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "3",
+        "30",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "default": "0"
+    },
+    "p30730_i0": {
+      "feature_code": "p30730_i0",
+      "phenotype": "Gamma glutamyltransferase",
+      "type": "continuous",
+      "default": 26.4,
+      "min": 6.6,
+      "max": 1167.2
+    },
+    "p2217_i0": {
+      "feature_code": "p2217_i0",
+      "phenotype": "Age started wearing glasses or contact lenses",
+      "type": "continuous",
+      "default": 35.0,
+      "min": -3.0,
+      "max": 68.0
+    },
+    "p30720_i0": {
+      "feature_code": "p30720_i0",
+      "phenotype": "Cystatin C",
+      "type": "continuous",
+      "default": 0.889,
+      "min": 0.365,
+      "max": 3.699
+    },
+    "p30890_i0": {
+      "feature_code": "p30890_i0",
+      "phenotype": "Vitamin D",
+      "type": "continuous",
+      "default": 46.6,
+      "min": 10.0,
+      "max": 233.0
+    },
+    "p30770_i0": {
+      "feature_code": "p30770_i0",
+      "phenotype": "IGF-1",
+      "type": "continuous",
+      "default": 21.11,
+      "min": 2.157,
+      "max": 125.096
+    },
+    "p30650_i0": {
+      "feature_code": "p30650_i0",
+      "phenotype": "Aspartate aminotransferase",
+      "type": "continuous",
+      "default": 24.4,
+      "min": 5.0,
+      "max": 649.5
+    },
+    "p30680_i0": {
+      "feature_code": "p30680_i0",
+      "phenotype": "Calcium",
+      "type": "continuous",
+      "default": 2.375,
+      "min": 1.794,
+      "max": 3.001
+    },
+    "p30830_i0": {
+      "feature_code": "p30830_i0",
+      "phenotype": "SHBG",
+      "type": "continuous",
+      "default": 45.61,
+      "min": 0.64,
+      "max": 238.8
+    },
+    "p30530_i0": {
+      "feature_code": "p30530_i0",
+      "phenotype": "Sodium in urine",
+      "type": "continuous",
+      "default": 68.4,
+      "min": 10.0,
+      "max": 358.9
+    },
+    "p30100_i0": {
+      "feature_code": "p30100_i0",
+      "phenotype": "Mean platelet (thrombocyte) volume",
+      "type": "continuous",
+      "default": 9.2,
+      "min": 6.25,
+      "max": 15.2
+    }
+  },
+  "clinical_performance": [
+    {
+      "Cluster": "C2",
+      "AUC_trainOnly": 0.729423677959745,
+      "AUC_leaky_manifest": 0.732,
+      "AUC_drop": 0.0025763220402549,
+      "Best_params": "{'learning_rate': 0.05, 'max_depth': 5, 'min_child_samples': 50, 'num_leaves': 31}",
+      "N_positive_test": 2660,
+      "N_test": 13185
+    },
+    {
+      "Cluster": "C0",
+      "AUC_trainOnly": 0.6833040417632754,
+      "AUC_leaky_manifest": 0.682,
+      "AUC_drop": -0.0013040417632753,
+      "Best_params": "{'learning_rate': 0.05, 'max_depth': 5, 'min_child_samples': 50, 'num_leaves': 50}",
+      "N_positive_test": 5158,
+      "N_test": 13185
+    }
+  ],
+  "proteomic_panel": [
+    {
+      "Rank": 1,
+      "Protein": "SNRPB2",
+      "Importance_Gain": 94114.2255941135
+    },
+    {
+      "Rank": 2,
+      "Protein": "DDX25",
+      "Importance_Gain": 80300.6863653056
+    },
+    {
+      "Rank": 3,
+      "Protein": "VPS4B",
+      "Importance_Gain": 41429.48165762611
+    },
+    {
+      "Rank": 4,
+      "Protein": "PALM3",
+      "Importance_Gain": 38300.66929818038
+    },
+    {
+      "Rank": 5,
+      "Protein": "TDP1",
+      "Importance_Gain": 26932.24084100931
+    },
+    {
+      "Rank": 6,
+      "Protein": "ERP29",
+      "Importance_Gain": 24508.38193082809
+    },
+    {
+      "Rank": 7,
+      "Protein": "FOLH1",
+      "Importance_Gain": 24106.67073830962
+    },
+    {
+      "Rank": 8,
+      "Protein": "PAFAH1B3",
+      "Importance_Gain": 12072.836807629508
+    },
+    {
+      "Rank": 9,
+      "Protein": "RLN1",
+      "Importance_Gain": 11313.836254481226
+    },
+    {
+      "Rank": 10,
+      "Protein": "MESD",
+      "Importance_Gain": 11073.342003205558
+    },
+    {
+      "Rank": 11,
+      "Protein": "CWC15",
+      "Importance_Gain": 8212.987672983147
+    },
+    {
+      "Rank": 12,
+      "Protein": "KDM3A",
+      "Importance_Gain": 8170.608582794688
+    },
+    {
+      "Rank": 13,
+      "Protein": "TBCC",
+      "Importance_Gain": 6913.060261845589
+    },
+    {
+      "Rank": 14,
+      "Protein": "HMGCL",
+      "Importance_Gain": 5998.869033551775
+    },
+    {
+      "Rank": 15,
+      "Protein": "CRKL",
+      "Importance_Gain": 5645.591887712479
+    },
+    {
+      "Rank": 16,
+      "Protein": "YWHAQ",
+      "Importance_Gain": 5485.219873603082
+    },
+    {
+      "Rank": 17,
+      "Protein": "DOK2",
+      "Importance_Gain": 5435.017761766911
+    },
+    {
+      "Rank": 18,
+      "Protein": "CEP164",
+      "Importance_Gain": 5151.646778138969
+    },
+    {
+      "Rank": 19,
+      "Protein": "DBN1",
+      "Importance_Gain": 4667.36644294858
+    },
+    {
+      "Rank": 20,
+      "Protein": "DBNL",
+      "Importance_Gain": 4526.563362428453
+    },
+    {
+      "Rank": 21,
+      "Protein": "PGR",
+      "Importance_Gain": 3834.135566562414
+    },
+    {
+      "Rank": 22,
+      "Protein": "LPCAT2",
+      "Importance_Gain": 3509.929002378207
+    },
+    {
+      "Rank": 23,
+      "Protein": "GPR158",
+      "Importance_Gain": 2987.5292022554936
+    },
+    {
+      "Rank": 24,
+      "Protein": "INPP1",
+      "Importance_Gain": 2931.215049035847
+    },
+    {
+      "Rank": 25,
+      "Protein": "DCUN1D1",
+      "Importance_Gain": 2882.039408691926
+    },
+    {
+      "Rank": 26,
+      "Protein": "GCC1",
+      "Importance_Gain": 2815.303763210773
+    },
+    {
+      "Rank": 27,
+      "Protein": "SNAP29",
+      "Importance_Gain": 2765.9542122483253
+    },
+    {
+      "Rank": 28,
+      "Protein": "HDAC8",
+      "Importance_Gain": 2618.483335018158
+    },
+    {
+      "Rank": 29,
+      "Protein": "OTUD7B",
+      "Importance_Gain": 2491.922640129924
+    },
+    {
+      "Rank": 30,
+      "Protein": "PAXX",
+      "Importance_Gain": 2470.208007682115
+    }
+  ],
+  "clinical_panel": [
+    {
+      "Feature_Code": "p30080_i0",
+      "Importance_Gain": 15409.190361738203,
+      "Phenotype": "Platelet count"
+    },
+    {
+      "Feature_Code": "p30160_i0",
+      "Importance_Gain": 8775.033237934113,
+      "Phenotype": "Basophill count"
+    },
+    {
+      "Feature_Code": "p1528_i0",
+      "Importance_Gain": 7654.420232534409,
+      "Phenotype": "Water intake"
+    },
+    {
+      "Feature_Code": "p1458_i0",
+      "Importance_Gain": 7386.851629495621,
+      "Phenotype": "Cereal intake"
+    },
+    {
+      "Feature_Code": "p30750_i0",
+      "Importance_Gain": 7285.391687512398,
+      "Phenotype": "Glycated haemoglobin (HbA1c)"
+    },
+    {
+      "Feature_Code": "p30190_i0",
+      "Importance_Gain": 7070.637364387512,
+      "Phenotype": "Monocyte percentage"
+    },
+    {
+      "Feature_Code": "p30090_i0",
+      "Importance_Gain": 6696.111746311188,
+      "Phenotype": "Platelet crit"
+    },
+    {
+      "Feature_Code": "p30120_i0",
+      "Importance_Gain": 6644.005661129952,
+      "Phenotype": "Lymphocyte count"
+    },
+    {
+      "Feature_Code": "p30860_i0",
+      "Importance_Gain": 6576.103367090225,
+      "Phenotype": "Total protein"
+    },
+    {
+      "Feature_Code": "p137_i0",
+      "Importance_Gain": 6557.474645376205,
+      "Phenotype": "Number of treatments/medications taken"
+    },
+    {
+      "Feature_Code": "p30730_i0",
+      "Importance_Gain": 6078.684619426727,
+      "Phenotype": "Gamma glutamyltransferase"
+    },
+    {
+      "Feature_Code": "p2217_i0",
+      "Importance_Gain": 6056.217517852783,
+      "Phenotype": "Age started wearing glasses or contact lenses"
+    },
+    {
+      "Feature_Code": "p30720_i0",
+      "Importance_Gain": 5941.357187271118,
+      "Phenotype": "Cystatin C"
+    },
+    {
+      "Feature_Code": "p30890_i0",
+      "Importance_Gain": 5696.241849660873,
+      "Phenotype": "Vitamin D"
+    },
+    {
+      "Feature_Code": "p30770_i0",
+      "Importance_Gain": 5534.263035297394,
+      "Phenotype": "IGF-1"
+    },
+    {
+      "Feature_Code": "p30650_i0",
+      "Importance_Gain": 5451.375687599182,
+      "Phenotype": "Aspartate aminotransferase"
+    },
+    {
+      "Feature_Code": "p30680_i0",
+      "Importance_Gain": 5304.091660261154,
+      "Phenotype": "Calcium"
+    },
+    {
+      "Feature_Code": "p30830_i0",
+      "Importance_Gain": 5287.024842977524,
+      "Phenotype": "SHBG"
+    },
+    {
+      "Feature_Code": "p30530_i0",
+      "Importance_Gain": 5286.725225925446,
+      "Phenotype": "Sodium in urine"
+    },
+    {
+      "Feature_Code": "p30100_i0",
+      "Importance_Gain": 5275.181087255478,
+      "Phenotype": "Mean platelet (thrombocyte) volume"
+    }
+  ],
+  "niche_names": {
+    "C0": "PN-FIB",
+    "C1": "PN-HOM",
+    "C2": "PN-INF",
+    "C3": "PN-AUT",
+    "C4": "PN-SIG",
+    "C5": "PN-HOR"
+  }
+}

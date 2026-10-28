@@ -1,0 +1,21 @@
+Feature_Code,Importance_Gain,Phenotype
+p30080_i0,15409.190361738205,Platelet count
+p30160_i0,8775.033237934113,Basophill count
+p1528_i0,7654.420232534409,Water intake
+p1458_i0,7386.851629495621,Cereal intake
+p30750_i0,7285.391687512398,Glycated haemoglobin (HbA1c)
+p30190_i0,7070.637364387512,Monocyte percentage
+p30090_i0,6696.111746311188,Platelet crit
+p30120_i0,6644.0056611299515,Lymphocyte count
+p30860_i0,6576.103367090225,Total protein
+p137_i0,6557.474645376205,Number of treatments/medications taken
+p30730_i0,6078.684619426727,Gamma glutamyltransferase
+p2217_i0,6056.217517852783,Age started wearing glasses or contact lenses
+p30720_i0,5941.357187271118,Cystatin C
+p30890_i0,5696.241849660873,Vitamin D
+p30770_i0,5534.263035297394,IGF-1
+p30650_i0,5451.375687599182,Aspartate aminotransferase
+p30680_i0,5304.091660261154,Calcium
+p30830_i0,5287.024842977524,SHBG
+p30530_i0,5286.725225925446,Sodium in urine
+p30100_i0,5275.181087255478,Mean platelet (thrombocyte) volume
